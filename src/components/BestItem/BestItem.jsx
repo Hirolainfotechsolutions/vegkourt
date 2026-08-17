@@ -5,10 +5,10 @@ import ImgesOverlay from "../ImgesOverlay/ImgesOverlay";
 const bestItem = {
   title: "Menu Highlights",
   textWhite: "Our",
-  imgOne: "/assets/img/vegkourtimages/paneer-tikka-masala.webp",
-  imgTwo: "/assets/img/vegkourtimages/veg-hakka-noodles.webp",
+  imgOne: "/assets/img/vegkourtimages/vegkourtimg5.webp",
+  imgTwo: "/assets/img/vegkourtimages/vegkourtimg11.webp",
   details:
-    "From Veg Hakka Noodles to Paneer Tikka Masala, Vegkourt brings crisp starters, rich mains, rice bowls, Oriental plates, and desserts together on one vegetarian table.",
+    "From crisp starters to generous vegetarian plates, Vegkourt brings rich mains, rice bowls, Oriental flavours, and desserts together on one warm table.",
 };
 
 export default function BestItem() {

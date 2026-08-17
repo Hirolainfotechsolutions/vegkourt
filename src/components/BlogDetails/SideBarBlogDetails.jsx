@@ -60,7 +60,7 @@ export default function SideBarBlogDetails(props) {
           target="_blank"
           rel="noreferrer"
         >
-          Visit SAN Group
+          www.sangroupofhotels.in
         </a>
       </div>
     </>

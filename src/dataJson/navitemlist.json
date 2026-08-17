@@ -25,6 +25,11 @@
     "key": "gallery"
   },
   {
+    "title": "Reservations",
+    "link": "/reservations",
+    "key": "reservations"
+  },
+  {
     "title": "Contact Us",
     "link": "/contact",
     "key": "contact"

@@ -2,6 +2,7 @@ import React from "react";
 import AboutContent from "../components/AboutContent/AboutContent";
 import FoodMenuHome from "../components/FoodMenu/FoodMenu";
 import BestItem from "../components/BestItem/BestItem";
+import Testimonial from "../components/Testimonial/Testimonial";
 import BookingSystemTwo from "../components/BookingSystem/BookingSystemTwo";
 import MovingText from "../components/MovingText/MovingText";
 import HeroSiderTwo from "../components/Silders/HeroSiderTwo";
@@ -18,7 +19,11 @@ export default function Home() {
       <PortfolioSlider />
       <FoodMenuHome styleTwo={false} bgimgremove={true} />
       <BestItem />
-      <BookingSystemTwo videoId={"UsD1MhKBmD4"} />
+      <Testimonial />
+      <BookingSystemTwo
+        videoSrc="/assets/img/vegkourtimages/video1.mp4"
+        poster="/assets/img/vegkourtimages/reservation-split-bg.png"
+      />
     </>
   );
 }

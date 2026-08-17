@@ -1,5 +1,6 @@
 import React, { useRef, useLayoutEffect } from "react";
 import { Link } from "react-router-dom";
+import { Camera, PlayCircle, ThumbsUp } from "lucide-react";
 import { footerAnimation, scrollUpBtn, scrollUpShow } from "../../helper/main";
 import { WhiteButton } from "../../components/Button/Button";
 
@@ -52,9 +53,32 @@ const Footernav = [
     key: "gallery",
   },
   {
+    title: "Reservations",
+    link: "/reservations",
+    key: "reservations",
+  },
+  {
     title: "Contact Us",
     link: "/contact",
     key: "contact",
+  },
+];
+
+const FooterSocial = [
+  {
+    title: "Instagram",
+    link: "https://www.instagram.com/veg_kourt/",
+    Icon: Camera,
+  },
+  {
+    title: "Facebook",
+    link: "https://www.facebook.com/",
+    Icon: ThumbsUp,
+  },
+  {
+    title: "YouTube",
+    link: "https://www.youtube.com/",
+    Icon: PlayCircle,
   },
 ];
 
@@ -130,6 +154,20 @@ export default function Footer() {
                     );
                   })}
                 </ul>
+              </div>
+              <div className="footer-social" aria-label="Social media links">
+                {FooterSocial.map((item) => (
+                  <a
+                    href={item.link}
+                    key={item.title}
+                    target="_blank"
+                    rel="noreferrer"
+                    aria-label={item.title}
+                    title={item.title}
+                  >
+                    <item.Icon aria-hidden="true" size={18} strokeWidth={1.8} />
+                  </a>
+                ))}
               </div>
             </div>
             <div className="ak-height-75 ak-height-lg-5"></div>

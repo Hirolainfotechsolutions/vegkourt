@@ -1,20 +1,17 @@
 import React, { useEffect, useState } from "react";
 import BookingSystem from "../BookingSystem/BookingSystem";
 
-const POPUP_STORAGE_KEY = "vegkourt-reservation-popup-shown";
-
 export default function ReservationPopup({ disabled = false }) {
   const [isOpen, setIsOpen] = useState(false);
 
   useEffect(() => {
-    if (disabled || sessionStorage.getItem(POPUP_STORAGE_KEY)) {
+    if (disabled) {
       return undefined;
     }
 
     const timer = window.setTimeout(() => {
       setIsOpen(true);
-      sessionStorage.setItem(POPUP_STORAGE_KEY, "true");
-    }, 10000);
+    }, 5000);
 
     return () => window.clearTimeout(timer);
   }, [disabled]);
@@ -60,7 +57,7 @@ export default function ReservationPopup({ disabled = false }) {
         >
           X
         </button>
-        <BookingSystem />
+        <BookingSystem popup />
       </div>
     </div>
   );

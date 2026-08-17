@@ -8,10 +8,8 @@ import { scrollUpBtn } from "../helper/main";
 
 export default function Main() {
   const { pathname } = useLocation();
-  const isUtilityPage =
-    pathname == "/error-pages" ||
-    pathname == "/comming-soon" ||
-    pathname == "/reservations";
+  const hideFooter = pathname == "/error-pages" || pathname == "/comming-soon";
+  const disableReservationPopup = hideFooter || pathname == "/reservations";
 
   useEffect(() => {
     scrollUpBtn();
@@ -20,8 +18,8 @@ export default function Main() {
     <>
       <Header />
       <Outlet />
-      {isUtilityPage ? " " : <Footer />}
-      <ReservationPopup disabled={isUtilityPage} />
+      {hideFooter ? " " : <Footer />}
+      <ReservationPopup disabled={disableReservationPopup} />
       <Scrollup />
     </>
   );

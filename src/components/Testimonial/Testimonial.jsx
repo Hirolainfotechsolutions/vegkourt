@@ -4,24 +4,31 @@ import { Swiper, SwiperSlide } from "swiper/react";
 const testimonialInfo = [
   {
     img: "/assets/img/testimonial/testimonial_1.jpg",
-    title: "Aarav Mehta",
-    subtitle: "Family Dinner",
+    title: "Raghavendra Urs",
+    subtitle: "Mysuru Family Dinner",
     content:
-      "Vegkourt has the kind of vegetarian food that feels fresh, filling, and special without being too heavy.",
+      "Vegkourt is a lovely place for a pure vegetarian family dinner in Mysuru. The food feels fresh, balanced, and thoughtfully served.",
   },
   {
     img: "/assets/img/testimonial/testimonial_2.jpg",
-    title: "Nisha Rao",
+    title: "Ananya Hegde",
     subtitle: "Weekend Lunch",
     content:
-      "The starters were bright and crisp, the mains were comforting, and the service made the meal easy.",
+      "The starters were crisp, the mains had good flavour, and the service was warm without rushing us. A clean spot for vegetarian dining.",
   },
   {
     img: "/assets/img/testimonial/testimonial_3.jpg",
-    title: "Rohan Iyer",
+    title: "Pradeep Gowda",
     subtitle: "Dinner Reservation",
     content:
-      "A clean vegetarian menu with good balance, warm flavours, and plenty of choices for the whole table.",
+      "We booked dinner for a small group and everything was smooth. The menu has enough choice for everyone at the table.",
+  },
+  {
+    img: "/assets/img/testimonial/testimonial_1.jpg",
+    title: "Sahana Murthy",
+    subtitle: "Birthday Celebration",
+    content:
+      "The team made our birthday lunch feel comfortable and special. Good vegetarian food, neat presentation, and a pleasant ambience.",
   },
 ];
 

@@ -1,8 +1,9 @@
 [
-  { "title": "Home", "link": "/", "img": "/fullWM_about.jpg" },
-  { "title": "About", "link": "/about", "img": "/fullWM_about.jpg" },
-  { "title": "Menu", "link": "/menu", "img": "/fullWM_menu.jpg" },
+  { "title": "Home", "link": "/", "img": "/assets/img/submenu/fullWM_about.jpg" },
+  { "title": "About", "link": "/about", "img": "/assets/img/submenu/fullWM_about.jpg" },
+  { "title": "Menu", "link": "/menu", "img": "/assets/img/submenu/fullWM_menu.jpg" },
   { "title": "Blogs", "link": "/blog", "img": "/assets/img/vegkourtimages/banner4.webp" },
-  { "title": "Gallery", "link": "/gallery", "img": "/fullWM_1.jpg" },
-  { "title": "Contact Us", "link": "/contact", "img": "/fullWM_contact.jpg" }
+  { "title": "Gallery", "link": "/gallery", "img": "/assets/img/submenu/fullWM_1.jpg" },
+  { "title": "Reservations", "link": "/reservations", "img": "/assets/img/vegkourtimages/reservation-split-bg.png" },
+  { "title": "Contact Us", "link": "/contact", "img": "/assets/img/submenu/fullWM_contact.jpg" }
 ]

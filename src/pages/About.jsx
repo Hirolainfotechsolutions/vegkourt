@@ -37,7 +37,10 @@ export default function About() {
         info={celebrationInfo}
         buttonText="Plan Your Celebration"
       />
-      <Videos videoId={"UsD1MhKBmD4"} />
+      <Videos
+        videoSrc="/assets/img/vegkourtimages/video2.mp4"
+        poster="/assets/img/vegkourtimages/vegkourtimg10.webp"
+      />
     </div>
   );
 }

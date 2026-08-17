@@ -67,11 +67,13 @@ export default function VideoButton({ videoId, videoSrc, poster }) {
           onClose={() => setOpen(false)}
         />
       )}
-      <button className="video-section-btn" type="button">
-        <span
-          className="ak-player-btn ak-accent-color"
-          onClick={() => setOpen(true)}
-        >
+      <button
+        className="video-section-btn"
+        type="button"
+        aria-label="Play reel"
+        onClick={() => setOpen(true)}
+      >
+        <span className="ak-player-btn ak-accent-color">
           <span></span>
         </span>
       </button>

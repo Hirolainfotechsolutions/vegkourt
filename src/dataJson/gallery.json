@@ -1,0 +1,128 @@
+[
+  {
+    "src": "/assets/img/vegkourtimages/vegkourtimg1.webp",
+    "thumbnail": "/assets/img/vegkourtimages/vegkourtimg1.webp",
+    "caption": "Vegkourt dining ambience",
+    "title": "Vegkourt Dining",
+    "desp": "Ambience"
+  },
+  {
+    "src": "/assets/img/vegkourtimages/sev-tamatar.webp",
+    "thumbnail": "/assets/img/vegkourtimages/sev-tamatar.webp",
+    "caption": "Sev Tamatar",
+    "title": "Sev Tamatar",
+    "desp": "Mains"
+  },
+  {
+    "src": "/assets/img/vegkourtimages/banner2.webp",
+    "thumbnail": "/assets/img/vegkourtimages/banner2.webp",
+    "caption": "Vegkourt table spread",
+    "title": "Fresh Table",
+    "desp": "Dining"
+  },
+  {
+    "src": "/assets/img/vegkourtimages/crispy-paneer-rolls.webp",
+    "thumbnail": "/assets/img/vegkourtimages/crispy-paneer-rolls.webp",
+    "caption": "Crispy Paneer Rolls",
+    "title": "Crispy Paneer Rolls",
+    "desp": "Starters"
+  },
+  {
+    "src": "/assets/img/vegkourtimages/vegkourtimg4.webp",
+    "thumbnail": "/assets/img/vegkourtimages/vegkourtimg4.webp",
+    "caption": "Vegkourt interior detail",
+    "title": "Warm Corners",
+    "desp": "Ambience"
+  },
+  {
+    "src": "/assets/img/vegkourtimages/shahi-tukda-rabri.webp",
+    "thumbnail": "/assets/img/vegkourtimages/shahi-tukda-rabri.webp",
+    "caption": "Shahi Tukda Rabri",
+    "title": "Shahi Tukda Rabri",
+    "desp": "Desserts"
+  },
+  {
+    "src": "/assets/img/vegkourtimages/banner4.webp",
+    "thumbnail": "/assets/img/vegkourtimages/banner4.webp",
+    "caption": "Vegkourt plated vegetarian food",
+    "title": "Plated Fresh",
+    "desp": "Dining"
+  },
+  {
+    "src": "/assets/img/vegkourtimages/veg-hakka-noodles.webp",
+    "thumbnail": "/assets/img/vegkourtimages/veg-hakka-noodles.webp",
+    "caption": "Veg Hakka Noodles",
+    "title": "Veg Hakka Noodles",
+    "desp": "Oriental"
+  },
+  {
+    "src": "/assets/img/vegkourtimages/vegkourtimg7.webp",
+    "thumbnail": "/assets/img/vegkourtimages/vegkourtimg7.webp",
+    "caption": "Vegkourt serving moment",
+    "title": "Serving Fresh",
+    "desp": "Ambience"
+  },
+  {
+    "src": "/assets/img/vegkourtimages/honey-chilli-baby-corn.webp",
+    "thumbnail": "/assets/img/vegkourtimages/honey-chilli-baby-corn.webp",
+    "caption": "Honey Chilli Baby Corn",
+    "title": "Honey Chilli Baby Corn",
+    "desp": "Starters"
+  },
+  {
+    "src": "/assets/img/vegkourtimages/banner5.webp",
+    "thumbnail": "/assets/img/vegkourtimages/banner5.webp",
+    "caption": "Vegkourt shared table",
+    "title": "Shared Table",
+    "desp": "Dining"
+  },
+  {
+    "src": "/assets/img/vegkourtimages/dal-makhani.webp",
+    "thumbnail": "/assets/img/vegkourtimages/dal-makhani.webp",
+    "caption": "Dal Makhani",
+    "title": "Dal Makhani",
+    "desp": "Mains"
+  },
+  {
+    "src": "/assets/img/vegkourtimages/vegkourtimg9.webp",
+    "thumbnail": "/assets/img/vegkourtimages/vegkourtimg9.webp",
+    "caption": "Vegkourt space",
+    "title": "Restaurant Space",
+    "desp": "Ambience"
+  },
+  {
+    "src": "/assets/img/vegkourtimages/palak-paneer-curry.webp",
+    "thumbnail": "/assets/img/vegkourtimages/palak-paneer-curry.webp",
+    "caption": "Palak Paneer Curry",
+    "title": "Palak Paneer Curry",
+    "desp": "Mains"
+  },
+  {
+    "src": "/assets/img/vegkourtimages/item3.webp",
+    "thumbnail": "/assets/img/vegkourtimages/item3.webp",
+    "caption": "Vegkourt menu plate",
+    "title": "Menu Plate",
+    "desp": "Food"
+  },
+  {
+    "src": "/assets/img/vegkourtimages/veg-manchurian-gravy.webp",
+    "thumbnail": "/assets/img/vegkourtimages/veg-manchurian-gravy.webp",
+    "caption": "Veg Manchurian Gravy",
+    "title": "Veg Manchurian",
+    "desp": "Oriental"
+  },
+  {
+    "src": "/assets/img/vegkourtimages/vegkourtimg11.webp",
+    "thumbnail": "/assets/img/vegkourtimages/vegkourtimg11.webp",
+    "caption": "Vegkourt ambience detail",
+    "title": "Dining Detail",
+    "desp": "Ambience"
+  },
+  {
+    "src": "/assets/img/vegkourtimages/paneer-tikka-masala.webp",
+    "thumbnail": "/assets/img/vegkourtimages/paneer-tikka-masala.webp",
+    "caption": "Paneer Tikka Masala",
+    "title": "Paneer Tikka Masala",
+    "desp": "Mains"
+  }
+]

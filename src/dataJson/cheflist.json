@@ -1,0 +1,140 @@
+[
+  {
+    "id": 1,
+    "posation": "Executive Vegetarian Chef",
+    "name": "Aarav Kulkarni",
+    "img": "/assets/img/chef/chef_1.jpg",
+    "videolink": "https://www.youtube.com/watch?v=UsD1MhKBmD4",
+    "shortDesp": "Leads the Vegkourt kitchen with focus on chaat, curries, and seasonal vegetarian flavour.",
+    "desp": "Leads the Vegkourt kitchen with focus on chaat, curries, and seasonal vegetarian flavour. The team keeps the menu rooted in everyday cravings, bold spices, crisp textures, and warm memories.",
+    "Children": [
+      {
+        "link": "https://www.instagram.com/",
+        "name": "instagram"
+      },
+      {
+        "link": "https://www.facebook.com/",
+        "name": "facebook"
+      },
+      {
+        "link": "https://www.linkedin.com/",
+        "name": "linkedin"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "posation": "Tandoor & Starter Chef",
+    "name": "Meera Rao",
+    "img": "/assets/img/chef/chef_2.jpg",
+    "videolink": "https://www.youtube.com/watch?v=UsD1MhKBmD4",
+    "shortDesp": "Handles paneer tikka, broccoli, stuffed mushrooms, and crisp starters from the menu.",
+    "desp": "Handles paneer tikka, broccoli, stuffed mushrooms, and crisp starters from the menu. The team keeps the menu rooted in everyday cravings, bold spices, crisp textures, and warm memories.",
+    "Children": [
+      {
+        "link": "https://www.instagram.com/",
+        "name": "instagram"
+      },
+      {
+        "link": "https://www.facebook.com/",
+        "name": "facebook"
+      },
+      {
+        "link": "https://www.linkedin.com/",
+        "name": "linkedin"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "posation": "Oriental Section Chef",
+    "name": "Kabir Menon",
+    "img": "/assets/img/chef/chef_3.jpg",
+    "videolink": "https://www.youtube.com/watch?v=UsD1MhKBmD4",
+    "shortDesp": "Works on Veg Manchurian, Hakka noodles, spring rolls, and Indo-Chinese gravies.",
+    "desp": "Works on Veg Manchurian, Hakka noodles, spring rolls, and Indo-Chinese gravies. The team keeps the menu rooted in everyday cravings, bold spices, crisp textures, and warm memories.",
+    "Children": [
+      {
+        "link": "https://www.instagram.com/",
+        "name": "instagram"
+      },
+      {
+        "link": "https://www.facebook.com/",
+        "name": "facebook"
+      },
+      {
+        "link": "https://www.linkedin.com/",
+        "name": "linkedin"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "posation": "Curry Chef",
+    "name": "Nisha Shetty",
+    "img": "/assets/img/chef/chef_4.jpg",
+    "videolink": "https://www.youtube.com/watch?v=UsD1MhKBmD4",
+    "shortDesp": "Builds rich mains including Paneer Lababdar, Palak Paneer, Dal Makhani, and Sev Tamatar.",
+    "desp": "Builds rich mains including Paneer Lababdar, Palak Paneer, Dal Makhani, and Sev Tamatar. The team keeps the menu rooted in everyday cravings, bold spices, crisp textures, and warm memories.",
+    "Children": [
+      {
+        "link": "https://www.instagram.com/",
+        "name": "instagram"
+      },
+      {
+        "link": "https://www.facebook.com/",
+        "name": "facebook"
+      },
+      {
+        "link": "https://www.linkedin.com/",
+        "name": "linkedin"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "posation": "Rice & Bread Chef",
+    "name": "Rohan Desai",
+    "img": "/assets/img/chef/chef_5.jpg",
+    "videolink": "https://www.youtube.com/watch?v=UsD1MhKBmD4",
+    "shortDesp": "Prepares Veg Biryani, jeera rice, roti, kulcha, and shareable accompaniments.",
+    "desp": "Prepares Veg Biryani, jeera rice, roti, kulcha, and shareable accompaniments. The team keeps the menu rooted in everyday cravings, bold spices, crisp textures, and warm memories.",
+    "Children": [
+      {
+        "link": "https://www.instagram.com/",
+        "name": "instagram"
+      },
+      {
+        "link": "https://www.facebook.com/",
+        "name": "facebook"
+      },
+      {
+        "link": "https://www.linkedin.com/",
+        "name": "linkedin"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "posation": "Dessert Chef",
+    "name": "Ira Shah",
+    "img": "/assets/img/chef/chef_6.jpg",
+    "videolink": "https://www.youtube.com/watch?v=UsD1MhKBmD4",
+    "shortDesp": "Finishes the meal with Shahi Tukda Rabri, Malaiyo, Mysore Pak crumble, and classic sweets.",
+    "desp": "Finishes the meal with Shahi Tukda Rabri, Malaiyo, Mysore Pak crumble, and classic sweets. The team keeps the menu rooted in everyday cravings, bold spices, crisp textures, and warm memories.",
+    "Children": [
+      {
+        "link": "https://www.instagram.com/",
+        "name": "instagram"
+      },
+      {
+        "link": "https://www.facebook.com/",
+        "name": "facebook"
+      },
+      {
+        "link": "https://www.linkedin.com/",
+        "name": "linkedin"
+      }
+    ]
+  }
+]

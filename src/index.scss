@@ -1,0 +1,112 @@
+@import "node_modules/react-modal-video/scss/modal-video";
+@import "bootstrap/scss/bootstrap.scss";
+@import "swiper/scss";
+@import "swiper/scss/navigation";
+@import "swiper/scss/pagination";
+@import "lightgallery/css/lightgallery.css";
+@import "lightgallery/css/lg-thumbnail.css";
+@import "lightgallery/css/lg-zoom.css";
+@import "/public/assets/scss/style.scss";
+
+.header-top .wrapper .center-log img,
+.ak-site_branding img {
+  height: auto;
+  max-height: 46px;
+  max-width: 92px;
+  object-fit: contain;
+}
+
+.footer-log-elem img {
+  height: auto;
+  max-height: 64px;
+  max-width: 128px;
+  object-fit: contain;
+}
+
+.opening-hour .opening-hour-text-section .opening-hour-date p {
+  display: grid;
+  grid-template-columns: 175px minmax(max-content, 1fr);
+  align-items: center;
+  gap: 18px;
+  margin-bottom: 0;
+}
+
+.opening-hour .opening-hour-text-section .opening-hour-date {
+  max-width: 640px;
+  width: 100%;
+}
+
+.opening-hour .opening-hour-text-section .opening-hour-date p span:first-child {
+  color: #ffd28d;
+  white-space: nowrap;
+}
+
+.opening-hour .opening-hour-text-section .opening-hour-date p span:last-child {
+  text-align: right;
+  white-space: nowrap;
+}
+
+@media only screen and (max-width: 767px) {
+  .opening-hour .opening-hour-text-section .opening-hour-date {
+    max-width: 100%;
+  }
+
+  .opening-hour .opening-hour-text-section .opening-hour-date p {
+    grid-template-columns: 145px minmax(max-content, 1fr);
+    gap: 12px;
+  }
+}
+
+.footer-time {
+  min-width: 320px;
+}
+
+.footer-time-title {
+  color: #ffd28d;
+  font-size: 20px;
+  margin-bottom: 22px;
+  text-transform: uppercase;
+}
+
+.footer-time p {
+  display: grid;
+  grid-template-columns: 135px minmax(max-content, 1fr);
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 0;
+}
+
+.footer-time p span:first-child {
+  color: #ffd28d;
+  white-space: nowrap;
+}
+
+.footer-time p span:last-child {
+  text-align: right;
+  white-space: nowrap;
+}
+
+.footer-address {
+  max-width: 290px;
+}
+
+.location-card.location-card-single {
+  justify-content: center;
+  text-align: center;
+}
+
+.location-card.location-card-single .location-card-item {
+  width: 100%;
+  max-width: 420px;
+  padding: 50px 20px;
+}
+
+.ak-commmon-hero.ak-style1 {
+  min-height: 540px;
+}
+
+@media screen and (max-width: 767px) {
+  .ak-commmon-hero.ak-style1 {
+    min-height: 400px;
+  }
+}

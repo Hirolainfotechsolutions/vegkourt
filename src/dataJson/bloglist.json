@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1,
+    "img": "/assets/img/vegkourtimages/banner1.webp",
+    "title": "Sev Tamatar: A Homestyle Favourite",
+    "btntext": "Read More",
+    "time": "10 Aug 2026"
+  },
+  {
+    "id": 2,
+    "img": "/assets/img/vegkourtimages/banner2.webp",
+    "title": "Crispy Paneer Rolls For The Table",
+    "btntext": "Read More",
+    "time": "11 Aug 2026"
+  },
+  {
+    "id": 3,
+    "img": "/assets/img/vegkourtimages/banner3.webp",
+    "title": "Paneer Lababdar And Rich Curry Notes",
+    "btntext": "Read More",
+    "time": "12 Aug 2026"
+  },
+  {
+    "id": 4,
+    "img": "/assets/img/vegkourtimages/banner4.webp",
+    "title": "Why Our Veg Hakka Noodles Work",
+    "btntext": "Read More",
+    "time": "13 Aug 2026"
+  },
+  {
+    "id": 5,
+    "img": "/assets/img/vegkourtimages/banner5.webp",
+    "title": "Shahi Tukda Rabri: Sweet Finish",
+    "btntext": "Read More",
+    "time": "14 Aug 2026"
+  },
+  {
+    "id": 6,
+    "img": "/assets/img/vegkourtimages/item1.webp",
+    "title": "Honey Chilli Baby Corn Crunch",
+    "btntext": "Read More",
+    "time": "15 Aug 2026"
+  },
+  {
+    "id": 7,
+    "img": "/assets/img/vegkourtimages/item2.webp",
+    "title": "Dal Makhani Comfort Bowl",
+    "btntext": "Read More",
+    "time": "16 Aug 2026"
+  },
+  {
+    "id": 8,
+    "img": "/assets/img/vegkourtimages/item3.webp",
+    "title": "Palak Paneer Curry With Fresh Greens",
+    "btntext": "Read More",
+    "time": "17 Aug 2026"
+  },
+  {
+    "id": 9,
+    "img": "/assets/img/vegkourtimages/item4.webp",
+    "title": "Veg Manchurian From The Oriental Menu",
+    "btntext": "Read More",
+    "time": "18 Aug 2026"
+  }
+]

@@ -1,0 +1,51 @@
+[
+  {
+    "title": "Home",
+    "link": "/",
+    "key": "home",
+    "childern": [
+      {
+        "title": "Home 1",
+        "link": "/",
+        "key": "home1"
+      },
+      {
+        "title": "Home 2",
+        "link": "/home2",
+        "key": "home2"
+      }
+    ]
+  },
+  {
+    "title": "Pages",
+    "link": "/",
+    "key": "pages",
+    "childern": [
+      {
+        "title": "Contact",
+        "link": "/contact",
+        "key": "contact"
+      },
+      {
+        "title": "Reservations",
+        "link": "/reservations",
+        "key": "reservations"
+      },
+      {
+        "title": "Gallery",
+        "link": "/gallery",
+        "key": "gallery"
+      },
+      {
+        "title": "Error Pages",
+        "link": "/error-pages",
+        "key": "errorpages"
+      },
+      {
+        "title": "Comming Soon",
+        "link": "/comming-soon",
+        "key": "commingsoon"
+      }
+    ]
+  }
+]

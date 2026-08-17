@@ -1,0 +1,8 @@
+[
+  { "title": "Home", "link": "/", "img": "/fullWM_about.jpg" },
+  { "title": "About", "link": "/about", "img": "/fullWM_about.jpg" },
+  { "title": "Menu", "link": "/menu", "img": "/fullWM_menu.jpg" },
+  { "title": "Blogs", "link": "/blog", "img": "/assets/img/vegkourtimages/banner4.webp" },
+  { "title": "Gallery", "link": "/gallery", "img": "/fullWM_1.jpg" },
+  { "title": "Contact Us", "link": "/contact", "img": "/fullWM_contact.jpg" }
+]

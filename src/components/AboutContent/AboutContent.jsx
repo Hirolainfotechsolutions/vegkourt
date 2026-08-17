@@ -13,9 +13,8 @@ const about_content = {
     "Vegkourt is built for pure vegetarian dining with colourful plates, warm service, and flavours made for sharing.",
 };
 
-const { title, textWhite, imgOne, subtext, details } = about_content;
-
-export default function AboutContent() {
+export default function AboutContent({ content = about_content }) {
+  const { title, textWhite, imgOne, subtext, details, buttonText } = content;
   const imageContainer = useRef(null);
   const imageZoomIn = useRef(null);
   const borderAbout = useRef(null);
@@ -43,7 +42,9 @@ export default function AboutContent() {
               <div className="ak-height-30 ak-height-lg-30"></div>
               <p className="about-subtext">{subtext}</p>
               <div className="ak-height-50 ak-height-lg-30"></div>
-              <ButtonCommon to={"/about"}>Discover The Kitchen</ButtonCommon>
+              <ButtonCommon to={"/about"}>
+                {buttonText || "Discover The Kitchen"}
+              </ButtonCommon>
             </div>
           </div>
         </div>

@@ -1,6 +1,5 @@
 import React from "react";
 import classNames from "classnames";
-import { Link } from "react-router-dom";
 import LightGallery from "lightgallery/react";
 import lgThumbnail from "lightgallery/plugins/thumbnail";
 import CommonHero from "../components/CommonHero/CommonHero";
@@ -26,7 +25,7 @@ export default function GalleryShow() {
           elementClassNames={ClassOption}
         >
           {galleryitems?.map((image, index) => (
-            <Link to={image.thumbnail} key={index}>
+            <a href={image.thumbnail} key={index}>
               <div className="gallery-hover">
                 <img className="h-100" src={image.src} alt={image.caption} />
                 <div className="gallery-img-overlay">
@@ -64,7 +63,7 @@ export default function GalleryShow() {
                   </div>
                 </div>
               </div>
-            </Link>
+            </a>
           ))}
         </LightGallery>
       </div>

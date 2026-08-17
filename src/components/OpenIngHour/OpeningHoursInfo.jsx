@@ -19,8 +19,12 @@ const Openinginfo = {
   ],
 };
 
-export default function OpeningHoursInfo({ typeTwo }) {
-  const { title, image, subtext, hours } = Openinginfo;
+export default function OpeningHoursInfo({
+  typeTwo,
+  info = Openinginfo,
+  buttonText = "Reservation",
+}) {
+  const { title, image, subtext, hours } = info;
 
   const openingHour = classNames("opening-hour", {
     "type-2": typeTwo,
@@ -68,7 +72,7 @@ export default function OpeningHoursInfo({ typeTwo }) {
             )}
 
             <div className="ak-height-70 ak-height-lg-30"></div>
-            <ButtonCommon to="/reservations">Reservation</ButtonCommon>
+            <ButtonCommon to="/reservations">{buttonText}</ButtonCommon>
           </div>
         </div>
       </div>

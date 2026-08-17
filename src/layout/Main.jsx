@@ -3,10 +3,15 @@ import { Outlet, useLocation } from "react-router-dom";
 import Header from "./Header/Header";
 import Footer from "./Footer/Footer";
 import Scrollup from "../components/ScrollUp/Scrollup";
+import ReservationPopup from "../components/ReservationPopup/ReservationPopup";
 import { scrollUpBtn } from "../helper/main";
 
 export default function Main() {
   const { pathname } = useLocation();
+  const isUtilityPage =
+    pathname == "/error-pages" ||
+    pathname == "/comming-soon" ||
+    pathname == "/reservations";
 
   useEffect(() => {
     scrollUpBtn();
@@ -15,11 +20,8 @@ export default function Main() {
     <>
       <Header />
       <Outlet />
-      {pathname == "/error-pages" || pathname == "/comming-soon" ? (
-        " "
-      ) : (
-        <Footer />
-      )}
+      {isUtilityPage ? " " : <Footer />}
+      <ReservationPopup disabled={isUtilityPage} />
       <Scrollup />
     </>
   );

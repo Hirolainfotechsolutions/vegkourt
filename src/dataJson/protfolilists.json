@@ -1,0 +1,192 @@
+[
+  {
+    "id": 1,
+    "img": "/assets/img/vegkourtimages/vegkourtimg2.webp",
+    "title": "Signature Starter",
+    "subtitle": "Plated Fresh",
+    "portfoliodetails": {
+      "category": "Starters",
+      "date": "2026",
+      "desp": "A Vegkourt starter plated with warm lighting, crisp texture, and fresh vegetarian detail.",
+      "shortdesp": "A real Vegkourt image from the restaurant food showcase.",
+      "tags": ["Vegkourt", "Vegetarian"],
+      "portfolioSlider": [
+        { "img": "/assets/img/vegkourtimages/vegkourtimg2.webp" },
+        { "img": "/assets/img/vegkourtimages/vegkourtimg3.webp" },
+        { "img": "/assets/img/vegkourtimages/vegkourtimg4.webp" },
+        { "img": "/assets/img/vegkourtimages/vegkourtimg5.webp" }
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "img": "/assets/img/vegkourtimages/vegkourtimg3.webp",
+    "title": "Table Favourite",
+    "subtitle": "Vegetarian Plate",
+    "portfoliodetails": {
+      "category": "Dining",
+      "date": "2026",
+      "desp": "A vegetarian plate captured in Vegkourt's warm restaurant setting.",
+      "shortdesp": "Real Vegkourt food photography arranged for the showcase section.",
+      "tags": ["Vegkourt", "Vegetarian"],
+      "portfolioSlider": [
+        { "img": "/assets/img/vegkourtimages/vegkourtimg3.webp" },
+        { "img": "/assets/img/vegkourtimages/vegkourtimg6.webp" },
+        { "img": "/assets/img/vegkourtimages/vegkourtimg7.webp" },
+        { "img": "/assets/img/vegkourtimages/vegkourtimg8.webp" }
+      ]
+    }
+  },
+  {
+    "id": 3,
+    "img": "/assets/img/vegkourtimages/vegkourtimg4.webp",
+    "title": "Fresh Greens",
+    "subtitle": "Kitchen Detail",
+    "portfoliodetails": {
+      "category": "Food",
+      "date": "2026",
+      "desp": "Fresh vegetarian ingredients and polished plating shown through a real Vegkourt image.",
+      "shortdesp": "A clean visual from the Vegkourt image collection.",
+      "tags": ["Vegkourt", "Vegetarian"],
+      "portfolioSlider": [
+        { "img": "/assets/img/vegkourtimages/vegkourtimg4.webp" },
+        { "img": "/assets/img/vegkourtimages/vegkourtimg9.webp" },
+        { "img": "/assets/img/vegkourtimages/vegkourtimg10.webp" },
+        { "img": "/assets/img/vegkourtimages/vegkourtimg11.webp" }
+      ]
+    }
+  },
+  {
+    "id": 4,
+    "img": "/assets/img/vegkourtimages/vegkourtimg5.webp",
+    "title": "Crisp Bites",
+    "subtitle": "Starters",
+    "portfoliodetails": {
+      "category": "Starters",
+      "date": "2026",
+      "desp": "Crisp vegetarian bites served for sharing at the Vegkourt table.",
+      "shortdesp": "A real restaurant image with warm plated styling.",
+      "tags": ["Vegkourt", "Vegetarian"],
+      "portfolioSlider": [
+        { "img": "/assets/img/vegkourtimages/vegkourtimg5.webp" },
+        { "img": "/assets/img/vegkourtimages/vegkourtimg2.webp" },
+        { "img": "/assets/img/vegkourtimages/vegkourtimg7.webp" },
+        { "img": "/assets/img/vegkourtimages/vegkourtimg9.webp" }
+      ]
+    }
+  },
+  {
+    "id": 5,
+    "img": "/assets/img/vegkourtimages/vegkourtimg6.webp",
+    "title": "Chef's Plate",
+    "subtitle": "Dining",
+    "portfoliodetails": {
+      "category": "Dining",
+      "date": "2026",
+      "desp": "A composed Vegkourt plate presented with refined vegetarian restaurant styling.",
+      "shortdesp": "A real Vegkourt showcase image.",
+      "tags": ["Vegkourt", "Vegetarian"],
+      "portfolioSlider": [
+        { "img": "/assets/img/vegkourtimages/vegkourtimg6.webp" },
+        { "img": "/assets/img/vegkourtimages/vegkourtimg8.webp" },
+        { "img": "/assets/img/vegkourtimages/vegkourtimg10.webp" },
+        { "img": "/assets/img/vegkourtimages/vegkourtimg3.webp" }
+      ]
+    }
+  },
+  {
+    "id": 6,
+    "img": "/assets/img/vegkourtimages/vegkourtimg7.webp",
+    "title": "Shared Table",
+    "subtitle": "Family Dining",
+    "portfoliodetails": {
+      "category": "Dining",
+      "date": "2026",
+      "desp": "A warm vegetarian table moment made for sharing.",
+      "shortdesp": "Real Vegkourt imagery used for the Food Showcase.",
+      "tags": ["Vegkourt", "Vegetarian"],
+      "portfolioSlider": [
+        { "img": "/assets/img/vegkourtimages/vegkourtimg7.webp" },
+        { "img": "/assets/img/vegkourtimages/vegkourtimg4.webp" },
+        { "img": "/assets/img/vegkourtimages/vegkourtimg11.webp" },
+        { "img": "/assets/img/vegkourtimages/vegkourtimg5.webp" }
+      ]
+    }
+  },
+  {
+    "id": 7,
+    "img": "/assets/img/vegkourtimages/vegkourtimg8.webp",
+    "title": "Comfort Bowl",
+    "subtitle": "Mains",
+    "portfoliodetails": {
+      "category": "Mains",
+      "date": "2026",
+      "desp": "A comforting vegetarian bowl from the Vegkourt visual set.",
+      "shortdesp": "A real food image selected for visual variety.",
+      "tags": ["Vegkourt", "Vegetarian"],
+      "portfolioSlider": [
+        { "img": "/assets/img/vegkourtimages/vegkourtimg8.webp" },
+        { "img": "/assets/img/vegkourtimages/vegkourtimg2.webp" },
+        { "img": "/assets/img/vegkourtimages/vegkourtimg6.webp" },
+        { "img": "/assets/img/vegkourtimages/vegkourtimg10.webp" }
+      ]
+    }
+  },
+  {
+    "id": 8,
+    "img": "/assets/img/vegkourtimages/vegkourtimg9.webp",
+    "title": "Soup And Sides",
+    "subtitle": "Comfort Food",
+    "portfoliodetails": {
+      "category": "Dining",
+      "date": "2026",
+      "desp": "A warm soup-and-sides moment from Vegkourt's vegetarian dining experience.",
+      "shortdesp": "Real image, mixed into the showcase for balance.",
+      "tags": ["Vegkourt", "Vegetarian"],
+      "portfolioSlider": [
+        { "img": "/assets/img/vegkourtimages/vegkourtimg9.webp" },
+        { "img": "/assets/img/vegkourtimages/vegkourtimg3.webp" },
+        { "img": "/assets/img/vegkourtimages/vegkourtimg5.webp" },
+        { "img": "/assets/img/vegkourtimages/vegkourtimg11.webp" }
+      ]
+    }
+  },
+  {
+    "id": 9,
+    "img": "/assets/img/vegkourtimages/vegkourtimg10.webp",
+    "title": "Dining Detail",
+    "subtitle": "Ambience",
+    "portfoliodetails": {
+      "category": "Ambience",
+      "date": "2026",
+      "desp": "A real Vegkourt ambience image used to break up the food-only rhythm.",
+      "shortdesp": "A varied showcase image from the restaurant set.",
+      "tags": ["Vegkourt", "Vegetarian"],
+      "portfolioSlider": [
+        { "img": "/assets/img/vegkourtimages/vegkourtimg10.webp" },
+        { "img": "/assets/img/vegkourtimages/vegkourtimg7.webp" },
+        { "img": "/assets/img/vegkourtimages/vegkourtimg4.webp" },
+        { "img": "/assets/img/vegkourtimages/vegkourtimg2.webp" }
+      ]
+    }
+  },
+  {
+    "id": 10,
+    "img": "/assets/img/vegkourtimages/vegkourtimg11.webp",
+    "title": "Main Course Spread",
+    "subtitle": "Vegetarian Feast",
+    "portfoliodetails": {
+      "category": "Mains",
+      "date": "2026",
+      "desp": "A fuller vegetarian spread from the Vegkourt image collection.",
+      "shortdesp": "A real image selected to complete the Food Showcase mix.",
+      "tags": ["Vegkourt", "Vegetarian"],
+      "portfolioSlider": [
+        { "img": "/assets/img/vegkourtimages/vegkourtimg11.webp" },
+        { "img": "/assets/img/vegkourtimages/vegkourtimg8.webp" },
+        { "img": "/assets/img/vegkourtimages/vegkourtimg6.webp" },
+        { "img": "/assets/img/vegkourtimages/vegkourtimg9.webp" }
+      ]
+    }
+  }
+]

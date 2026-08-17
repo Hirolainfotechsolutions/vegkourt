@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 const locationInfo = {
   city: "Mysuru",
@@ -35,9 +34,9 @@ function LocationIcon() {
 function LocationCard({ className = "" }) {
   return (
     <div className={`location-card-item ${className}`}>
-      <Link to={locationInfo.mapLink} target="_blank" rel="noreferrer">
+      <a href={locationInfo.mapLink} target="_blank" rel="noreferrer">
         <LocationIcon />
-      </Link>
+      </a>
       <h6 className="card-title">{locationInfo.city}</h6>
       <p className="card-subtext">{locationInfo.addressLineOne}</p>
       <p>{locationInfo.addressLineTwo}</p>

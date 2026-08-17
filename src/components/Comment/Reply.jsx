@@ -7,16 +7,16 @@ export default function Reply({ props }) {
         <div className="comment-body">
           <div className="comment-author vcard">
             <img className="avatar" src={props.authorImg} alt="Author" />
-            <a href="#" className="url">
+            <span className="url">
               {props.name}
-            </a>
+            </span>
           </div>
           <div className="comment-meta">
-            <a href="#"> {props.commentmeta}</a>
+            <span> {props.commentmeta}</span>
           </div>
           <p>{props.replytext}</p>
           <div className="reply">
-            <a className="comment-reply-link" href="#">
+            <button className="comment-reply-link" type="button">
               Reply
               <svg
                 width="16"
@@ -33,7 +33,7 @@ export default function Reply({ props }) {
                   strokeLinejoin="round"
                 ></path>
               </svg>
-            </a>
+            </button>
           </div>
         </div>
       </li>

@@ -29,7 +29,7 @@ export default function SideBarBlogDetails(props) {
         <h5>Popular Categories</h5>
         <div className="category-list">
           {props?.props?.popularcategorylis.map((elem, i) => (
-            <Link to="#" key={i}>
+            <Link to="/blog" key={i}>
               {elem}
             </Link>
           ))}
@@ -38,7 +38,7 @@ export default function SideBarBlogDetails(props) {
       <div className="ak-height-50 ak-height-lg-30"></div>
       <div className="popular-tag">
         {props?.props?.populartag.map((elem, i) => (
-          <Link to="#" key={i}>
+          <Link to="/blog" key={i}>
             {elem}
           </Link>
         ))}

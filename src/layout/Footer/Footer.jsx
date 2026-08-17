@@ -152,25 +152,21 @@ export default function Footer() {
               </div>
               <div className="footer-time">
                 <h6 className="footer-time-title">Opening Hours</h6>
-                {Footertext.hours.map((item, index) => (
+                <div
+                  className="footer-time-border footer-time-title-border"
+                  ref={footerTimeBorder}
+                ></div>
+                {Footertext.hours.map((item) => (
                   <React.Fragment key={item.service}>
                     <p>
                       <span>{item.service}</span>
                       <span>{item.time}</span>
                     </p>
-                    {index < Footertext.hours.length - 1 ? (
-                      <div
-                        className="footer-time-border my-1"
-                        ref={index === 0 ? footerTimeBorder : null}
-                      ></div>
-                    ) : (
-                      ""
-                    )}
                   </React.Fragment>
                 ))}
               </div>
               <div className="footer-btn">
-                <WhiteButton to="reservations">Reservations</WhiteButton>
+                <WhiteButton to="/reservations">Reservations</WhiteButton>
               </div>
             </div>
           </div>

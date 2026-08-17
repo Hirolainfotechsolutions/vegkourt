@@ -1,4 +1,5 @@
 import React, { useEffect, useRef } from "react";
+import { Link } from "react-router-dom";
 import CommentUser from "../Comment/CommentUser";
 import CommentConatctFrom from "../Comment/CommentConatctFrom";
 import VideoButton from "../VideoPopUp/VideoButton";
@@ -57,10 +58,10 @@ export default function BlogDetailsContainerAround({ props }) {
       <div className="blog-details-border"></div>
       <div className="ak-height-35 ak-height-lg-30"></div>
       <div className="social-link">
-        <p>Social Share:</p>
-        <a href="https://www.facebook.com/">Facebook</a>
-        <a href="https://bd.linkedin.com/">LinkedIn</a>
-        <a href="https://www.instagram.com/">Instagram</a>
+        <p>Explore More:</p>
+        <Link to="/menu">Menu</Link>
+        <Link to="/gallery">Gallery</Link>
+        <Link to="/contact">Contact</Link>
       </div>
       <div className="ak-height-100 ak-height-lg-60"></div>
       <CommentUser props={props} />

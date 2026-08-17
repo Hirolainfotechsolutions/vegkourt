@@ -3,7 +3,6 @@ import SectionTitle from "../SectionTitle/SectionTitle";
 import LightGallery from "lightgallery/react";
 import lgThumbnail from "lightgallery/plugins/thumbnail";
 import classNames from "classnames";
-import { Link } from "react-router-dom";
 
 const galleryItems = [
   {
@@ -49,7 +48,7 @@ export default function ShowCase() {
           elementClassNames={ClassOption}
         >
           {galleryItems?.map((image, index) => (
-            <Link to={image.thumbnail} key={index}>
+            <a href={image.thumbnail} key={index}>
               <div className="gallery-hover">
                 <img className="h-100" src={image.src} alt={image.caption} />
                 <div className="gallery-img-overlay">
@@ -87,7 +86,7 @@ export default function ShowCase() {
                   </div>
                 </div>
               </div>
-            </Link>
+            </a>
           ))}
         </LightGallery>
       </div>

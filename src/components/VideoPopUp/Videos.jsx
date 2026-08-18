@@ -49,8 +49,8 @@ export default function Videos({
         />
         <div className="video-section-content">
           <div className="video-section-copy">
-            <p>Vegkourt Reel</p>
-            <h3>See The Dining Experience</h3>
+            <p>Vegkourt Menu</p>
+            <h3>Bold Spices, Crisp Textures</h3>
             <a href={reelUrl} target="_blank" rel="noreferrer">
               Open On Instagram
             </a>

@@ -9,9 +9,9 @@ const aboutIntro = {
   textWhite: "Welcome To",
   imgOne: "/assets/img/vegkourtimages/outsideimage.webp",
   details:
-    "Vegkourt welcomes guests into a warm pure vegetarian restaurant space in Mysuru, built for relaxed meals, family gatherings, and fresh flavours.",
+    "Vegkourt welcomes guests into a warm pure vegetarian restaurant space in Mysuru, shaped around bold spices, crisp textures, and slow table conversations.",
   subtext:
-    "From the entrance to the table, the experience is designed to feel clean, inviting, and comfortable for every vegetarian diner.",
+    "The menu runs from Bites, Soups, Garden Greens, Grills, and Nibbles to Mains, Indian Breads, Pastas, Biryani & Rice, Oriental, and Desserts.",
   buttonText: "Explore Vegkourt",
 };
 
@@ -19,7 +19,7 @@ const celebrationInfo = {
   title: "Birthday Parties",
   image: "/assets/img/vegkourtimages/bdparty.webp",
   subtext:
-    "Celebrate birthdays, family moments, and small gatherings with a pure vegetarian menu, warm service, and a table arranged around your occasion.",
+    "Celebrate birthdays, family moments, and small gatherings with pure vegetarian starters, curries, rice, breads, Oriental plates, and desserts arranged around your occasion.",
   hours: [],
 };
 

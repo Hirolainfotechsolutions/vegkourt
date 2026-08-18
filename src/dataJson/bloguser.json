@@ -3,13 +3,13 @@
     "id": 1,
     "data": "11 August 2026",
     "postUser": "Vegkourt Kitchen",
-    "title": "Sev Tamatar: A Homestyle Favourite",
+    "title": "Crispy Nachos Chaat And Papad Bites",
     "img": "/assets/img/vegkourtimages/vegkourtimg2.webp",
-    "desp": "Sev Tamatar is part of the Vegkourt vegetarian menu, shaped around familiar flavours, careful seasoning, and a polished restaurant presentation.",
-    "testimonial": "Fresh vegetarian food tastes best when texture, spice, and comfort are balanced on the same plate.",
-    "shortTitle": "Sev Tamatar: A Homestyle Favourite",
-    "shortDesc": "Inside the Vegkourt kitchen, sev tamatar is treated as a complete dining moment rather than just another menu item.",
-    "shortDescTwo": "The menu brings together chaat, tandoor, mains, Oriental plates, rice, breads, and desserts for a full vegetarian table.",
+    "desp": "Crispy nachos chaat, assorted papad, roasted chickpeas, and masala papad open the Vegkourt menu with chutney, sev, and crunch.",
+    "testimonial": "The Vegkourt menu is built around bold spices, crisp textures, vegetarian comfort, and warm memories.",
+    "shortTitle": "Crispy Nachos Chaat And Papad Bites",
+    "shortDesc": "Crispy nachos chaat, assorted papad, roasted chickpeas, and masala papad open the Vegkourt menu with chutney, sev, and crunch.",
+    "shortDescTwo": "Vegkourt menu order: Bites, Soups, Garden Greens, Grills, Nibbles, Mains, Indian Breads, Pastas, Biryani & Rice, Oriental, and Desserts.",
     "videoImg": "/assets/img/vegkourtimages/vegkourtimg2.webp",
     "comment": [
       {
@@ -32,17 +32,25 @@
       }
     ],
     "popularcategorylis": [
-      "Appetisers",
-      "Indian Starters",
+      "Bites",
+      "Soups",
+      "Garden Greens",
+      "Grills",
+      "Nibbles",
       "Mains",
+      "Indian Breads",
+      "Pastas",
+      "Biryani & Rice",
       "Oriental",
       "Desserts"
     ],
     "populartag": [
-      "Sev Tamatar",
+      "Crispy Nachos Chaat",
+      "Creamy Spinach Soup",
+      "Classic Paneer Tikka",
       "Paneer Lababdar",
-      "Veg Hakka Noodles",
-      "Dal Makhani",
+      "Veg Biryani",
+      "Veg Manchurian",
       "Shahi Tukda"
     ]
   },
@@ -50,13 +58,13 @@
     "id": 2,
     "data": "12 August 2026",
     "postUser": "Vegkourt Kitchen",
-    "title": "Crispy Paneer Rolls For The Table",
+    "title": "Creamy Spinach Soup With Paneer Momo",
     "img": "/assets/img/vegkourtimages/vegkourtimg3.webp",
-    "desp": "Crispy Paneer Rolls For The Table is part of the Vegkourt vegetarian menu, shaped around familiar flavours, careful seasoning, and a polished restaurant presentation.",
-    "testimonial": "Fresh vegetarian food tastes best when texture, spice, and comfort are balanced on the same plate.",
-    "shortTitle": "Crispy Paneer Rolls For The Table",
-    "shortDesc": "Inside the Vegkourt kitchen, crispy paneer rolls for the table is treated as a complete dining moment rather than just another menu item.",
-    "shortDescTwo": "The menu brings together chaat, tandoor, mains, Oriental plates, rice, breads, and desserts for a full vegetarian table.",
+    "desp": "Creamy spinach soup with mini paneer momo sits beside tomato rasam, bonda soup, and Manchow soup in the warm bowls section.",
+    "testimonial": "The Vegkourt menu is built around bold spices, crisp textures, vegetarian comfort, and warm memories.",
+    "shortTitle": "Creamy Spinach Soup With Paneer Momo",
+    "shortDesc": "Creamy spinach soup with mini paneer momo sits beside tomato rasam, bonda soup, and Manchow soup in the warm bowls section.",
+    "shortDescTwo": "Vegkourt menu order: Bites, Soups, Garden Greens, Grills, Nibbles, Mains, Indian Breads, Pastas, Biryani & Rice, Oriental, and Desserts.",
     "videoImg": "/assets/img/vegkourtimages/vegkourtimg3.webp",
     "comment": [
       {
@@ -79,17 +87,25 @@
       }
     ],
     "popularcategorylis": [
-      "Appetisers",
-      "Indian Starters",
+      "Bites",
+      "Soups",
+      "Garden Greens",
+      "Grills",
+      "Nibbles",
       "Mains",
+      "Indian Breads",
+      "Pastas",
+      "Biryani & Rice",
       "Oriental",
       "Desserts"
     ],
     "populartag": [
-      "Sev Tamatar",
+      "Crispy Nachos Chaat",
+      "Creamy Spinach Soup",
+      "Classic Paneer Tikka",
       "Paneer Lababdar",
-      "Veg Hakka Noodles",
-      "Dal Makhani",
+      "Veg Biryani",
+      "Veg Manchurian",
       "Shahi Tukda"
     ]
   },
@@ -97,13 +113,13 @@
     "id": 3,
     "data": "13 August 2026",
     "postUser": "Vegkourt Kitchen",
-    "title": "Paneer Lababdar And Rich Curry Notes",
+    "title": "Garden Greens With Mango And Avocado",
     "img": "/assets/img/vegkourtimages/vegkourtimg4.webp",
-    "desp": "Paneer Lababdar And Rich Curry Notes is part of the Vegkourt vegetarian menu, shaped around familiar flavours, careful seasoning, and a polished restaurant presentation.",
-    "testimonial": "Fresh vegetarian food tastes best when texture, spice, and comfort are balanced on the same plate.",
-    "shortTitle": "Paneer Lababdar And Rich Curry Notes",
-    "shortDesc": "Inside the Vegkourt kitchen, paneer lababdar and rich curry notes is treated as a complete dining moment rather than just another menu item.",
-    "shortDescTwo": "The menu brings together chaat, tandoor, mains, Oriental plates, rice, breads, and desserts for a full vegetarian table.",
+    "desp": "Mango avocado arugula salad, watermelon feta salad, quinoa apple orange salad, and Thai green papaya salad bring fresh lift to the menu.",
+    "testimonial": "The Vegkourt menu is built around bold spices, crisp textures, vegetarian comfort, and warm memories.",
+    "shortTitle": "Garden Greens With Mango And Avocado",
+    "shortDesc": "Mango avocado arugula salad, watermelon feta salad, quinoa apple orange salad, and Thai green papaya salad bring fresh lift to the menu.",
+    "shortDescTwo": "Vegkourt menu order: Bites, Soups, Garden Greens, Grills, Nibbles, Mains, Indian Breads, Pastas, Biryani & Rice, Oriental, and Desserts.",
     "videoImg": "/assets/img/vegkourtimages/vegkourtimg4.webp",
     "comment": [
       {
@@ -126,17 +142,25 @@
       }
     ],
     "popularcategorylis": [
-      "Appetisers",
-      "Indian Starters",
+      "Bites",
+      "Soups",
+      "Garden Greens",
+      "Grills",
+      "Nibbles",
       "Mains",
+      "Indian Breads",
+      "Pastas",
+      "Biryani & Rice",
       "Oriental",
       "Desserts"
     ],
     "populartag": [
-      "Sev Tamatar",
+      "Crispy Nachos Chaat",
+      "Creamy Spinach Soup",
+      "Classic Paneer Tikka",
       "Paneer Lababdar",
-      "Veg Hakka Noodles",
-      "Dal Makhani",
+      "Veg Biryani",
+      "Veg Manchurian",
       "Shahi Tukda"
     ]
   },
@@ -144,13 +168,13 @@
     "id": 4,
     "data": "14 August 2026",
     "postUser": "Vegkourt Kitchen",
-    "title": "Why Our Veg Hakka Noodles Work",
+    "title": "Classic Paneer Tikka From The Grill",
     "img": "/assets/img/vegkourtimages/vegkourtimg5.webp",
-    "desp": "Why Our Veg Hakka Noodles Work is part of the Vegkourt vegetarian menu, shaped around familiar flavours, careful seasoning, and a polished restaurant presentation.",
-    "testimonial": "Fresh vegetarian food tastes best when texture, spice, and comfort are balanced on the same plate.",
-    "shortTitle": "Why Our Veg Hakka Noodles Work",
-    "shortDesc": "Inside the Vegkourt kitchen, why our veg hakka noodles work is treated as a complete dining moment rather than just another menu item.",
-    "shortDescTwo": "The menu brings together chaat, tandoor, mains, Oriental plates, rice, breads, and desserts for a full vegetarian table.",
+    "desp": "Classic paneer tikka, Andhra spiced broccoli, stuffed mushrooms, and curry leaf paneer tikka lead the smoky grill section.",
+    "testimonial": "The Vegkourt menu is built around bold spices, crisp textures, vegetarian comfort, and warm memories.",
+    "shortTitle": "Classic Paneer Tikka From The Grill",
+    "shortDesc": "Classic paneer tikka, Andhra spiced broccoli, stuffed mushrooms, and curry leaf paneer tikka lead the smoky grill section.",
+    "shortDescTwo": "Vegkourt menu order: Bites, Soups, Garden Greens, Grills, Nibbles, Mains, Indian Breads, Pastas, Biryani & Rice, Oriental, and Desserts.",
     "videoImg": "/assets/img/vegkourtimages/vegkourtimg5.webp",
     "comment": [
       {
@@ -173,17 +197,25 @@
       }
     ],
     "popularcategorylis": [
-      "Appetisers",
-      "Indian Starters",
+      "Bites",
+      "Soups",
+      "Garden Greens",
+      "Grills",
+      "Nibbles",
       "Mains",
+      "Indian Breads",
+      "Pastas",
+      "Biryani & Rice",
       "Oriental",
       "Desserts"
     ],
     "populartag": [
-      "Sev Tamatar",
+      "Crispy Nachos Chaat",
+      "Creamy Spinach Soup",
+      "Classic Paneer Tikka",
       "Paneer Lababdar",
-      "Veg Hakka Noodles",
-      "Dal Makhani",
+      "Veg Biryani",
+      "Veg Manchurian",
       "Shahi Tukda"
     ]
   },
@@ -191,13 +223,13 @@
     "id": 5,
     "data": "15 August 2026",
     "postUser": "Vegkourt Kitchen",
-    "title": "Shahi Tukda Rabri: Sweet Finish",
+    "title": "Paneer Lababdar And Curry Comfort",
     "img": "/assets/img/vegkourtimages/vegkourtimg6.webp",
-    "desp": "Shahi Tukda Rabri is part of the Vegkourt vegetarian menu, shaped around familiar flavours, careful seasoning, and a polished restaurant presentation.",
-    "testimonial": "Fresh vegetarian food tastes best when texture, spice, and comfort are balanced on the same plate.",
-    "shortTitle": "Shahi Tukda Rabri: Sweet Finish",
-    "shortDesc": "Inside the Vegkourt kitchen, shahi tukda rabri is treated as a complete dining moment rather than just another menu item.",
-    "shortDescTwo": "The menu brings together chaat, tandoor, mains, Oriental plates, rice, breads, and desserts for a full vegetarian table.",
+    "desp": "Paneer Lababdar, Palak Paneer, Paneer Tikka Masala, Dal Makhani, Mushroom Chettinad, and Veg Jalfrezi make the main course rich and comforting.",
+    "testimonial": "The Vegkourt menu is built around bold spices, crisp textures, vegetarian comfort, and warm memories.",
+    "shortTitle": "Paneer Lababdar And Curry Comfort",
+    "shortDesc": "Paneer Lababdar, Palak Paneer, Paneer Tikka Masala, Dal Makhani, Mushroom Chettinad, and Veg Jalfrezi make the main course rich and comforting.",
+    "shortDescTwo": "Vegkourt menu order: Bites, Soups, Garden Greens, Grills, Nibbles, Mains, Indian Breads, Pastas, Biryani & Rice, Oriental, and Desserts.",
     "videoImg": "/assets/img/vegkourtimages/vegkourtimg6.webp",
     "comment": [
       {
@@ -220,17 +252,25 @@
       }
     ],
     "popularcategorylis": [
-      "Appetisers",
-      "Indian Starters",
+      "Bites",
+      "Soups",
+      "Garden Greens",
+      "Grills",
+      "Nibbles",
       "Mains",
+      "Indian Breads",
+      "Pastas",
+      "Biryani & Rice",
       "Oriental",
       "Desserts"
     ],
     "populartag": [
-      "Sev Tamatar",
+      "Crispy Nachos Chaat",
+      "Creamy Spinach Soup",
+      "Classic Paneer Tikka",
       "Paneer Lababdar",
-      "Veg Hakka Noodles",
-      "Dal Makhani",
+      "Veg Biryani",
+      "Veg Manchurian",
       "Shahi Tukda"
     ]
   },
@@ -238,13 +278,13 @@
     "id": 6,
     "data": "16 August 2026",
     "postUser": "Vegkourt Kitchen",
-    "title": "Honey Chilli Baby Corn Crunch",
+    "title": "Pesto Pasta, Biryani And Rice Bowls",
     "img": "/assets/img/vegkourtimages/vegkourtimg7.webp",
-    "desp": "Honey Chilli Baby Corn Crunch is part of the Vegkourt vegetarian menu, shaped around familiar flavours, careful seasoning, and a polished restaurant presentation.",
-    "testimonial": "Fresh vegetarian food tastes best when texture, spice, and comfort are balanced on the same plate.",
-    "shortTitle": "Honey Chilli Baby Corn Crunch",
-    "shortDesc": "Inside the Vegkourt kitchen, honey chilli baby corn crunch is treated as a complete dining moment rather than just another menu item.",
-    "shortDescTwo": "The menu brings together chaat, tandoor, mains, Oriental plates, rice, breads, and desserts for a full vegetarian table.",
+    "desp": "Pesto pasta, aglio olio, tomato pasta, creamy cheese pasta, Veg Biryani, Jeera Rice, Palak Rice, and Curd Rice build a full vegetarian table.",
+    "testimonial": "The Vegkourt menu is built around bold spices, crisp textures, vegetarian comfort, and warm memories.",
+    "shortTitle": "Pesto Pasta, Biryani And Rice Bowls",
+    "shortDesc": "Pesto pasta, aglio olio, tomato pasta, creamy cheese pasta, Veg Biryani, Jeera Rice, Palak Rice, and Curd Rice build a full vegetarian table.",
+    "shortDescTwo": "Vegkourt menu order: Bites, Soups, Garden Greens, Grills, Nibbles, Mains, Indian Breads, Pastas, Biryani & Rice, Oriental, and Desserts.",
     "videoImg": "/assets/img/vegkourtimages/vegkourtimg7.webp",
     "comment": [
       {
@@ -267,17 +307,25 @@
       }
     ],
     "popularcategorylis": [
-      "Appetisers",
-      "Indian Starters",
+      "Bites",
+      "Soups",
+      "Garden Greens",
+      "Grills",
+      "Nibbles",
       "Mains",
+      "Indian Breads",
+      "Pastas",
+      "Biryani & Rice",
       "Oriental",
       "Desserts"
     ],
     "populartag": [
-      "Sev Tamatar",
+      "Crispy Nachos Chaat",
+      "Creamy Spinach Soup",
+      "Classic Paneer Tikka",
       "Paneer Lababdar",
-      "Veg Hakka Noodles",
-      "Dal Makhani",
+      "Veg Biryani",
+      "Veg Manchurian",
       "Shahi Tukda"
     ]
   },
@@ -285,13 +333,13 @@
     "id": 7,
     "data": "17 August 2026",
     "postUser": "Vegkourt Kitchen",
-    "title": "Dal Makhani Comfort Bowl",
+    "title": "Oriental Plates With Manchurian Gravy",
     "img": "/assets/img/vegkourtimages/vegkourtimg8.webp",
-    "desp": "Dal Makhani Comfort Bowl is part of the Vegkourt vegetarian menu, shaped around familiar flavours, careful seasoning, and a polished restaurant presentation.",
-    "testimonial": "Fresh vegetarian food tastes best when texture, spice, and comfort are balanced on the same plate.",
-    "shortTitle": "Dal Makhani Comfort Bowl",
-    "shortDesc": "Inside the Vegkourt kitchen, dal makhani comfort bowl is treated as a complete dining moment rather than just another menu item.",
-    "shortDescTwo": "The menu brings together chaat, tandoor, mains, Oriental plates, rice, breads, and desserts for a full vegetarian table.",
+    "desp": "Veg Manchurian gravy, Paneer Manchurian gravy, fried rice, Hakka noodles, and Triple Schezwan rice bring Indo-Chinese flavour to the menu.",
+    "testimonial": "The Vegkourt menu is built around bold spices, crisp textures, vegetarian comfort, and warm memories.",
+    "shortTitle": "Oriental Plates With Manchurian Gravy",
+    "shortDesc": "Veg Manchurian gravy, Paneer Manchurian gravy, fried rice, Hakka noodles, and Triple Schezwan rice bring Indo-Chinese flavour to the menu.",
+    "shortDescTwo": "Vegkourt menu order: Bites, Soups, Garden Greens, Grills, Nibbles, Mains, Indian Breads, Pastas, Biryani & Rice, Oriental, and Desserts.",
     "videoImg": "/assets/img/vegkourtimages/vegkourtimg8.webp",
     "comment": [
       {
@@ -314,17 +362,25 @@
       }
     ],
     "popularcategorylis": [
-      "Appetisers",
-      "Indian Starters",
+      "Bites",
+      "Soups",
+      "Garden Greens",
+      "Grills",
+      "Nibbles",
       "Mains",
+      "Indian Breads",
+      "Pastas",
+      "Biryani & Rice",
       "Oriental",
       "Desserts"
     ],
     "populartag": [
-      "Sev Tamatar",
+      "Crispy Nachos Chaat",
+      "Creamy Spinach Soup",
+      "Classic Paneer Tikka",
       "Paneer Lababdar",
-      "Veg Hakka Noodles",
-      "Dal Makhani",
+      "Veg Biryani",
+      "Veg Manchurian",
       "Shahi Tukda"
     ]
   },
@@ -332,13 +388,13 @@
     "id": 8,
     "data": "18 August 2026",
     "postUser": "Vegkourt Kitchen",
-    "title": "Palak Paneer Curry With Fresh Greens",
+    "title": "Indian Breads For Every Curry",
     "img": "/assets/img/vegkourtimages/vegkourtimg9.webp",
-    "desp": "Palak Paneer Curry With Fresh Greens is part of the Vegkourt vegetarian menu, shaped around familiar flavours, careful seasoning, and a polished restaurant presentation.",
-    "testimonial": "Fresh vegetarian food tastes best when texture, spice, and comfort are balanced on the same plate.",
-    "shortTitle": "Palak Paneer Curry With Fresh Greens",
-    "shortDesc": "Inside the Vegkourt kitchen, palak paneer curry with fresh greens is treated as a complete dining moment rather than just another menu item.",
-    "shortDescTwo": "The menu brings together chaat, tandoor, mains, Oriental plates, rice, breads, and desserts for a full vegetarian table.",
+    "desp": "Roti, Butter Roti, Kulcha, and Missi Roti are served to pair cleanly with curries, saag, dal, and rich gravies.",
+    "testimonial": "The Vegkourt menu is built around bold spices, crisp textures, vegetarian comfort, and warm memories.",
+    "shortTitle": "Indian Breads For Every Curry",
+    "shortDesc": "Roti, Butter Roti, Kulcha, and Missi Roti are served to pair cleanly with curries, saag, dal, and rich gravies.",
+    "shortDescTwo": "Vegkourt menu order: Bites, Soups, Garden Greens, Grills, Nibbles, Mains, Indian Breads, Pastas, Biryani & Rice, Oriental, and Desserts.",
     "videoImg": "/assets/img/vegkourtimages/vegkourtimg9.webp",
     "comment": [
       {
@@ -361,17 +417,25 @@
       }
     ],
     "popularcategorylis": [
-      "Appetisers",
-      "Indian Starters",
+      "Bites",
+      "Soups",
+      "Garden Greens",
+      "Grills",
+      "Nibbles",
       "Mains",
+      "Indian Breads",
+      "Pastas",
+      "Biryani & Rice",
       "Oriental",
       "Desserts"
     ],
     "populartag": [
-      "Sev Tamatar",
+      "Crispy Nachos Chaat",
+      "Creamy Spinach Soup",
+      "Classic Paneer Tikka",
       "Paneer Lababdar",
-      "Veg Hakka Noodles",
-      "Dal Makhani",
+      "Veg Biryani",
+      "Veg Manchurian",
       "Shahi Tukda"
     ]
   },
@@ -379,13 +443,13 @@
     "id": 9,
     "data": "19 August 2026",
     "postUser": "Vegkourt Kitchen",
-    "title": "Veg Manchurian From The Oriental Menu",
+    "title": "Shahi Tukda, Malaiyo And Sweet Finishes",
     "img": "/assets/img/vegkourtimages/vegkourtimg10.webp",
-    "desp": "Veg Manchurian From The Oriental Menu is part of the Vegkourt vegetarian menu, shaped around familiar flavours, careful seasoning, and a polished restaurant presentation.",
-    "testimonial": "Fresh vegetarian food tastes best when texture, spice, and comfort are balanced on the same plate.",
-    "shortTitle": "Veg Manchurian From The Oriental Menu",
-    "shortDesc": "Inside the Vegkourt kitchen, veg manchurian from the oriental menu is treated as a complete dining moment rather than just another menu item.",
-    "shortDescTwo": "The menu brings together chaat, tandoor, mains, Oriental plates, rice, breads, and desserts for a full vegetarian table.",
+    "desp": "Shahi Tukda with Lachha Rabri, Lucknow Malaiyo, Chocolate Sponge Sundae, Mysore Pak Crumble, Gulab Jamoon, and seasonal desserts close the meal.",
+    "testimonial": "The Vegkourt menu is built around bold spices, crisp textures, vegetarian comfort, and warm memories.",
+    "shortTitle": "Shahi Tukda, Malaiyo And Sweet Finishes",
+    "shortDesc": "Shahi Tukda with Lachha Rabri, Lucknow Malaiyo, Chocolate Sponge Sundae, Mysore Pak Crumble, Gulab Jamoon, and seasonal desserts close the meal.",
+    "shortDescTwo": "Vegkourt menu order: Bites, Soups, Garden Greens, Grills, Nibbles, Mains, Indian Breads, Pastas, Biryani & Rice, Oriental, and Desserts.",
     "videoImg": "/assets/img/vegkourtimages/vegkourtimg10.webp",
     "comment": [
       {
@@ -408,17 +472,25 @@
       }
     ],
     "popularcategorylis": [
-      "Appetisers",
-      "Indian Starters",
+      "Bites",
+      "Soups",
+      "Garden Greens",
+      "Grills",
+      "Nibbles",
       "Mains",
+      "Indian Breads",
+      "Pastas",
+      "Biryani & Rice",
       "Oriental",
       "Desserts"
     ],
     "populartag": [
-      "Sev Tamatar",
+      "Crispy Nachos Chaat",
+      "Creamy Spinach Soup",
+      "Classic Paneer Tikka",
       "Paneer Lababdar",
-      "Veg Hakka Noodles",
-      "Dal Makhani",
+      "Veg Biryani",
+      "Veg Manchurian",
       "Shahi Tukda"
     ]
   }

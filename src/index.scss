@@ -219,6 +219,52 @@ body {
   width: 18px;
 }
 
+.footer-main .footer-info .fooer-phn a {
+  display: inline-block;
+  letter-spacing: 0.08em;
+  word-spacing: 0.18em;
+}
+
+.floating-contact-actions {
+  bottom: 22px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  position: fixed;
+  right: 22px;
+  z-index: 9998;
+}
+
+.floating-contact-actions a {
+  align-items: center;
+  background: #ffd28d;
+  border: 1px solid rgba(5, 17, 20, 0.18);
+  border-radius: 50%;
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.26);
+  color: #051114;
+  display: inline-flex;
+  height: 48px;
+  justify-content: center;
+  transition: transform 0.2s ease, background-color 0.2s ease;
+  width: 48px;
+}
+
+.floating-contact-actions a:hover,
+.floating-contact-actions a:focus-visible {
+  background: #fff;
+  outline: none;
+  transform: translateY(-2px);
+}
+
+.testimonial-section .testimonial-info-section .testimonial-info-img {
+  background: #05161a;
+  border: 2px solid rgba(255, 210, 141, 0.55);
+  border-radius: 50%;
+  box-shadow: 0 14px 32px rgba(0, 0, 0, 0.24);
+  object-fit: cover;
+  object-position: center top;
+}
+
 .reservation-picker-control .picker-icon,
 .ak-time .picker-icon,
 .ak-date .picker-icon {
@@ -328,7 +374,7 @@ body {
 
   .reservation-popup-form .reservation-picker-control .picker-icon {
     height: 30px;
-    right: 10px;
+    right: 18px;
     top: 50%;
     width: 30px;
   }
@@ -1136,6 +1182,9 @@ button.comment-reply-link {
 
   .footer-social {
     gap: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 4px;
   }
 
   .footer-social a {
@@ -1158,6 +1207,33 @@ button.comment-reply-link {
 
   .reservation-card .booking-system-form {
     padding: 22px;
+  }
+
+  .opening-hour .opening-hour-img-section,
+  .opening-hour .opening-hour-img-section.style-2 {
+    height: auto;
+    max-height: none;
+    overflow: visible;
+  }
+
+  .opening-hour .opening-hour-img-section .img-container-overlay,
+  .opening-hour .opening-hour-img-section .images-show {
+    height: auto;
+    min-height: 0;
+  }
+
+  .opening-hour .opening-hour-img-section .images-show {
+    display: block;
+    object-fit: contain;
+    width: 100%;
+  }
+
+  .reservation-picker-control .picker-icon,
+  .ak-time .picker-icon,
+  .ak-date .picker-icon,
+  .home-reservation-content .reservation-compact .ak-time .picker-icon,
+  .home-reservation-content .reservation-compact .ak-date .picker-icon {
+    right: 20px;
   }
 
   .reservation-grid {
@@ -1211,6 +1287,7 @@ button.comment-reply-link {
   .home-reservation-content .reservation-compact .ak-form-time-date .time-input,
   .home-reservation-content .reservation-compact .ak-form-time-date .date-input {
     font-size: 16px;
+    padding-right: 58px;
   }
 
   .home-reservation-content .reservation-compact .ak-btn.style-5 {
@@ -1296,5 +1373,16 @@ button.comment-reply-link {
   .reservation-popup-form .reservation-field select,
   .reservation-popup-form .reservation-field textarea {
     font-size: 13px;
+  }
+
+  .floating-contact-actions {
+    bottom: 16px;
+    gap: 8px;
+    right: 14px;
+  }
+
+  .floating-contact-actions a {
+    height: 44px;
+    width: 44px;
   }
 }

@@ -3,28 +3,28 @@ import { Swiper, SwiperSlide } from "swiper/react";
 
 const testimonialInfo = [
   {
-    img: "/assets/img/testimonial/testimonial_1.jpg",
+    img: "/assets/img/testimonial/testimonial_male_clean.png",
     title: "Raghavendra Urs",
     subtitle: "Mysuru Family Dinner",
     content:
       "Vegkourt is a lovely place for a pure vegetarian family dinner in Mysuru. The food feels fresh, balanced, and thoughtfully served.",
   },
   {
-    img: "/assets/img/testimonial/testimonial_2.jpg",
+    img: "/assets/img/testimonial/testimonial_female_clean.png",
     title: "Ananya Hegde",
     subtitle: "Weekend Lunch",
     content:
       "The starters were crisp, the mains had good flavour, and the service was warm without rushing us. A clean spot for vegetarian dining.",
   },
   {
-    img: "/assets/img/testimonial/testimonial_3.jpg",
+    img: "/assets/img/testimonial/testimonial_male_clean.png",
     title: "Pradeep Gowda",
     subtitle: "Dinner Reservation",
     content:
       "We booked dinner for a small group and everything was smooth. The menu has enough choice for everyone at the table.",
   },
   {
-    img: "/assets/img/testimonial/testimonial_1.jpg",
+    img: "/assets/img/testimonial/testimonial_female_clean.png",
     title: "Sahana Murthy",
     subtitle: "Birthday Celebration",
     content:

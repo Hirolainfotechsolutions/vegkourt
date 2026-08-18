@@ -37,7 +37,7 @@ export default function ShowCase() {
       <div className="ak-height-150 ak-height-lg-60"></div>
       <div className="container" id="foodItems">
         <SectionTitle
-          title={"Vegkourt Plates"}
+          title={"Menu Plates"}
           subTitle={"Food Showcase"}
           tyle={"center"}
         />

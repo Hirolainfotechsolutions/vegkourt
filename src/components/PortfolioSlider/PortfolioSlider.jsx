@@ -12,7 +12,7 @@ export default function PortfolioSlider() {
       <div className="ak-height-150 ak-height-lg-60"></div>
       <div className="container-fluid">
         <SectionTitle
-          title={"Vegkourt Favourites"}
+          title={"Menu Favourites"}
           subTitle={"Food Showcase"}
           tyle={"center"}
         />

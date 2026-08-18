@@ -8,7 +8,7 @@ const bestItem = {
   imgOne: "/assets/img/vegkourtimages/vegkourtimg5.webp",
   imgTwo: "/assets/img/vegkourtimages/vegkourtimg11.webp",
   details:
-    "From crisp starters to generous vegetarian plates, Vegkourt brings rich mains, rice bowls, Oriental flavours, and desserts together on one warm table.",
+    "Begin with crispy nachos chaat and papad baskets, move into paneer tikka, stuffed mushrooms, Paneer Lababdar, Dal Makhani, Veg Biryani, Oriental gravies, and finish with Shahi Tukda or Mysore Pak Crumble.",
 };
 
 export default function BestItem() {

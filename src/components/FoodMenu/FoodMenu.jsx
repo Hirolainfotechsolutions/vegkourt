@@ -14,7 +14,7 @@ export default function FoodMenuHome({ styleTwo }) {
       <div className="ak-height-150 ak-height-lg-60"></div>
       <div className="container">
         <SectionTitle
-          title={"Vegkourt Menu"}
+          title={"Everyday Cravings"}
           subTitle={"From The Menu"}
           tyle={"center"}
         />

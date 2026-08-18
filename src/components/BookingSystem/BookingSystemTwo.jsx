@@ -36,7 +36,7 @@ export default function BookingSystemTwo({ videoId, videoSrc, poster }) {
               <div className="booking-system-map-second">
                 <div className="booking-system-heading">
                   <p className="home-reservation-subtitle">Reservations</p>
-                  <h2 className="home-reservation-title">Reservations</h2>
+                  <h2 className="home-reservation-title">Book Vegetarian Dining</h2>
                   <BookingSystem compact />
                 </div>
               </div>

@@ -5,12 +5,12 @@ import { borderAnimation, imageZoomInOut } from "../../helper/main";
 
 const about_content = {
   title: "Vegkourt",
-  textWhite: "Fresh Vegetarian Dining At",
+  textWhite: "Pure Vegetarian Dining At",
   imgOne: "/assets/img/vegkourtimages/vegkourtimg1.webp",
   subtext:
-    "Our kitchen brings together crisp vegetables, rich sauces, and comforting spices for food that feels fresh from the first bite.",
+    "The menu moves from papad, chaat, soups, salads, and grills into rich mains, Indian breads, pastas, biryani, Oriental plates, and desserts.",
   details:
-    "Vegkourt is built for pure vegetarian dining with colourful plates, warm service, and flavours made for sharing.",
+    "Inspired by everyday cravings and slow conversations, Vegkourt brings bold spices, crisp textures, and warm memories into a clean vegetarian dining experience.",
 };
 
 export default function AboutContent({ content = about_content }) {

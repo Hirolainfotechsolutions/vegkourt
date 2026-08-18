@@ -131,7 +131,7 @@ export default function BookingSystem(props) {
       <form className={bookingStyle} onSubmit={handleSubmit}>
         <div className="reservation-form-heading">
           <p>Reserve Your Table</p>
-          <span>Pure vegetarian dining in Mysuru</span>
+          <span>Bites, grills, curries, rice, breads, and desserts</span>
         </div>
 
         <div className="reservation-grid">
@@ -237,6 +237,8 @@ export default function BookingSystem(props) {
             >
               <option>Casual Dining</option>
               <option>Family Lunch</option>
+              <option>Brunch</option>
+              <option>Vegetarian Dinner</option>
               <option>Birthday</option>
               <option>Anniversary</option>
               <option>Business Meal</option>

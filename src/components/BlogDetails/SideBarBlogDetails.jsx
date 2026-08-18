@@ -47,12 +47,12 @@ export default function SideBarBlogDetails(props) {
       <div className="author-info">
         <img
           className="author-img"
-          src="/assets/img/vegkourtimages/logobg1.jpg"
+          src="/assets/img/vegkourtimages/logobg2.jpg"
           alt="..."
         />
         <h6 className="author-title">Vegkourt Kitchen</h6>
         <p className="author-text">
-          Notes from our pure vegetarian kitchen in Mysuru.
+          Notes from the Vegkourt menu: bites, soups, grills, mains, rice, Oriental plates, and desserts.
         </p>
         <a
           href="http://www.sangroupofhotels.in/"

@@ -2,16 +2,16 @@ import React from "react";
 
 const movingText = [
   {
-    white: "Pure Vegetarian Dining ",
-    yellow: "in Mysuru",
+    white: "Bites, Soups, Garden Greens ",
+    yellow: "and Grills",
   },
   {
-    white: "Fresh Starters, Rich Mains ",
-    yellow: "and Warm Service",
+    white: "Nibbles, Mains, Breads ",
+    yellow: "and Pastas",
   },
   {
-    white: "Family Lunches, Dinner Plans ",
-    yellow: "and Online Orders",
+    white: "Biryani, Oriental Plates ",
+    yellow: "and Desserts",
   },
 ];
 

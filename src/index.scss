@@ -122,10 +122,24 @@ body {
 }
 
 @media screen and (max-width: 767px) {
+  .header-top {
+    height: 112px;
+  }
+
+  .header-top .wrapper {
+    min-height: 112px;
+  }
+
   .header-top .wrapper .center-log img,
   .ak-site_branding img {
-    height: 125px;
-    width: 125px;
+    height: 100px;
+    width: 100px;
+  }
+
+  .header-top .wrapper .center-log {
+    left: 50%;
+    max-width: 104px;
+    transform: translateX(-50%);
   }
 
   .footer-log-elem img {

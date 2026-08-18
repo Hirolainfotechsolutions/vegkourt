@@ -1108,7 +1108,7 @@ button.comment-reply-link {
   background: #071619;
   max-height: calc(100vh - 40px);
   overflow: hidden;
-  padding: 18px 22px;
+  padding: 44px 22px 18px;
 }
 
 .reservation-popup-form .reservation-form-heading {
@@ -1169,15 +1169,28 @@ button.comment-reply-link {
   color: #051114;
   cursor: pointer;
   display: flex;
-  font-size: 18px;
-  height: 34px;
+  font-size: 24px;
+  font-weight: 400;
+  height: 36px;
   justify-content: center;
   line-height: 1;
-  position: fixed;
-  right: max(18px, calc((100vw - 680px) / 2 + 10px));
-  top: 24px;
-  width: 42px;
-  z-index: 2;
+  padding: 0;
+  position: absolute;
+  right: 12px;
+  top: 12px;
+  width: 36px;
+  z-index: 3;
+}
+
+.reservation-popup-close span {
+  display: block;
+  transform: translateY(-1px);
+}
+
+.reservation-popup-close:hover,
+.reservation-popup-close:focus-visible {
+  background: #fff;
+  outline: none;
 }
 
 @media screen and (max-width: 767px) {
@@ -1398,7 +1411,7 @@ button.comment-reply-link {
 
   .reservation-popup-panel .reservation-card .booking-system-form {
     max-height: calc(100vh - 28px);
-    padding: 18px;
+    padding: 46px 18px 18px;
   }
 
   .home-reservation-section {

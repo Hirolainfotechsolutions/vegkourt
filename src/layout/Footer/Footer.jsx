@@ -1,6 +1,5 @@
 import React, { useRef, useLayoutEffect } from "react";
 import { Link } from "react-router-dom";
-import { Camera, PlayCircle, ThumbsUp } from "lucide-react";
 import { footerAnimation, scrollUpBtn, scrollUpShow } from "../../helper/main";
 import { WhiteButton } from "../../components/Button/Button";
 
@@ -68,19 +67,24 @@ const Footernav = [
 
 const FooterSocial = [
   {
-    title: "Instagram",
-    link: "https://www.instagram.com/veg_kourt/",
-    Icon: Camera,
-  },
-  {
     title: "Facebook",
     link: "https://www.facebook.com/",
-    Icon: ThumbsUp,
+    Icon: FacebookIcon,
+  },
+  {
+    title: "Instagram",
+    link: "https://www.instagram.com/veg_kourt/",
+    Icon: InstagramIcon,
+  },
+  {
+    title: "Pinterest",
+    link: "https://www.pinterest.com/",
+    Icon: PinterestIcon,
   },
   {
     title: "YouTube",
     link: "https://www.youtube.com/",
-    Icon: PlayCircle,
+    Icon: YoutubeIcon,
   },
 ];
 
@@ -234,5 +238,49 @@ export default function Footer() {
         </div>
       </div>
     </footer>
+  );
+}
+
+function FacebookIcon(props) {
+  return (
+    <svg viewBox="0 0 24 24" aria-hidden="true" {...props}>
+      <path
+        fill="currentColor"
+        d="M14 8.5V6.6c0-.86.2-1.3 1.42-1.3H17V2.1c-.77-.08-1.54-.1-2.31-.1-2.85 0-4.62 1.74-4.62 4.94V8.5H7v3.58h3.07V22H14v-9.92h2.76l.44-3.58H14Z"
+      />
+    </svg>
+  );
+}
+
+function InstagramIcon(props) {
+  return (
+    <svg viewBox="0 0 24 24" aria-hidden="true" {...props}>
+      <path
+        fill="currentColor"
+        d="M7.8 2h8.4A5.81 5.81 0 0 1 22 7.8v8.4a5.81 5.81 0 0 1-5.8 5.8H7.8A5.81 5.81 0 0 1 2 16.2V7.8A5.81 5.81 0 0 1 7.8 2Zm0 2A3.81 3.81 0 0 0 4 7.8v8.4A3.81 3.81 0 0 0 7.8 20h8.4a3.81 3.81 0 0 0 3.8-3.8V7.8A3.81 3.81 0 0 0 16.2 4H7.8Zm4.2 3.33A4.67 4.67 0 1 1 7.33 12 4.67 4.67 0 0 1 12 7.33Zm0 2A2.67 2.67 0 1 0 14.67 12 2.67 2.67 0 0 0 12 9.33Zm5.02-2.54a1.09 1.09 0 1 1-1.09 1.09 1.09 1.09 0 0 1 1.09-1.09Z"
+      />
+    </svg>
+  );
+}
+
+function PinterestIcon(props) {
+  return (
+    <svg viewBox="0 0 24 24" aria-hidden="true" {...props}>
+      <path
+        fill="currentColor"
+        d="M12.18 2C6.92 2 4.14 5.56 4.14 9.44c0 1.8.96 4.05 2.5 4.76.23.11.36.06.42-.17.04-.18.25-1.02.34-1.42.03-.13.02-.24-.09-.37-.5-.6-.9-1.68-.9-2.7 0-2.7 2.04-5.31 5.52-5.31 3 0 5.1 2.05 5.1 4.98 0 3.31-1.67 5.6-3.85 5.6-1.2 0-2.1-.99-1.81-2.21.35-1.46 1.02-3.04 1.02-4.1 0-.95-.51-1.74-1.56-1.74-1.24 0-2.23 1.28-2.23 2.99 0 1.09.37 1.82.37 1.82s-1.22 5.16-1.44 6.12c-.25 1.05-.15 2.53-.04 3.49.08.67.89.82 1.18.21.5-.99 1.32-2.75 1.6-3.82.15-.57.77-2.93.77-2.93.41.77 1.58 1.42 2.83 1.42 3.72 0 6.4-3.42 6.4-7.67C20.27 4.31 16.96 2 12.18 2Z"
+      />
+    </svg>
+  );
+}
+
+function YoutubeIcon(props) {
+  return (
+    <svg viewBox="0 0 24 24" aria-hidden="true" {...props}>
+      <path
+        fill="currentColor"
+        d="M21.58 7.19a2.73 2.73 0 0 0-1.92-1.93C17.96 4.8 12 4.8 12 4.8s-5.96 0-7.66.46a2.73 2.73 0 0 0-1.92 1.93A28.58 28.58 0 0 0 2 12a28.58 28.58 0 0 0 .42 4.81 2.73 2.73 0 0 0 1.92 1.93c1.7.46 7.66.46 7.66.46s5.96 0 7.66-.46a2.73 2.73 0 0 0 1.92-1.93A28.58 28.58 0 0 0 22 12a28.58 28.58 0 0 0-.42-4.81ZM10 15.2V8.8l5.2 3.2L10 15.2Z"
+      />
+    </svg>
   );
 }

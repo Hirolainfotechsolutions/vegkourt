@@ -5,7 +5,7 @@ import { borderAnimation, imageZoomInOut } from "../../helper/main";
 
 const about_content = {
   title: "Vegkourt",
-  textWhite: "Pure Vegetarian Dining At",
+  textWhite: "Pure Vegetarian Dining  ",
   imgOne: "/assets/img/vegkourtimages/vegkourtimg1.webp",
   subtext:
     "The menu moves from papad, chaat, soups, salads, and grills into rich mains, Indian breads, pastas, biryani, Oriental plates, and desserts.",

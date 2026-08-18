@@ -256,6 +256,12 @@ body {
   transform: translateY(-2px);
 }
 
+.ak-scrollup {
+  bottom: 142px;
+  right: 22px;
+  top: auto !important;
+}
+
 .testimonial-section .testimonial-info-section .testimonial-info-img {
   background: #05161a;
   border: 2px solid rgba(255, 210, 141, 0.55);
@@ -1470,5 +1476,11 @@ button.comment-reply-link {
   .floating-contact-actions a {
     height: 44px;
     width: 44px;
+  }
+
+  .ak-scrollup {
+    bottom: 118px;
+    right: 14px;
+    top: auto !important;
   }
 }

@@ -1169,15 +1169,16 @@ button.comment-reply-link {
     background: #05161a;
     display: block;
     min-height: auto;
-    padding-bottom: 34px;
+    padding-bottom: 36px;
   }
 
   .ak-hero.ak-style1 .ak-hero-bg {
     background-color: #05161a;
     display: block;
-    height: auto;
-    min-height: 0;
-    object-fit: contain;
+    height: clamp(260px, 72vw, 390px);
+    min-height: 260px;
+    object-fit: cover;
+    object-position: 62% center;
     position: relative;
     width: 100%;
     z-index: 1;

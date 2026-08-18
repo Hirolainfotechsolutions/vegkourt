@@ -47,7 +47,7 @@ export default function SideBarBlogDetails(props) {
       <div className="author-info">
         <img
           className="author-img"
-          src="/assets/img/logo/vegkourt-logo-header.png"
+          src="/assets/img/vegkourtimages/logobg1.jpg"
           alt="..."
         />
         <h6 className="author-title">Vegkourt Kitchen</h6>

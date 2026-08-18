@@ -5,7 +5,7 @@ import { footerAnimation, scrollUpBtn, scrollUpShow } from "../../helper/main";
 import { WhiteButton } from "../../components/Button/Button";
 
 import footerBg from "/assets/img/vegkourtimages/vegkourtimg10.webp";
-import vegkourtLogo from "/assets/img/logo/vegkourt-logo-footer.png";
+import vegkourtLogo from "/assets/img/vegkourtimages/logobg2.jpg";
 
 const Footertext = {
   website: "www.sangroupofhotels.in",

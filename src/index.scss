@@ -17,7 +17,7 @@ body {
 .header-top .wrapper .center-log img,
 .ak-site_branding img {
   display: block;
-  height: 92px;
+  height: 78px;
   max-height: none;
   max-width: none;
   object-fit: contain;
@@ -45,7 +45,7 @@ body {
 
 .footer-log-elem img {
   display: block;
-  height: 92px;
+  height: 120px;
   max-height: none;
   max-width: none;
   object-fit: contain;
@@ -87,11 +87,11 @@ body {
 @media screen and (max-width: 767px) {
   .header-top .wrapper .center-log img,
   .ak-site_branding img {
-    height: 72px;
+    height: 64px;
   }
 
   .footer-log-elem img {
-    height: 78px;
+    height: 96px;
   }
 }
 
@@ -219,6 +219,12 @@ body {
   width: 18px;
 }
 
+.reservation-picker-control .picker-icon,
+.ak-time .picker-icon,
+.ak-date .picker-icon {
+  right: 12px;
+}
+
 .location-card.location-card-single {
   justify-content: center;
   text-align: center;
@@ -251,7 +257,14 @@ body {
   }
 }
 
+@media screen and (max-width: 1199px) {
+  .ak-footer.ak-style-1 .footer-bg-img {
+    display: none;
+  }
+}
+
 @media screen and (max-width: 991px) {
+
   .footer-main .footer-eamil-menu {
     align-items: flex-start;
     flex-direction: column;
@@ -278,6 +291,51 @@ body {
 
   .footer-time {
     min-width: min(100%, 320px);
+  }
+
+  .reservation-popup {
+    align-items: flex-start;
+    overflow-y: auto;
+  }
+
+  .reservation-popup-panel {
+    margin: 12px 0;
+  }
+
+  .reservation-popup-close {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+  }
+
+  .reservation-popup-panel .reservation-card .booking-system-form {
+    overflow-y: auto;
+  }
+
+  .reservation-popup-form .reservation-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .reservation-popup-form .reservation-field {
+    min-width: 0;
+  }
+
+  .reservation-popup-form .reservation-field input,
+  .reservation-popup-form .reservation-field select,
+  .reservation-popup-form .reservation-field textarea {
+    padding-right: 44px;
+  }
+
+  .reservation-popup-form .reservation-picker-control .picker-icon {
+    height: 30px;
+    right: 10px;
+    top: 50%;
+    width: 30px;
+  }
+
+  .reservation-popup-form .reservation-submit .ak-btn.style-5,
+  .reservation-popup-form .reservation-submit .ak-btn.style-5 button {
+    width: 100%;
   }
 }
 
@@ -1080,6 +1138,11 @@ button.comment-reply-link {
     gap: 10px;
   }
 
+  .footer-social a {
+    height: 36px;
+    width: 36px;
+  }
+
   .footer-time {
     min-width: 100%;
   }
@@ -1112,11 +1175,6 @@ button.comment-reply-link {
   .reservation-popup-panel .reservation-card .booking-system-form {
     max-height: calc(100vh - 28px);
     padding: 18px;
-  }
-
-  .reservation-popup-close {
-    right: 18px;
-    top: 18px;
   }
 
   .home-reservation-section {

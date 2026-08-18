@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { gsap } from "gsap";
 
-import logo from "/assets/img/logo/vegkourt-logo-header.png";
+import logo from "/assets/img/vegkourtimages/logobg2.jpg";
 
 const Headerlogo = {
   title: "reservations",
@@ -55,6 +55,17 @@ export default function TopMainMenu(props) {
     }
   };
 
+  const closeTopnav = () => {
+    gsap.set(".ak-main_header_right", {
+      display: "block",
+    });
+    gsap.set(".top-main-menu-li", {
+      y: 0,
+      opacity: 0,
+    });
+    setshowTopNavFullScreen("");
+  };
+
   return (
     <div className="header-top">
       <div className="wrapper">
@@ -81,7 +92,9 @@ export default function TopMainMenu(props) {
         <ul className={`top-main-menu ${showTopNavFullScreen}`}>
           {Topnavlist?.map((item, i) => (
             <li className="top-main-menu-li" key={i}>
-              <Link to={item.link}>{item.title}</Link>
+              <Link to={item.link} onClick={closeTopnav}>
+                {item.title}
+              </Link>
             </li>
           ))}
         </ul>

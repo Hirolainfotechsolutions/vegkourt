@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import MenuItem from "./MenuItem";
-import logo from "/assets/img/logo/vegkourt-logo-header.png";
+import logo from "/assets/img/vegkourtimages/logobg2.jpg";
 
 import navitemlist from "../../dataJson/navitemlist.json";
 
@@ -23,6 +23,11 @@ export default function NavMenu() {
     }
   };
 
+  const closeMobileNav = () => {
+    setNavbar("");
+    setNavList("");
+  };
+
   return (
     <div className="ak-main_header">
       <div className="ak-nav-container">
@@ -36,7 +41,13 @@ export default function NavMenu() {
             <div className="ak-nav ak-medium">
               <ul id="ak-nav_list" className={`ak-nav_list ${navlist}`}>
                 {navitemlist?.map((item, i) => {
-                  return <MenuItem props={item} key={i} />;
+                  return (
+                    <MenuItem
+                      props={item}
+                      key={i}
+                      onNavigate={closeMobileNav}
+                    />
+                  );
                 })}
               </ul>
               <span

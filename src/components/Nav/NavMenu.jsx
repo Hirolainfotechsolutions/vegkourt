@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import MenuItem from "./MenuItem";
-import logo from "/assets/img/vegkourtimages/logobg2.jpg";
+import logo from "/assets/img/newlogos/3.svg";
 
 import navitemlist from "../../dataJson/navitemlist.json";
 

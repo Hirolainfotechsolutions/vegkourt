@@ -1,10 +1,10 @@
 import React, { useRef, useLayoutEffect } from "react";
 import { Link } from "react-router-dom";
-import { footerAnimation, scrollUpBtn, scrollUpShow } from "../../helper/main";
+import { footerAnimation, scrollUpBtn } from "../../helper/main";
 import { WhiteButton } from "../../components/Button/Button";
 
 import footerBg from "/assets/img/vegkourtimages/vegkourtimg10.webp";
-import vegkourtLogo from "/assets/img/vegkourtimages/logobg2.jpg";
+import vegkourtLogo from "/assets/img/newlogos/3.svg";
 
 const Footertext = {
   website: "www.sangroupofhotels.in",
@@ -89,7 +89,6 @@ const FooterSocial = [
 ];
 
 export default function Footer() {
-  const scrollup = useRef();
   const footerContainer = useRef(null);
   const footerHrTop = useRef(null);
   const footerHrBottom = useRef(null);
@@ -102,7 +101,6 @@ export default function Footer() {
       footerHrBottom.current,
       footerTimeBorder.current
     );
-    scrollUpShow(scrollup.current);
   }, [
     footerContainer.current,
     footerHrTop.current,
@@ -117,10 +115,11 @@ export default function Footer() {
         <img className="ak-bg footer-bg-img" src={footerBg} />
         <div className="container ak-hr-container" ref={footerContainer}>
           <div className="ak-braner-logo type-color-1 footer-logo">
-            <div
+            <button
               className="footer-log-elem"
-              ref={scrollup}
+              type="button"
               onClick={() => scrollUpBtn()}
+              aria-label="Scroll to top"
             >
               <div className="footer-log-icon">
                 <svg
@@ -138,7 +137,7 @@ export default function Footer() {
                 </svg>
               </div>
               <img src={vegkourtLogo} alt="..." />
-            </div>
+            </button>
           </div>
           <div className="ak-height-100 ak-height-lg-60"></div>
           <div className="ak-footer-hr-top" ref={footerHrTop}></div>

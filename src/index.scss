@@ -17,15 +17,15 @@ body {
 .header-top .wrapper .center-log img,
 .ak-site_branding img {
   display: block;
-  height: 78px;
+  height: 125px;
   max-height: none;
   max-width: none;
   object-fit: contain;
-  width: auto;
+  width: 125px;
 }
 
 .header-top {
-  height: 112px;
+  height: 140px;
 }
 
 .header-top .wrapper .center-log {
@@ -45,11 +45,48 @@ body {
 
 .footer-log-elem img {
   display: block;
-  height: 120px;
+  height: 125px;
   max-height: none;
   max-width: none;
   object-fit: contain;
-  width: auto;
+  width: 125px;
+}
+
+.ak-braner-logo .footer-log-elem {
+  align-items: center;
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  display: inline-flex;
+  justify-content: center;
+  line-height: 0;
+  min-height: 125px;
+  min-width: 125px;
+  padding: 0;
+  position: relative;
+}
+
+.ak-braner-logo .footer-log-icon {
+  left: 50%;
+  line-height: 0;
+  position: absolute;
+  top: -22px;
+  transform: translateX(-50%);
+}
+
+.ak-braner-logo .footer-log-icon svg path {
+  stroke: #fff;
+  transition: stroke 0.2s ease;
+}
+
+.ak-braner-logo .footer-log-elem:hover .footer-log-icon svg path,
+.ak-braner-logo .footer-log-elem:focus-visible .footer-log-icon svg path {
+  stroke: #ffd28d;
+}
+
+.ak-braner-logo .footer-log-elem:focus-visible {
+  outline: 1px solid rgba(255, 210, 141, 0.5);
+  outline-offset: 6px;
 }
 
 .author-info .author-img {
@@ -87,11 +124,13 @@ body {
 @media screen and (max-width: 767px) {
   .header-top .wrapper .center-log img,
   .ak-site_branding img {
-    height: 64px;
+    height: 125px;
+    width: 125px;
   }
 
   .footer-log-elem img {
-    height: 96px;
+    height: 125px;
+    width: 125px;
   }
 }
 

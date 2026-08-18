@@ -1176,11 +1176,21 @@ button.comment-reply-link {
     padding-bottom: 36px;
   }
 
+  .ak-hero.ak-style1 picture {
+    background: #000;
+    display: block;
+    line-height: 0;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+  }
+
   .ak-hero.ak-style1 .ak-hero-bg {
     background-color: #05161a;
     display: block;
-    height: clamp(360px, 112vw, 560px);
-    min-height: 360px;
+    height: clamp(340px, 110vw, 520px);
+    min-height: 340px;
     object-fit: cover;
     object-position: center center;
     position: relative;
@@ -1193,7 +1203,7 @@ button.comment-reply-link {
     display: block;
     height: auto;
     margin-left: 0;
-    padding: 30px 18px 0;
+    padding: 28px 18px 0;
     position: relative;
     z-index: 2;
   }
@@ -1245,7 +1255,7 @@ button.comment-reply-link {
   .ak-swiper-controll-hero-2 {
     bottom: auto;
     left: auto;
-    margin: 26px 0 0;
+    margin: 24px 0 0;
     position: relative;
     z-index: 2;
   }
@@ -1512,8 +1522,12 @@ button.comment-reply-link {
     width: 44px;
   }
 
+  .floating-contact-actions .floating-call {
+    display: none;
+  }
+
   .ak-scrollup {
-    bottom: 118px;
+    bottom: 70px;
     right: 14px;
     top: auto !important;
   }

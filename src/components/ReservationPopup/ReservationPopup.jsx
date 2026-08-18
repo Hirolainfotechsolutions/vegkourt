@@ -55,9 +55,9 @@ export default function ReservationPopup({ disabled = false }) {
           aria-label="Close reservation popup"
           onClick={() => setIsOpen(false)}
         >
-          <span aria-hidden="true">&times;</span>
+          X
         </button>
-        <BookingSystem popup />
+        <BookingSystem popup onSuccess={() => setIsOpen(false)} />
       </div>
     </div>
   );

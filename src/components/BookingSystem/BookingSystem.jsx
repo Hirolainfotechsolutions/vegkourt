@@ -1,6 +1,7 @@
 import classNames from "classnames";
 import React, { useRef, useState } from "react";
 import { SubmitButton } from "../Button/Button";
+import { toast } from "react-toastify";
 
 const initialInputs = {
   name: "",
@@ -22,11 +23,91 @@ export default function BookingSystem(props) {
   const compactDateRef = useRef(null);
   const timeRef = useRef(null);
   const dateRef = useRef(null);
+  const [isLoading, setIsLoading] = useState(false);
+  const [errors, setErrors] = useState({});
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    phone: "",
+    guests: "",
+    date: "",
+    time: "",
+    occasion: "",
+    seating: "",
+    message: "",
+  });
 
-  const handleChange = (event) => {
-    const name = event.target.name;
-    const value = event.target.value;
-    setInputs((values) => ({ ...values, [name]: value }));
+  const handleInputChange = (e) => {
+    const { name, value } = e.target;
+    setFormData({ ...formData, [name]: value });
+  };
+
+  const validateForm = () => {
+    const errors = {};
+    if (!formData.name.trim()) errors.name = "Name is required";
+    const cleanedPhone = formData.phone.replace(/\D/g, "");
+    if (!cleanedPhone) {
+      errors.phone = "Phone number is required";
+    } else if (!/^\d{10}$/.test(cleanedPhone)) {
+      errors.phone = "Phone number is invalid";
+    }
+    return errors;
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    setIsLoading(true);
+
+    const formErrors = validateForm();
+
+    if (Object.keys(formErrors).length === 0) {
+      try {
+        const response = await fetch("http://localhost/vegkourt/contact.php", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(formData),
+        });
+        console.log("response", response);
+
+        if (response.ok) {
+          const data = await response.json();
+
+          if (data.status === "success") {
+            setFormData({
+              name: "",
+              email: "",
+              phone: "",
+              guests: "",
+              date: "",
+              time: "",
+              occasion: "",
+              seating: "",
+              message: "",
+            });
+            toast.success("Successfully we got your info.");
+            props?.onSuccess?.();
+          } else {
+            console.error("Error:", data.message);
+            toast.error(data.message);
+          }
+        } else {
+          console.error("Error:", response.statusText);
+          toast.error("An error occurred. Please try again.");
+        }
+      } catch (error) {
+        console.error("Error submitting form:", error);
+        toast.error("An error occurred. Please try again later.");
+      }
+    } else {
+      setErrors(formErrors);
+      Object.values(formErrors).forEach((error) => {
+        toast.error(error);
+      });
+    }
+
+    setIsLoading(false);
   };
 
   const openPicker = (inputRef) => {
@@ -36,11 +117,6 @@ export default function BookingSystem(props) {
     }
     inputRef.current?.focus();
     inputRef.current?.click();
-  };
-
-  const handleSubmit = (event) => {
-    event.preventDefault();
-    alert("Reservation request received. Vegkourt will contact you shortly.");
   };
 
   const bookingStyle = classNames("booking-system-form ", {
@@ -140,8 +216,8 @@ export default function BookingSystem(props) {
             <input
               type="text"
               name="name"
-              value={inputs.name}
-              onChange={handleChange}
+              value={formData.name}
+              onChange={handleInputChange}
               placeholder="Full name"
               required
             />
@@ -152,8 +228,8 @@ export default function BookingSystem(props) {
             <input
               type="tel"
               name="phone"
-              value={inputs.phone}
-              onChange={handleChange}
+              value={formData.phone}
+              onChange={handleInputChange}
               placeholder="Mobile number"
               required
             />
@@ -164,8 +240,8 @@ export default function BookingSystem(props) {
             <input
               type="email"
               name="email"
-              value={inputs.email}
-              onChange={handleChange}
+              value={formData.email}
+              onChange={handleInputChange}
               placeholder="Email address"
               required
             />
@@ -173,14 +249,22 @@ export default function BookingSystem(props) {
 
           <label className="reservation-field">
             <span>Guests</span>
-            <select name="guests" value={inputs.guests} onChange={handleChange}>
-              <option>2 Guests</option>
-              <option>3 Guests</option>
-              <option>4 Guests</option>
-              <option>5 Guests</option>
-              <option>6 Guests</option>
-              <option>8 Guests</option>
-              <option>10+ Guests</option>
+            <select
+              name="guests"
+              value={formData.guests}
+              onChange={handleInputChange}
+              required
+            >
+              <option value="" disabled>
+                Select
+              </option>
+              <option value="2 Guests">2 Guests</option>
+              <option value="3 Guests">3 Guests</option>
+              <option value="4 Guests">4 Guests</option>
+              <option value="5 Guests">5 Guests</option>
+              <option value="6 Guests">6 Guests</option>
+              <option value="8 Guests">8 Guests</option>
+              <option value="10+ Guests">10+ Guests</option>
             </select>
           </label>
 
@@ -191,8 +275,8 @@ export default function BookingSystem(props) {
                 ref={dateRef}
                 type="date"
                 name="date"
-                value={inputs.date}
-                onChange={handleChange}
+                value={formData.date}
+                onChange={handleInputChange}
                 required
               />
               <button
@@ -213,8 +297,8 @@ export default function BookingSystem(props) {
                 ref={timeRef}
                 type="time"
                 name="time"
-                value={inputs.time}
-                onChange={handleChange}
+                value={formData.time}
+                onChange={handleInputChange}
                 required
               />
               <button
@@ -232,26 +316,37 @@ export default function BookingSystem(props) {
             <span>Occasion</span>
             <select
               name="occasion"
-              value={inputs.occasion}
-              onChange={handleChange}
+              value={formData.occasion}
+              onChange={handleInputChange}
+              required
             >
-              <option>Casual Dining</option>
-              <option>Family Lunch</option>
-              <option>Brunch</option>
-              <option>Vegetarian Dinner</option>
-              <option>Birthday</option>
-              <option>Anniversary</option>
-              <option>Business Meal</option>
+              <option value="" disabled>
+                Select occasion
+              </option>
+              <option value="Casual Dining">Casual Dining</option>
+              <option value="Family Lunch">Family Lunch</option>
+              <option value="Brunch">Brunch</option>
+              <option value="Vegetarian Dinner">Vegetarian Dinner</option>
+              <option value="Birthday">Birthday</option>
+              <option value="Anniversary">Anniversary</option>
+              <option value="Business Meal">Business Meal</option>
             </select>
           </label>
 
           <label className="reservation-field">
             <span>Seating</span>
-            <select name="seating" value={inputs.seating} onChange={handleChange}>
-              <option>Indoor</option>
-              <option>Quiet Corner</option>
-              <option>Family Table</option>
-              <option>Flexible</option>
+            <select
+              name="seating"
+              value={formData.seating}
+              onChange={handleInputChange}
+            >
+              <option value="" disabled>
+                Select seating
+              </option>
+              <option value="Indoor">Indoor</option>
+              <option value="Quiet Corner">Quiet Corner</option>
+              <option value="Family Table">Family Table</option>
+              <option value="Flexible">Flexible</option>
             </select>
           </label>
 
@@ -259,10 +354,10 @@ export default function BookingSystem(props) {
             <label className="reservation-field wide">
               <span>Special Requests</span>
               <textarea
-                name="requests"
+                name="message"
                 rows="4"
-                value={inputs.requests}
-                onChange={handleChange}
+                value={formData.message}
+                onChange={handleInputChange}
                 placeholder="Allergies, child seat, celebration note, or preferred table"
               />
             </label>
@@ -274,7 +369,9 @@ export default function BookingSystem(props) {
         )}
 
         <div className="reservation-submit">
-          <SubmitButton>Request Reservation</SubmitButton>
+          <SubmitButton type="submit" disabled={isLoading}>
+            {isLoading ? "Sending..." : "Request Reservation"}
+          </SubmitButton>
         </div>
       </form>
     </div>

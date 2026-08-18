@@ -16,9 +16,12 @@ import ErrorPages from "./pages/ErrorPages";
 import Portfoliodetails from "./pages/Portfoliodetails";
 import Blog from "./pages/Blog";
 import Blogdetails from "./pages/Blogdetails";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 export default function App() {
   return (
+    <>
     <Routes>
       <Route path="/" element={<Main />}>
         <Route index element={<Home />}></Route>
@@ -41,5 +44,7 @@ export default function App() {
         <Route path="/*" element={<ErrorPages />}></Route>
       </Route>
     </Routes>
+    <ToastContainer />
+   </>
   );
 }

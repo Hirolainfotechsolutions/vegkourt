@@ -225,6 +225,18 @@ body {
   word-spacing: 0.18em;
 }
 
+.copy-right-section a {
+  color: #ffd28d;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.copy-right-section a:hover,
+.copy-right-section a:focus-visible {
+  color: #fff;
+  text-decoration: underline;
+}
+
 .floating-contact-actions {
   bottom: 22px;
   display: flex;

@@ -23,7 +23,9 @@ const Footertext = {
     { service: "Takeout", time: "11 am-3:30 pm, 7-11 pm" },
     { service: "Online Orders", time: "11 am-3:30 pm, 7-11 pm" },
   ],
-  copyright: "Copyright 2026 Vegkourt. All Rights Reserved",
+  copyrightBrand: "Copyright © 2026 Veg Kourt All Rights Reserved. Designed by",
+  designer: "Hirola InfoTech Solutions Pvt Ltd.",
+  designerLink: "https://hirolainfotech.com/",
 };
 
 const Footernav = [
@@ -217,7 +219,14 @@ export default function Footer() {
 
           <div className="copy-right-section">
             <p className="text-uppercase text-md-center text-white">
-              {Footertext.copyright}
+              {Footertext.copyrightBrand}{" "}
+              <a
+                href={Footertext.designerLink}
+                target="_blank"
+                rel="noreferrer"
+              >
+                {Footertext.designer}
+              </a>
             </p>
           </div>
 

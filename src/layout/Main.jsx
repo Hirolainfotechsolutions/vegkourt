@@ -24,7 +24,6 @@ export default function Main() {
       {!hideFooter && (
         <div className="floating-contact-actions" aria-label="Quick contact">
           <a
-            className="floating-whatsapp"
             href="https://wa.me/917349646315"
             target="_blank"
             rel="noreferrer"
@@ -33,12 +32,7 @@ export default function Main() {
           >
             <MessageCircle aria-hidden="true" size={22} strokeWidth={2} />
           </a>
-          <a
-            className="floating-call"
-            href="tel:07349646315"
-            aria-label="Call Vegkourt"
-            title="Call"
-          >
+          <a href="tel:07349646315" aria-label="Call Vegkourt" title="Call">
             <Phone aria-hidden="true" size={21} strokeWidth={2} />
           </a>
         </div>

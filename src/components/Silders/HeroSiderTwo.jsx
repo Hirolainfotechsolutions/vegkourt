@@ -9,6 +9,7 @@ const sliderData = [
     desp: "Inspired by everyday cravings and slow conversations, our menu brings bold spices, crisp textures, and warm memories to the table.",
     buttonUrl: "/reservations",
     image: "/assets/img/vegkourtimages/banner1.webp",
+    mobileImage: "/assets/img/vegkourtimages/mobile-banner1.png",
   },
   {
     title: "Bites",
@@ -16,6 +17,7 @@ const sliderData = [
     desp: "Assorted papad baskets, crispy nachos chaat, roasted chickpeas, and masala papad start the meal with bright chutneys.",
     buttonUrl: "/reservations",
     image: "/assets/img/vegkourtimages/banner2.webp",
+    mobileImage: "/assets/img/vegkourtimages/mobile-banner2.png",
   },
   {
     title: "Grills",
@@ -23,6 +25,7 @@ const sliderData = [
     desp: "Classic paneer tikka, Andhra spiced broccoli, stuffed mushrooms, and curry leaf paneer arrive smoky, warm, and shareable.",
     buttonUrl: "/reservations",
     image: "/assets/img/vegkourtimages/banner3.webp",
+    mobileImage: "/assets/img/vegkourtimages/mobile-banner3.png",
   },
   {
     title: "Mains",
@@ -30,6 +33,7 @@ const sliderData = [
     desp: "Paneer Lababdar, Palak Paneer, Dal Makhani, Mushroom Chettinad, Veg Jalfrezi, breads, and rice complete the vegetarian spread.",
     buttonUrl: "/reservations",
     image: "/assets/img/vegkourtimages/banner4.webp",
+    mobileImage: "/assets/img/vegkourtimages/mobile-banner4.png",
   },
   {
     title: "Desserts",
@@ -37,6 +41,7 @@ const sliderData = [
     desp: "End with Shahi Tukda and Lachha Rabri, Lucknow Malaiyo, Chocolate Sponge Sundae, Mysore Pak Crumble, or classic sweets.",
     buttonUrl: "/reservations",
     image: "/assets/img/vegkourtimages/banner5.webp",
+    mobileImage: "/assets/img/vegkourtimages/mobile-banner5.png",
   },
 ];
 export default function HeroSiderTwo() {
@@ -46,11 +51,17 @@ export default function HeroSiderTwo() {
   return (
     <section>
       <div className="ak-hero ak-style1">
-        <img
-          className="ak-hero-bg ak-bg"
-          src={sliderData[activeSlide].image}
-          alt="..."
-        />
+        <picture>
+          <source
+            media="(max-width: 767px)"
+            srcSet={sliderData[activeSlide].mobileImage}
+          />
+          <img
+            className="ak-hero-bg ak-bg"
+            src={sliderData[activeSlide].image}
+            alt="..."
+          />
+        </picture>
         <div className="hero-text-section container-fluid">
           <div className="ak-slider ak-slider-hero-2">
             <Swiper

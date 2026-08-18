@@ -262,6 +262,10 @@ body {
   top: auto !important;
 }
 
+.mobile-header-call {
+  display: none;
+}
+
 .testimonial-section .testimonial-info-section .testimonial-info-img {
   background: #05161a;
   border: 2px solid rgba(255, 210, 141, 0.55);
@@ -1175,10 +1179,10 @@ button.comment-reply-link {
   .ak-hero.ak-style1 .ak-hero-bg {
     background-color: #05161a;
     display: block;
-    height: clamp(260px, 72vw, 390px);
-    min-height: 260px;
+    height: clamp(360px, 112vw, 560px);
+    min-height: 360px;
     object-fit: cover;
-    object-position: 62% center;
+    object-position: center center;
     position: relative;
     width: 100%;
     z-index: 1;
@@ -1254,6 +1258,35 @@ button.comment-reply-link {
 
   .ak-commmon-hero.ak-style1 {
     min-height: 400px;
+  }
+
+  .header-top {
+    background: #000;
+  }
+
+  .header-top .wrapper {
+    background: #000;
+  }
+
+  .mobile-header-call {
+    align-items: center;
+    color: #ffd28d;
+    display: inline-flex;
+    font-size: 13px;
+    font-weight: 700;
+    gap: 6px;
+    line-height: 1;
+    position: absolute;
+    right: 72px;
+    text-decoration: none;
+    top: 50%;
+    transform: translateY(-50%);
+    white-space: nowrap;
+    z-index: 11;
+  }
+
+  .mobile-header-call svg {
+    flex: 0 0 auto;
   }
 
   .footer-main .footer-eamil-menu .footer-email a {

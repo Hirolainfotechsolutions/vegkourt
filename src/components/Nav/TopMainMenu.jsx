@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { gsap } from "gsap";
+import { Phone } from "lucide-react";
 
 import logo from "/assets/img/vegkourtimages/logobg2.jpg";
 
@@ -79,6 +80,11 @@ export default function TopMainMenu(props) {
             <img src={Headerlogo?.img} alt="..." />
           </Link>
         </div>
+
+        <a className="mobile-header-call" href="tel:07349646315">
+          <Phone aria-hidden="true" size={16} strokeWidth={2} />
+          <span>07349646315</span>
+        </a>
 
         <div className="nav-toggles" onClick={showTopnav}>
           <span

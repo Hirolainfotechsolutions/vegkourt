@@ -62,7 +62,7 @@ export default function BookingSystem(props) {
 
     if (Object.keys(formErrors).length === 0) {
       try {
-        const response = await fetch("http://localhost/vegkourt/contact.php", {
+        const response = await fetch("https://vegkourt.in/forms/contact.php", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",

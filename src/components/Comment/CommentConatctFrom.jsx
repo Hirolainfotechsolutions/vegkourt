@@ -33,7 +33,7 @@ export default function CommentConatctFrom() {
 
     if (Object.keys(formErrors).length === 0) {
       try {
-        const response = await fetch("http://localhost/vegkourt/commentform.php", {
+        const response = await fetch("https://vegkourt.in/forms/commentform.php", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",

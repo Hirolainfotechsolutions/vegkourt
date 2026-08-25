@@ -32,16 +32,49 @@ export default function BlogDetailsContainerAround({ props }) {
               <h4 className="anim-title-2 ak-white-color">{block.text}</h4>
               <div className="ak-height-20 ak-height-lg-20"></div>
             </>
+          ) : block.type === "table" ? (
+            <>
+              <div className="blog-table-wrap">
+                <table>
+                  <thead>
+                    <tr>
+                      {block.headers.map((header) => (
+                        <th key={header}>{header}</th>
+                      ))}
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {block.rows.map((row, rowIndex) => (
+                      <tr key={rowIndex}>
+                        {row.map((cell, cellIndex) => (
+                          <td key={`${rowIndex}-${cellIndex}`}>{cell}</td>
+                        ))}
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+              <div className="ak-height-30 ak-height-lg-20"></div>
+            </>
           ) : (
             <>
               <p>{renderLinkedText(block.text, props.inlineLinks)}</p>
               <div className="ak-height-20 ak-height-lg-20"></div>
             </>
           )}
+          {props.internalImg && index === 2 && (
+            <>
+              <div className="blog-internal-image">
+                <img src={props.internalImg} alt={props.title} />
+              </div>
+              <div className="ak-height-40 ak-height-lg-30"></div>
+            </>
+          )}
         </React.Fragment>
       ))}
       <div className="ak-height-75 ak-height-lg-30"></div>
-      <div>
+      {props.showVideo && (
+        <>
         <div className="video-section">
           <img
             src={props.videoImg}
@@ -51,8 +84,9 @@ export default function BlogDetailsContainerAround({ props }) {
           />
           <VideoButton videoId={"UsD1MhKBmD4"} />
         </div>
-      </div>
-      <div className="ak-height-75 ak-height-lg-30"></div>
+        <div className="ak-height-75 ak-height-lg-30"></div>
+        </>
+      )}
       <div className="blog-details-border"></div>
       <div className="ak-height-35 ak-height-lg-30"></div>
       {internalLinks.length > 0 && (

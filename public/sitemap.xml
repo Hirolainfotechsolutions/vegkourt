@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://vegkourt.in/</loc>
@@ -20,7 +20,7 @@
   </url>
   <url>
     <loc>https://vegkourt.in/blog</loc>
-    <lastmod>2026-08-26</lastmod>
+    <lastmod>2026-09-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -69,6 +69,36 @@
   <url>
     <loc>https://vegkourt.in/blog/finding-the-best-vegetarian-restaurant-in-mysore-for-different-dining-</loc>
     <lastmod>2026-08-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://vegkourt.in/blog/choosing-the-best-veg-restaurant-in-mysore-for-family-dining-what-to-l</loc>
+    <lastmod>2026-08-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://vegkourt.in/blog/vegetarian-dining-in-mysuru-food-cuisines-and-choosing-a-vegetarian-re</loc>
+    <lastmod>2026-08-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://vegkourt.in/blog/what-to-expect-when-visiting-a-veg-restaurant-in-mysuru</loc>
+    <lastmod>2026-09-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://vegkourt.in/blog/why-a-pure-veg-restaurant-in-mysuru-is-popular-among-vegetarian-diners</loc>
+    <lastmod>2026-09-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://vegkourt.in/blog/how-to-choose-a-vegetarian-restaurant-in-mysuru-based-on-your-preferen</loc>
+    <lastmod>2026-09-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>

@@ -50,9 +50,9 @@ export default function SideBarBlogDetails(props) {
           src="/assets/img/newlogos/3.svg"
           alt="..."
         />
-        <h6 className="author-title">Vegkourt Kitchen</h6>
+        <h6 className="author-title">Veg Kourt Kitchen</h6>
         <p className="author-text">
-          Notes from the Vegkourt menu: bites, soups, grills, mains, rice, Oriental plates, and desserts.
+          Notes from the Veg Kourt menu: bites, soups, grills, mains, rice, Oriental plates, and desserts.
         </p>
         <a
           href="http://www.sangroupofhotels.in/"

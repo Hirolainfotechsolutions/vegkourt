@@ -8,7 +8,7 @@ import bg_img from "/assets/img/vegkourtimages/banner1.webp";
 const sliderData = [
   {
     id: 1,
-    title: "Vegkourt Menu",
+    title: "Veg Kourt Menu",
     maintitle: "Pure Veg",
     subtitle: "Dining",
     buttonText: "View More",

@@ -49,7 +49,7 @@ export default function Videos({
         />
         <div className="video-section-content">
           <div className="video-section-copy">
-            <p>Vegkourt Menu</p>
+            <p>Veg Kourt Menu</p>
             <h3>Bold Spices, Crisp Textures</h3>
             <a href={reelUrl} target="_blank" rel="noreferrer">
               Open On Instagram
@@ -58,7 +58,7 @@ export default function Videos({
           <div className="instagram-reel-card">
             <img
               src={poster}
-              alt="Vegkourt reel preview"
+              alt="Veg Kourt reel preview"
             />
             <button type="button" onClick={() => setIsReelOpen(true)}>
               Play Reel
@@ -88,7 +88,7 @@ export default function Videos({
             ) : (
               <>
                 <div className="reel-modal-preview">
-                  <img src={poster} alt="Vegkourt Instagram reel preview" />
+                  <img src={poster} alt="Veg Kourt Instagram reel preview" />
                   <p>Instagram does not allow this reel to play inside the site.</p>
                 </div>
                 <a href={reelUrl} target="_blank" rel="noreferrer">

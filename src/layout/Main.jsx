@@ -32,7 +32,7 @@ export default function Main() {
           >
             <MessageCircle aria-hidden="true" size={22} strokeWidth={2} />
           </a>
-          <a href="tel:07349646315" aria-label="Call Vegkourt" title="Call">
+          <a href="tel:07349646315" aria-label="Call Veg Kourt" title="Call">
             <Phone aria-hidden="true" size={21} strokeWidth={2} />
           </a>
         </div>

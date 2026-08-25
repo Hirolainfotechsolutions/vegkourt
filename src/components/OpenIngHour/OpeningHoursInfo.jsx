@@ -8,7 +8,7 @@ const Openinginfo = {
   title: "Opening Hours",
   image: "/assets/img/vegkourtimages/vegkourtimg9.webp",
   subtext:
-    "Vegkourt is open through the day for fresh vegetarian breakfast, brunch, lunch, dinner, takeout, and online orders.",
+    "Veg Kourt is open through the day for fresh vegetarian breakfast, brunch, lunch, dinner, takeout, and online orders.",
   hours: [
     { service: "Breakfast", time: "7-11 am" },
     { service: "Brunch", time: "11 am-3:30 pm" },

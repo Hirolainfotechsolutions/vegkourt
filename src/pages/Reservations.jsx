@@ -18,12 +18,12 @@ export default function Reservations() {
         <div className="container">
           <div className="reservation-intro-grid">
             <div>
-              <p className="reservation-intro-kicker">Vegkourt Mysuru</p>
+              <p className="reservation-intro-kicker">Veg Kourt Mysuru</p>
               <h2>Reserve Your Table</h2>
             </div>
             <p>
               Plan a pure vegetarian lunch, dinner, family gathering, or
-              celebration at Vegkourt. Share your preferred date, time, party
+              celebration at Veg Kourt. Share your preferred date, time, party
               size, and seating request, and our team will confirm your table.
             </p>
           </div>
@@ -66,7 +66,7 @@ export default function Reservations() {
       </div>
       <div className="ak-height-150 ak-height-lg-60"></div>
       <SectionTitle
-        title={"Find Vegkourt"}
+        title={"Find Veg Kourt"}
         subTitle={"Mysuru Location"}
         tyle={"center"}
       />

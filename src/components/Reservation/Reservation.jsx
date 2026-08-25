@@ -8,7 +8,7 @@ export default function Reservation() {
       <div className="ak-height-150 ak-height-lg-60"></div>
       <div className="booking-system-heading">
         <SectionTitle
-          title={"Reserve A Vegkourt Table"}
+          title={"Reserve A Veg Kourt Table"}
           subTitle={"Reservations"}
           tyle="center"
         />

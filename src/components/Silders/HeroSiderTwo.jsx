@@ -4,7 +4,7 @@ import { Autoplay } from "swiper/modules";
 import { Link } from "react-router-dom";
 const sliderData = [
   {
-    title: "Vegkourt",
+    title: "Veg Kourt",
     maintitle: "Pure Vegetarian Dining",
     desp: "Inspired by everyday cravings and slow conversations, our menu brings bold spices, crisp textures, and warm memories to the table.",
     buttonUrl: "/reservations",

@@ -21,7 +21,7 @@ export default function BookingSystemTwo({ videoId, videoSrc, poster }) {
         <img
           className="ak-booking-system-bg-img ak-bg"
           src={bookingSystemBg}
-          alt="Vegkourt reservation dining table"
+          alt="Veg Kourt reservation dining table"
           ref={imageZoomIn}
         />
         <div className="ak-height-150 ak-height-lg-60"></div>

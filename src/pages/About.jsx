@@ -5,14 +5,14 @@ import OpeningHoursInfo from "../components/OpenIngHour/OpeningHoursInfo";
 import Videos from "../components/VideoPopUp/Videos";
 
 const aboutIntro = {
-  title: "Vegkourt",
+  title: "Veg Kourt",
   textWhite: "Welcome To",
   imgOne: "/assets/img/vegkourtimages/outsideimage.webp",
   details:
-    "Vegkourt welcomes guests into a warm pure vegetarian restaurant space in Mysuru, shaped around bold spices, crisp textures, and slow table conversations.",
+    "Veg Kourt welcomes guests into a warm pure vegetarian restaurant space in Mysuru, shaped around bold spices, crisp textures, and slow table conversations.",
   subtext:
     "The menu runs from Bites, Soups, Garden Greens, Grills, and Nibbles to Mains, Indian Breads, Pastas, Biryani & Rice, Oriental, and Desserts.",
-  buttonText: "Explore Vegkourt",
+  buttonText: "Explore Veg Kourt",
 };
 
 const celebrationInfo = {

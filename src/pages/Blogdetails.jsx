@@ -50,7 +50,7 @@ export default function Blogdetails() {
         </div>
         <div className="ak-height-150 ak-height-lg-60"></div>
         <SectionTitle
-          title={"More From Vegkourt"}
+          title={"More From Veg Kourt"}
           subTitle={"Blogs"}
           tyle={"center"}
         />

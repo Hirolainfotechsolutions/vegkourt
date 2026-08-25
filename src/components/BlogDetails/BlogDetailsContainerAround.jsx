@@ -11,6 +11,11 @@ export default function BlogDetailsContainerAround({ props }) {
   const videoImg = useRef();
   const container = useRef();
   const blogImg = useRef();
+  const article = props.article || [];
+  const internalImageAlt = getImageAltText(article) || props.title;
+  const displayArticle = article.filter((block) => !isAltTextBlock(block));
+  const altTextIndex = article.findIndex(isAltTextBlock);
+  const internalImageIndex = altTextIndex > 0 ? altTextIndex - 1 : 2;
   const internalLinks = BlogUser.filter((blog) => blog.id !== props?.id).slice(
     0,
     4
@@ -23,9 +28,9 @@ export default function BlogDetailsContainerAround({ props }) {
   return (
     <div ref={container}>
       <div className="ak-height-50 ak-height-lg-30"></div>
-      <img className="imagesZoom" src={props?.img} alt="..." ref={blogImg} />
+      <img className="imagesZoom" src={props?.img} alt={props.title} ref={blogImg} />
       <div className="ak-height-75 ak-height-lg-30"></div>
-      {(props.article || []).map((block, index) => (
+      {displayArticle.map((block, index) => (
         <React.Fragment key={`${block.type}-${index}`}>
           {block.type === "heading" ? (
             <>
@@ -62,10 +67,10 @@ export default function BlogDetailsContainerAround({ props }) {
               <div className="ak-height-20 ak-height-lg-20"></div>
             </>
           )}
-          {props.internalImg && index === 2 && (
+          {props.internalImg && index === internalImageIndex && (
             <>
               <div className="blog-internal-image">
-                <img src={props.internalImg} alt={props.title} />
+                <img src={props.internalImg} alt={internalImageAlt} />
               </div>
               <div className="ak-height-40 ak-height-lg-30"></div>
             </>
@@ -127,6 +132,20 @@ export default function BlogDetailsContainerAround({ props }) {
       </div>
     </div>
   );
+}
+
+function isAltTextBlock(block) {
+  return block.type === "paragraph" && /^Alt text\s*:/i.test(block.text || "");
+}
+
+function getImageAltText(article) {
+  const altBlock = article.find(isAltTextBlock);
+
+  if (!altBlock) {
+    return "";
+  }
+
+  return altBlock.text.replace(/^Alt text\s*:\s*/i, "").trim();
 }
 
 function renderLinkedText(text, links = []) {

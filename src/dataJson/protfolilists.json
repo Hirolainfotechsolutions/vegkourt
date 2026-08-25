@@ -7,14 +7,25 @@
     "portfoliodetails": {
       "category": "Bites",
       "date": "2026",
-      "desp": "A crisp starter moment inspired by Vegkourt's Bites section with chutneys, sev, and chaat-style texture.",
+      "desp": "A crisp starter moment inspired by Veg Kourt's Bites section with chutneys, sev, and chaat-style texture.",
       "shortdesp": "From the Bites menu: crisp textures and bright chutneys.",
-      "tags": ["Vegkourt", "Vegetarian"],
+      "tags": [
+        "Veg Kourt",
+        "Vegetarian"
+      ],
       "portfolioSlider": [
-        { "img": "/assets/img/vegkourtimages/vegkourtimg2.webp" },
-        { "img": "/assets/img/vegkourtimages/vegkourtimg3.webp" },
-        { "img": "/assets/img/vegkourtimages/vegkourtimg4.webp" },
-        { "img": "/assets/img/vegkourtimages/vegkourtimg5.webp" }
+        {
+          "img": "/assets/img/vegkourtimages/vegkourtimg2.webp"
+        },
+        {
+          "img": "/assets/img/vegkourtimages/vegkourtimg3.webp"
+        },
+        {
+          "img": "/assets/img/vegkourtimages/vegkourtimg4.webp"
+        },
+        {
+          "img": "/assets/img/vegkourtimages/vegkourtimg5.webp"
+        }
       ]
     }
   },
@@ -27,13 +38,24 @@
       "category": "Soups",
       "date": "2026",
       "desp": "A warm menu note from the Soups section, paired in spirit with mini paneer momo and parmesan.",
-      "shortdesp": "Warm bowls from the Vegkourt menu.",
-      "tags": ["Vegkourt", "Vegetarian"],
+      "shortdesp": "Warm bowls from the Veg Kourt menu.",
+      "tags": [
+        "Veg Kourt",
+        "Vegetarian"
+      ],
       "portfolioSlider": [
-        { "img": "/assets/img/vegkourtimages/vegkourtimg3.webp" },
-        { "img": "/assets/img/vegkourtimages/vegkourtimg6.webp" },
-        { "img": "/assets/img/vegkourtimages/vegkourtimg7.webp" },
-        { "img": "/assets/img/vegkourtimages/vegkourtimg8.webp" }
+        {
+          "img": "/assets/img/vegkourtimages/vegkourtimg3.webp"
+        },
+        {
+          "img": "/assets/img/vegkourtimages/vegkourtimg6.webp"
+        },
+        {
+          "img": "/assets/img/vegkourtimages/vegkourtimg7.webp"
+        },
+        {
+          "img": "/assets/img/vegkourtimages/vegkourtimg8.webp"
+        }
       ]
     }
   },
@@ -47,12 +69,23 @@
       "date": "2026",
       "desp": "Fresh salad inspiration from mango, avocado, arugula, mint vinaigrette, and pine nuts.",
       "shortdesp": "Garden Greens with fruit, herbs, and crunch.",
-      "tags": ["Vegkourt", "Vegetarian"],
+      "tags": [
+        "Veg Kourt",
+        "Vegetarian"
+      ],
       "portfolioSlider": [
-        { "img": "/assets/img/vegkourtimages/vegkourtimg4.webp" },
-        { "img": "/assets/img/vegkourtimages/vegkourtimg9.webp" },
-        { "img": "/assets/img/vegkourtimages/vegkourtimg10.webp" },
-        { "img": "/assets/img/vegkourtimages/vegkourtimg11.webp" }
+        {
+          "img": "/assets/img/vegkourtimages/vegkourtimg4.webp"
+        },
+        {
+          "img": "/assets/img/vegkourtimages/vegkourtimg9.webp"
+        },
+        {
+          "img": "/assets/img/vegkourtimages/vegkourtimg10.webp"
+        },
+        {
+          "img": "/assets/img/vegkourtimages/vegkourtimg11.webp"
+        }
       ]
     }
   },
@@ -66,12 +99,23 @@
       "date": "2026",
       "desp": "Tandoor-style vegetarian grilling inspired by classic paneer tikka, broccoli, and stuffed mushrooms.",
       "shortdesp": "Smoky grill favourites from the menu.",
-      "tags": ["Vegkourt", "Vegetarian"],
+      "tags": [
+        "Veg Kourt",
+        "Vegetarian"
+      ],
       "portfolioSlider": [
-        { "img": "/assets/img/vegkourtimages/vegkourtimg5.webp" },
-        { "img": "/assets/img/vegkourtimages/vegkourtimg2.webp" },
-        { "img": "/assets/img/vegkourtimages/vegkourtimg7.webp" },
-        { "img": "/assets/img/vegkourtimages/vegkourtimg9.webp" }
+        {
+          "img": "/assets/img/vegkourtimages/vegkourtimg5.webp"
+        },
+        {
+          "img": "/assets/img/vegkourtimages/vegkourtimg2.webp"
+        },
+        {
+          "img": "/assets/img/vegkourtimages/vegkourtimg7.webp"
+        },
+        {
+          "img": "/assets/img/vegkourtimages/vegkourtimg9.webp"
+        }
       ]
     }
   },
@@ -85,12 +129,23 @@
       "date": "2026",
       "desp": "Rich main-course comfort inspired by Paneer Lababdar, Palak Paneer, Dal Makhani, and Mushroom Chettinad.",
       "shortdesp": "Curries and comfort from the Mains section.",
-      "tags": ["Vegkourt", "Vegetarian"],
+      "tags": [
+        "Veg Kourt",
+        "Vegetarian"
+      ],
       "portfolioSlider": [
-        { "img": "/assets/img/vegkourtimages/vegkourtimg6.webp" },
-        { "img": "/assets/img/vegkourtimages/vegkourtimg8.webp" },
-        { "img": "/assets/img/vegkourtimages/vegkourtimg10.webp" },
-        { "img": "/assets/img/vegkourtimages/vegkourtimg3.webp" }
+        {
+          "img": "/assets/img/vegkourtimages/vegkourtimg6.webp"
+        },
+        {
+          "img": "/assets/img/vegkourtimages/vegkourtimg8.webp"
+        },
+        {
+          "img": "/assets/img/vegkourtimages/vegkourtimg10.webp"
+        },
+        {
+          "img": "/assets/img/vegkourtimages/vegkourtimg3.webp"
+        }
       ]
     }
   },
@@ -104,12 +159,23 @@
       "date": "2026",
       "desp": "Fresh roti, butter roti, kulcha, and Missi Roti made to sit beside curries and saag.",
       "shortdesp": "Breads for sharing with the main course.",
-      "tags": ["Vegkourt", "Vegetarian"],
+      "tags": [
+        "Veg Kourt",
+        "Vegetarian"
+      ],
       "portfolioSlider": [
-        { "img": "/assets/img/vegkourtimages/vegkourtimg7.webp" },
-        { "img": "/assets/img/vegkourtimages/vegkourtimg4.webp" },
-        { "img": "/assets/img/vegkourtimages/vegkourtimg11.webp" },
-        { "img": "/assets/img/vegkourtimages/vegkourtimg5.webp" }
+        {
+          "img": "/assets/img/vegkourtimages/vegkourtimg7.webp"
+        },
+        {
+          "img": "/assets/img/vegkourtimages/vegkourtimg4.webp"
+        },
+        {
+          "img": "/assets/img/vegkourtimages/vegkourtimg11.webp"
+        },
+        {
+          "img": "/assets/img/vegkourtimages/vegkourtimg5.webp"
+        }
       ]
     }
   },
@@ -123,12 +189,23 @@
       "date": "2026",
       "desp": "Rice bowl comfort inspired by Veg Biryani, Jeera Rice, Palak Rice, Curd Rice, and Plain Rice.",
       "shortdesp": "Fragrant rice plates from the menu.",
-      "tags": ["Vegkourt", "Vegetarian"],
+      "tags": [
+        "Veg Kourt",
+        "Vegetarian"
+      ],
       "portfolioSlider": [
-        { "img": "/assets/img/vegkourtimages/vegkourtimg8.webp" },
-        { "img": "/assets/img/vegkourtimages/vegkourtimg2.webp" },
-        { "img": "/assets/img/vegkourtimages/vegkourtimg6.webp" },
-        { "img": "/assets/img/vegkourtimages/vegkourtimg10.webp" }
+        {
+          "img": "/assets/img/vegkourtimages/vegkourtimg8.webp"
+        },
+        {
+          "img": "/assets/img/vegkourtimages/vegkourtimg2.webp"
+        },
+        {
+          "img": "/assets/img/vegkourtimages/vegkourtimg6.webp"
+        },
+        {
+          "img": "/assets/img/vegkourtimages/vegkourtimg10.webp"
+        }
       ]
     }
   },
@@ -142,12 +219,23 @@
       "date": "2026",
       "desp": "Indo-Chinese comfort inspired by Veg Manchurian gravy, Hakka noodles, fried rice, and Schezwan flavours.",
       "shortdesp": "Oriental plates with spice and sauce.",
-      "tags": ["Vegkourt", "Vegetarian"],
+      "tags": [
+        "Veg Kourt",
+        "Vegetarian"
+      ],
       "portfolioSlider": [
-        { "img": "/assets/img/vegkourtimages/vegkourtimg9.webp" },
-        { "img": "/assets/img/vegkourtimages/vegkourtimg3.webp" },
-        { "img": "/assets/img/vegkourtimages/vegkourtimg5.webp" },
-        { "img": "/assets/img/vegkourtimages/vegkourtimg11.webp" }
+        {
+          "img": "/assets/img/vegkourtimages/vegkourtimg9.webp"
+        },
+        {
+          "img": "/assets/img/vegkourtimages/vegkourtimg3.webp"
+        },
+        {
+          "img": "/assets/img/vegkourtimages/vegkourtimg5.webp"
+        },
+        {
+          "img": "/assets/img/vegkourtimages/vegkourtimg11.webp"
+        }
       ]
     }
   },
@@ -161,12 +249,23 @@
       "date": "2026",
       "desp": "Italian-inspired vegetarian pasta choices including pesto, aglio olio, tomato, and creamy cheese sauces.",
       "shortdesp": "Pasta plates from the vegetarian menu.",
-      "tags": ["Vegkourt", "Vegetarian"],
+      "tags": [
+        "Veg Kourt",
+        "Vegetarian"
+      ],
       "portfolioSlider": [
-        { "img": "/assets/img/vegkourtimages/vegkourtimg10.webp" },
-        { "img": "/assets/img/vegkourtimages/vegkourtimg7.webp" },
-        { "img": "/assets/img/vegkourtimages/vegkourtimg4.webp" },
-        { "img": "/assets/img/vegkourtimages/vegkourtimg2.webp" }
+        {
+          "img": "/assets/img/vegkourtimages/vegkourtimg10.webp"
+        },
+        {
+          "img": "/assets/img/vegkourtimages/vegkourtimg7.webp"
+        },
+        {
+          "img": "/assets/img/vegkourtimages/vegkourtimg4.webp"
+        },
+        {
+          "img": "/assets/img/vegkourtimages/vegkourtimg2.webp"
+        }
       ]
     }
   },
@@ -180,12 +279,23 @@
       "date": "2026",
       "desp": "A sweet finish inspired by Shahi Tukda with Lachha Rabri, Lucknow Malaiyo, Chocolate Sponge Sundae, and Mysore Pak Crumble.",
       "shortdesp": "Dessert favourites to close the meal.",
-      "tags": ["Vegkourt", "Vegetarian"],
+      "tags": [
+        "Veg Kourt",
+        "Vegetarian"
+      ],
       "portfolioSlider": [
-        { "img": "/assets/img/vegkourtimages/vegkourtimg11.webp" },
-        { "img": "/assets/img/vegkourtimages/vegkourtimg8.webp" },
-        { "img": "/assets/img/vegkourtimages/vegkourtimg6.webp" },
-        { "img": "/assets/img/vegkourtimages/vegkourtimg9.webp" }
+        {
+          "img": "/assets/img/vegkourtimages/vegkourtimg11.webp"
+        },
+        {
+          "img": "/assets/img/vegkourtimages/vegkourtimg8.webp"
+        },
+        {
+          "img": "/assets/img/vegkourtimages/vegkourtimg6.webp"
+        },
+        {
+          "img": "/assets/img/vegkourtimages/vegkourtimg9.webp"
+        }
       ]
     }
   }

@@ -7,7 +7,7 @@ const testimonialInfo = [
     title: "Raghavendra Urs",
     subtitle: "Mysuru Family Dinner",
     content:
-      "Vegkourt is a lovely place for a pure vegetarian family dinner in Mysuru. The food feels fresh, balanced, and thoughtfully served.",
+      "Veg Kourt is a lovely place for a pure vegetarian family dinner in Mysuru. The food feels fresh, balanced, and thoughtfully served.",
   },
   {
     img: "/assets/img/testimonial/testimonial_female_clean.png",

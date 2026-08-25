@@ -5,12 +5,19 @@ import BlogDetailsContainerAround from "../components/BlogDetails/BlogDetailsCon
 import SectionTitle from "../components/SectionTitle/SectionTitle";
 import BlogConatiner from "../components/BlogCard/BlogConatiner";
 import { useParams } from "react-router-dom";
+import ErrorPages from "./ErrorPages";
 
 import BlogUser from "../dataJson/bloguser.json";
 
 export default function Blogdetails() {
-  const { id } = useParams();
-  const findBlog = BlogUser?.find((blog) => blog.id == id);
+  const { id, slug } = useParams();
+  const findBlog = BlogUser?.find(
+    (blog) => blog.id == id || blog.slug === `/blog/${slug}`
+  );
+
+  if (!findBlog) {
+    return <ErrorPages />;
+  }
 
   return (
     <>

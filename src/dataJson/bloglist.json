@@ -1,65 +1,42 @@
 [
   {
     "id": 1,
-    "img": "/assets/img/vegkourtimages/vegkourtimg2.webp",
-    "title": "Crispy Nachos Chaat And Papad Bites",
+    "img": "/assets/img/blogimages/How to Choose the Right Vegetarian Restaurant in Mysore for Your Next Meal.webp",
+    "title": "How to Choose the Right Vegetarian Restaurant in Mysore for Your Next Meal",
+    "slug": "/blog/how-to-choose-the-right-vegetarian-restaurant-in-mysore-for-your-next-",
     "btntext": "Read More",
-    "time": "10 Aug 2026"
+    "time": "18 Aug 2026"
   },
   {
     "id": 2,
-    "img": "/assets/img/vegkourtimages/vegkourtimg3.webp",
-    "title": "Creamy Spinach Soup With Paneer Momo",
+    "img": "/assets/img/blogimages/Vegetarian Dining in Mysore_ What Every Food Lover Should Know.webp",
+    "title": "Vegetarian Dining in Mysore: What Every Food Lover Should Know",
+    "slug": "/blog/vegetarian-dining-in-mysore-what-every-food-lover-should-know",
     "btntext": "Read More",
-    "time": "11 Aug 2026"
+    "time": "20 Aug 2026"
   },
   {
     "id": 3,
-    "img": "/assets/img/vegkourtimages/vegkourtimg4.webp",
-    "title": "Garden Greens With Mango And Avocado",
+    "img": "/assets/img/blogimages/Pure Veg Food in Mysore_ Popular Dishes and Dining Options to Explore.webp",
+    "title": "Pure Veg Food in Mysore: Popular Dishes and Dining Options to Explore",
+    "slug": "/blog/pure-veg-food-in-mysore-popular-dishes-and-dining-options-to-explore",
     "btntext": "Read More",
-    "time": "12 Aug 2026"
+    "time": "22 Aug 2026"
   },
   {
     "id": 4,
-    "img": "/assets/img/vegkourtimages/vegkourtimg5.webp",
-    "title": "Classic Paneer Tikka From The Grill",
+    "img": "/assets/img/blogimages/Why Choose a Pure Veg Restaurant in Mysore for Your Next Meal.webp",
+    "title": "Why Choose a Pure Veg Restaurant in Mysore for Your Next Meal?",
+    "slug": "/blog/why-choose-a-pure-veg-restaurant-in-mysore-for-your-next-meal",
     "btntext": "Read More",
-    "time": "13 Aug 2026"
+    "time": "24 Aug 2026"
   },
   {
     "id": 5,
-    "img": "/assets/img/vegkourtimages/vegkourtimg6.webp",
-    "title": "Paneer Lababdar And Curry Comfort",
+    "img": "/assets/img/blogimages/Finding the Best Vegetarian Restaurant in Mysore for Different Dining Needs.webp",
+    "title": "Finding the Best Vegetarian Restaurant in Mysore for Different Dining Needs",
+    "slug": "/blog/finding-the-best-vegetarian-restaurant-in-mysore-for-different-dining-",
     "btntext": "Read More",
-    "time": "14 Aug 2026"
-  },
-  {
-    "id": 6,
-    "img": "/assets/img/vegkourtimages/vegkourtimg7.webp",
-    "title": "Pesto Pasta, Biryani And Rice Bowls",
-    "btntext": "Read More",
-    "time": "15 Aug 2026"
-  },
-  {
-    "id": 7,
-    "img": "/assets/img/vegkourtimages/vegkourtimg8.webp",
-    "title": "Oriental Plates With Manchurian Gravy",
-    "btntext": "Read More",
-    "time": "16 Aug 2026"
-  },
-  {
-    "id": 8,
-    "img": "/assets/img/vegkourtimages/vegkourtimg9.webp",
-    "title": "Indian Breads For Every Curry",
-    "btntext": "Read More",
-    "time": "17 Aug 2026"
-  },
-  {
-    "id": 9,
-    "img": "/assets/img/vegkourtimages/vegkourtimg10.webp",
-    "title": "Shahi Tukda, Malaiyo And Sweet Finishes",
-    "btntext": "Read More",
-    "time": "18 Aug 2026"
+    "time": "26 Aug 2026"
   }
 ]

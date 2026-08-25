@@ -20,10 +20,13 @@ const BlogConatiner = ({ styleTypleTwo }) => {
               <img src={data.img} className="blog-img-top" alt="..." />
               <div className="blog-body">
                 <p className="blog-time">{data.time}</p>
-                <Link to={`/blog-details/${data.id}`}>
+                <Link to={data.slug || `/blog-details/${data.id}`}>
                   <h6 className="blog-title">{data.title}</h6>
                 </Link>
-                <Link to={`/blog-details/${data.id}`} className="blog-text">
+                <Link
+                  to={data.slug || `/blog-details/${data.id}`}
+                  className="blog-text"
+                >
                   Read More
                 </Link>
               </div>

@@ -1,6 +1,16 @@
 
 .blog-content {
     overflow: hidden;
+    p {
+        a {
+            color: $yellow;
+            text-decoration: underline;
+            text-underline-offset: 4px;
+            &:hover {
+                color: $white;
+            }
+        }
+    }
 }
 
 .blog {
@@ -89,6 +99,29 @@
     flex-wrap: wrap;
     a {
         text-decoration: underline;
+    }
+}
+
+.blog-internal-links {
+    border: 1px solid rgba(255, 210, 141, 0.25);
+    padding: 28px;
+    h5 {
+        color: $yellow;
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+    div {
+        display: grid;
+        gap: 14px;
+    }
+    a {
+        color: $white;
+        line-height: 1.45;
+        text-decoration: underline;
+        text-underline-offset: 4px;
+        &:hover {
+            color: $yellow;
+        }
     }
 }
 

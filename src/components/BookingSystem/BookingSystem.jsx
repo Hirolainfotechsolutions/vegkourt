@@ -10,6 +10,7 @@ const initialInputs = {
   guests: "2 Guests",
   date: "2026-08-17",
   time: "19:00",
+  compactGuests: "One",
   compactDate: "2023-07-22",
   compactTime: "03:45",
   occasion: "Casual Dining",
@@ -40,6 +41,28 @@ export default function BookingSystem(props) {
   const handleInputChange = (e) => {
     const { name, value } = e.target;
     setFormData({ ...formData, [name]: value });
+  };
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setInputs((currentInputs) => ({
+      ...currentInputs,
+      [name]: value,
+    }));
+
+    const formFieldMap = {
+      compactGuests: "guests",
+      compactDate: "date",
+      compactTime: "time",
+    };
+    const mappedField = formFieldMap[name];
+
+    if (mappedField) {
+      setFormData((currentFormData) => ({
+        ...currentFormData,
+        [mappedField]: value,
+      }));
+    }
   };
 
   const validateForm = () => {

@@ -36,6 +36,7 @@ export default function App() {
           element={<Portfoliodetails />}
         ></Route>
         <Route path="/blog" element={<Blog />}></Route>
+        <Route path="/blog/:slug" element={<Blogdetails />}></Route>
         <Route path="/blog-details/:id" element={<Blogdetails />}></Route>
         <Route path="/contact" element={<Contact />}></Route>
         <Route path="/reservations" element={<Reservations />}></Route>

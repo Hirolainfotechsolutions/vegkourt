@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import SectionTitle from "../SectionTitle/SectionTitle";
 import { SubmitButton } from "../Button/Button";
 import { toast } from "react-toastify";
 
@@ -22,6 +21,7 @@ export default function CommentConatctFrom() {
     const errors = {};
     if (!formData.name.trim()) errors.name = "Name is required";
     if (!formData.email.trim()) errors.email = "Email is required";
+    if (!formData.message.trim()) errors.message = "Comment is required";
     return errors;
   };
 
@@ -32,6 +32,7 @@ export default function CommentConatctFrom() {
     const formErrors = validateForm();
 
     if (Object.keys(formErrors).length === 0) {
+      setErrors({});
       try {
         const response = await fetch("https://vegkourt.in/forms/commentform.php", {
           method: "POST",
@@ -53,7 +54,7 @@ export default function CommentConatctFrom() {
               email: "",
               message: "",
             });
-            toast.success("Successfully we got your info.");
+            toast.success("Comment submitted successfully.");
           } else {
             console.error("Error:", data.message);
             toast.error(data.message);

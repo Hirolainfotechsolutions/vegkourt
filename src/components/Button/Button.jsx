@@ -20,9 +20,13 @@ export function WhiteButton(props) {
 }
 
 export function SubmitButton(props) {
+  const { children, type = "submit", ...buttonProps } = props;
+
   return (
     <div className="ak-btn style-5">
-      <button type="submit">{props.children}</button>
+      <button type={type} {...buttonProps}>
+        {children}
+      </button>
     </div>
   );
 }

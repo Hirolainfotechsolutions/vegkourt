@@ -1,29 +1,37 @@
 import React from "react";
 
-const movingText = [
+const companyLinks = [
   {
-    white: "Bites, Soups, Garden Greens ",
-    yellow: "and Grills",
+    name: "hotelmauryapalaceandresidency",
+    url: "https://hotelmauryapalaceandresidency.sangroupofhotels.in/",
   },
   {
-    white: "Nibbles, Mains, Breads ",
-    yellow: "and Pastas",
+    name: "streamedgesakleshpur",
+    url: "https://streamedgesakleshpur.com/",
   },
   {
-    white: "Biryani, Oriental Plates ",
-    yellow: "and Desserts",
+    name: "kaduhithluresort",
+    url: "https://kaduhithluresort.com/",
   },
 ];
 
+const scrollingLinks = [...companyLinks, ...companyLinks];
+
 export default function MovingText() {
   return (
-    <div className="ak-moving-section-wrap ak-normal text-uppercase">
+    <div className="ak-moving-section-wrap ak-moving-section-hover-push ak-normal text-uppercase">
       <div className="ak-moving-section-in">
-        {movingText?.map((text, i) => (
+        {scrollingLinks.map((company, i) => (
           <div className="ak-moving-section" key={i}>
-            <h2>
-              {text.white} <span>{text.yellow}</span>
-            </h2>
+            <h3>
+              <a
+                href={company.url}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {company.name}
+              </a>
+            </h3>
           </div>
         ))}
       </div>

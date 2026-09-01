@@ -365,6 +365,10 @@ body.group-projects-open {
   z-index: 11;
 }
 
+.group-projects-mobile-trigger {
+  display: none;
+}
+
 .ak-nav .ak-nav_list > li.group-projects-nav-item {
   margin-right: 0;
 }
@@ -707,18 +711,29 @@ body.group-projects-open {
     display: none;
   }
 
-  .ak-nav .ak-nav_list .group-projects-nav-item {
-    padding: 10px 20px;
+  .group-projects-mobile-trigger {
+    display: inline-flex;
+    height: 40px;
+    padding: 0 14px;
+    position: absolute;
+    right: 52px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 12;
   }
 
-  .ak-nav .ak-nav_list .group-projects-trigger {
-    height: 44px;
-    justify-content: center;
-    width: 100%;
+  .group-projects-mobile-trigger:hover,
+  .group-projects-mobile-trigger:focus-visible {
+    transform: translateY(-50%);
+  }
+
+  .group-projects-overlay {
+    padding: 18px;
   }
 
   .group-projects-panel {
     max-height: calc(100vh - 36px);
+    width: min(94vw, 980px);
     padding: 18px;
   }
 
@@ -728,20 +743,18 @@ body.group-projects-open {
 
   .group-projects-brand-panel {
     border-bottom: 1px solid rgba(255, 210, 141, 0.16);
-    padding: 28px 56px 26px;
+    padding: 28px 64px 26px;
   }
 
   .group-projects-grid {
     border-left: 0;
-    grid-template-columns: 1fr;
-    padding-right: 0;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    padding: 22px 0 0;
   }
 
   .group-project-card {
-    border-right: 0;
-    border-bottom: 1px solid rgba(255, 210, 141, 0.16);
-    min-height: auto;
-    padding: 22px 0;
+    min-height: 330px;
+    padding: 16px;
   }
 
   .group-projects-grid .group-project-card,
@@ -749,20 +762,28 @@ body.group-projects-open {
     grid-column: auto;
   }
 
-  .group-project-card strong {
-    min-height: 0;
+  .group-projects-grid.project-count-5 .group-project-card:last-child {
+    grid-column: 1 / -1;
   }
 
   .group-project-media {
-    height: auto;
-    max-height: 260px;
+    height: 150px;
   }
 }
 
 @media screen and (max-width: 991px) {
 
-  .group-projects-trigger {
-    max-width: 220px;
+  .group-projects-brand-panel h2 {
+    font-size: 34px;
+  }
+
+  .group-projects-brand-panel img {
+    width: 150px;
+  }
+
+  .group-project-card strong {
+    font-size: 25px;
+    min-height: 58px;
   }
 
   .footer-main .footer-eamil-menu {
@@ -836,6 +857,82 @@ body.group-projects-open {
   .reservation-popup-form .reservation-submit .ak-btn.style-5,
   .reservation-popup-form .reservation-submit .ak-btn.style-5 button {
     width: 100%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .group-projects-overlay {
+    align-items: flex-start;
+    padding: 12px;
+  }
+
+  .group-projects-panel {
+    max-height: calc(100vh - 24px);
+    padding: 14px;
+    width: 100%;
+  }
+
+  .group-projects-close {
+    height: 38px;
+    right: 12px;
+    top: 12px;
+    width: 38px;
+  }
+
+  .group-projects-brand-panel {
+    padding: 26px 48px 24px;
+  }
+
+  .group-projects-brand-panel h2 {
+    font-size: 30px;
+  }
+
+  .group-projects-tagline {
+    font-size: 14px;
+  }
+
+  .group-projects-grid {
+    gap: 14px;
+    grid-template-columns: 1fr;
+  }
+
+  .group-projects-grid.project-count-5 .group-project-card:last-child {
+    grid-column: auto;
+  }
+
+  .group-project-card {
+    min-height: auto;
+  }
+
+  .group-project-card strong {
+    min-height: 0;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .group-projects-mobile-trigger {
+    height: 38px;
+    justify-content: center;
+    padding: 0 12px;
+    right: 46px;
+    width: auto;
+  }
+
+  .group-projects-brand-panel {
+    padding: 24px 38px 22px;
+  }
+
+  .group-projects-brand-panel h2 {
+    font-size: 26px;
+  }
+
+  .group-projects-brand-panel img {
+    margin: 18px 0 24px;
+    width: 126px;
+  }
+
+  .group-project-card-button {
+    font-size: 12px;
   }
 }
 

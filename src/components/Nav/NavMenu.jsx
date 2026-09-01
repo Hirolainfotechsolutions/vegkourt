@@ -1,6 +1,8 @@
-import React, { useState } from "react";
+import React, { useCallback, useState } from "react";
 import { Link } from "react-router-dom";
+import { Sparkles } from "lucide-react";
 import MenuItem from "./MenuItem";
+import GroupProjectsModal from "../GroupProjects/GroupProjectsModal";
 import logo from "/assets/img/newlogos/3.svg";
 
 import navitemlist from "../../dataJson/navitemlist.json";
@@ -8,6 +10,7 @@ import navitemlist from "../../dataJson/navitemlist.json";
 export default function NavMenu() {
   const [navBar, setNavbar] = useState("");
   const [navlist, setNavList] = useState("");
+  const [showGroupProjects, setShowGroupProjects] = useState(false);
 
   const navBarShow = () => {
     if (navBar == "") {
@@ -27,6 +30,15 @@ export default function NavMenu() {
     setNavbar("");
     setNavList("");
   };
+
+  const openGroupProjects = () => {
+    closeMobileNav();
+    setShowGroupProjects(true);
+  };
+
+  const closeGroupProjects = useCallback(() => {
+    setShowGroupProjects(false);
+  }, []);
 
   return (
     <div className="ak-main_header">
@@ -57,10 +69,22 @@ export default function NavMenu() {
               >
                 <span></span>
               </span>
+              <button
+                className="group-projects-trigger group-projects-mobile-trigger"
+                type="button"
+                onClick={openGroupProjects}
+              >
+                <Sparkles aria-hidden="true" size={15} strokeWidth={1.8} />
+                <span>Our Groups</span>
+              </button>
             </div>
           </div>
         </div>
       </div>
+      <GroupProjectsModal
+        isOpen={showGroupProjects}
+        onClose={closeGroupProjects}
+      />
     </div>
   );
 }

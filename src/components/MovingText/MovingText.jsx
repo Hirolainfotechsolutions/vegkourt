@@ -2,15 +2,15 @@ import React from "react";
 
 const companyLinks = [
   {
-    name: "hotelmauryapalaceandresidency",
+    name: "Hotel Maurya Palace And Residency",
     url: "https://hotelmauryapalaceandresidency.sangroupofhotels.in/",
   },
   {
-    name: "streamedgesakleshpur",
+    name: "Streamedge Sakleshpur",
     url: "https://streamedgesakleshpur.com/",
   },
   {
-    name: "kaduhithluresort",
+    name: "Kaduhithlu Resort",
     url: "https://kaduhithluresort.com/",
   },
 ];

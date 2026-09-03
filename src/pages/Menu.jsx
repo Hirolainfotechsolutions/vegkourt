@@ -1,22 +1,10 @@
-import React, { useLayoutEffect, useRef } from "react";
+import React from "react";
 import CommonHero from "../components/CommonHero/CommonHero";
 import FoodMenuItem from "../components/FoodMenu/FoodMenuItem";
 import SectionTitle from "../components/SectionTitle/SectionTitle";
-import { imageZoomInOut } from "../helper/main";
 import foodmenulist from "../dataJson/foodmenulist.json";
 
 export default function Menu() {
-  const imageContainers = useRef([]);
-  const imageZoomIns = useRef([]);
-
-  useLayoutEffect(() => {
-    foodmenulist.forEach((item, index) => {
-      imageZoomInOut(
-        imageContainers.current[index],
-        imageZoomIns.current[index]
-      );
-    });
-  }, []);
   return (
     <div>
       <CommonHero
@@ -25,16 +13,11 @@ export default function Menu() {
         image={"/assets/img/vegkourtimages/vegkourtimg3.webp"}
       />
       {foodmenulist?.map((item, i) => (
-        <div
-          key={i}
-          className="set-bg-img-section"
-          ref={(el) => (imageContainers.current[i] = el)}
-        >
+        <div key={i} className="set-bg-img-section">
           <img
             src={`${item.bgImgShow}`}
             alt="..."
-            className="imagesZoom bg-img ak-bg"
-            ref={(el) => (imageZoomIns.current[i] = el)}
+            className="bg-img ak-bg"
           />
 
           <div className="ak-height-150 ak-height-lg-60"></div>

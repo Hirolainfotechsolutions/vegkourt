@@ -52,7 +52,7 @@ export default function SideBarBlogDetails(props) {
         />
         <h6 className="author-title">Veg Kourt Kitchen</h6>
         <p className="author-text">
-          Notes from the Veg Kourt menu: bites, soups, grills, mains, rice, Oriental plates, and desserts.
+          Notes from the Veg Kourt menu: mocktails, chaats, Asian plates, mains, rice, breads, and desserts.
         </p>
         <a
           href="http://www.sangroupofhotels.in/"

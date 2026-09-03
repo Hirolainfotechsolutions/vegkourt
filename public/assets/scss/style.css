@@ -1353,11 +1353,22 @@ select:focus {
 .set-bg-img-section {
   position: relative;
   overflow: hidden;
+  background-color: #050808;
 }
 .set-bg-img-section .bg-img {
   position: absolute;
+  inset: 0;
   height: 100%;
   width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  z-index: 0;
+}
+.set-bg-img-section .container {
+  position: relative;
+  z-index: 1;
 }
 
 .drop-anim-gallery {
@@ -3058,11 +3069,14 @@ input[type=checkbox] {
 .ak-menu-list .ak-menu-list-section-1 img {
   opacity: 0;
   pointer-events: none;
-  height: 220%;
-  z-index: 999;
-  border-radius: 50%;
+  width: clamp(120px, 12vw, 180px);
+  height: clamp(120px, 12vw, 180px);
+  object-fit: cover;
+  z-index: 30;
+  border-radius: 14px;
+  box-shadow: 0 18px 45px rgba(0, 0, 0, 0.35);
   position: absolute;
-  transform: translate(-30%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 .food-menu.style-1 .food-menu-section-1 {
@@ -3164,6 +3178,67 @@ input[type=checkbox] {
   cursor: default;
   align-self: center;
   margin-bottom: -150px;
+}
+
+.gallery-hover:hover .gallery-img-overlay {
+  opacity: 1;
+}
+
+.gallery-hover.gallery-menu-card {
+  width: 100%;
+  height: auto;
+  background: rgba(4, 13, 16, 0.72);
+  border: 1px solid rgba(255, 210, 141, 0.24);
+  padding: 14px;
+}
+
+.gallery-menu-img-wrap {
+  position: relative;
+  aspect-ratio: 1;
+  overflow: hidden;
+  background: #040D10;
+}
+.gallery-menu-img-wrap img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.gallery-menu-img-wrap .gallery-img-overlay {
+  inset: 0;
+  width: auto;
+  height: auto;
+  margin: 12px;
+  padding: 24px;
+}
+
+.gallery-menu-caption {
+  padding: 18px 4px 2px;
+}
+.gallery-menu-caption h6 {
+  color: #FFD28D;
+  font-size: 20px;
+  line-height: 1.25;
+  text-transform: uppercase;
+  margin-bottom: 6px;
+}
+.gallery-menu-caption p {
+  color: #ffffff;
+  opacity: 0.72;
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .gallery-hover.gallery-menu-card {
+    padding: 10px;
+  }
+  .gallery-menu-caption {
+    padding-top: 14px;
+  }
+  .gallery-menu-caption h6 {
+    font-size: 18px;
+  }
 }
 
 /*--------------------------------------------------------------
@@ -4135,7 +4210,16 @@ input[type=checkbox] {
   transition: all 0.5s ease;
 }
 .ak-card.ak-style-1 .ak-card-img {
+  aspect-ratio: 4/5;
+  overflow: hidden;
   width: 100%;
+}
+.ak-card.ak-style-1 .ak-card-img img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .ak-card.ak-style-1 .card-info {
   position: absolute;
@@ -4694,19 +4778,58 @@ input[type=checkbox] {
 .ak-moving-section-in {
   display: flex;
   flex-wrap: nowrap;
+  gap: 90px;
   white-space: nowrap;
-  min-width: 100%;
+  width: max-content;
+  min-width: max-content;
+  animation: slide-left 35s linear infinite;
 }
 
 .ak-moving-section {
   display: flex;
   flex-shrink: 0;
   align-items: center;
+  gap: 90px;
   padding: 15px 0px;
-  animation: slide-left 20s linear infinite;
 }
-.ak-moving-section span {
-  color: #fff;
+.ak-moving-section h3 {
+  margin: 0;
+}
+.ak-moving-section::after {
+  content: "";
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #FFD28D;
+  flex: 0 0 auto;
+}
+.ak-moving-section a {
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+.ak-moving-section a:hover, .ak-moving-section a:focus-visible {
+  color: #FFD28D;
+  outline: none;
+}
+
+@media (max-width: 767px) {
+  .ak-moving-section-in {
+    gap: 44px;
+  }
+  .ak-moving-section {
+    gap: 44px;
+  }
+  .ak-moving-section::after {
+    width: 8px;
+    height: 8px;
+  }
 }
 
 .ak-animation-speed-10 {
@@ -4725,7 +4848,7 @@ input[type=checkbox] {
   animation: slide-left 50s linear infinite;
 }
 
-.ak-moving-section-hover-push:hover .ak-moving-section {
+.ak-moving-section-hover-push:hover .ak-moving-section-in {
   animation-play-state: paused;
 }
 
@@ -4734,7 +4857,7 @@ input[type=checkbox] {
     transform: translateX(0);
   }
   to {
-    transform: translateX(-100%);
+    transform: translateX(-50%);
   }
 }
 .video-section {

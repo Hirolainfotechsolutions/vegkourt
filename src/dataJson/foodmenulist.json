@@ -1,264 +1,689 @@
 [
   {
     "headingtext": {
-      "title": "Bites",
-      "subTitle": "Papad, Chaat & Crunch",
+      "title": "Mocktails",
+      "subTitle": "Fresh House Mixes",
       "tyle": "center"
     },
-    "bgImgShow": "/assets/img/menu-sections/bites-bg.png",
+    "bgImgShow": "/assets/img/menu/next/backgrounds/generated/mocktails-bg.webp",
     "foodMenu": [
       {
-        "title": "Assorted Papad Basket",
-        "price": "Rs 149",
-        "image": "/assets/img/menuitems/assorted-papad-basket.png",
-        "subTitle": "Mint chutney, tamarind chutney, spicy mayo",
-        "priceSubTitle": "Jain option"
+        "title": "Smoke & Mirrors",
+        "price": "Rs 185",
+        "image": "/assets/img/menu/next/items/generated/smoke-and-mirrors.webp",
+        "subTitle": "Lime juice, orange syrup, honey syrup, soda, rosemary",
+        "priceSubTitle": ""
       },
       {
-        "title": "Crispy Nachos Chaat",
-        "price": "Rs 229",
-        "image": "/assets/img/menuitems/crispy-nachos-chaat.png",
-        "subTitle": "Tamarind chutney, sev, chaat masala",
-        "priceSubTitle": "Chef special"
+        "title": "Bubble Burst",
+        "price": "Rs 185",
+        "image": "/assets/img/menu/next/items/generated/bubble-burst.webp",
+        "subTitle": "Litchi, lime juice, elderflower, soda",
+        "priceSubTitle": ""
       },
       {
-        "title": "Mexican Spiced Crispy Chickpeas",
-        "price": "Rs 249",
-        "image": "/assets/img/menuitems/mexican-spiced-crispy-chickpeas.png",
-        "subTitle": "Roasted chickpeas, bell pepper hummus",
-        "priceSubTitle": "Vegan"
+        "title": "Midnight Velvet",
+        "price": "Rs 195",
+        "image": "/assets/img/menu/next/items/generated/midnight-velvet.webp",
+        "subTitle": "Chocolate shake",
+        "priceSubTitle": ""
       },
       {
-        "title": "Masala Papad",
-        "price": "Rs 129",
-        "image": "/assets/img/menuitems/masala-papad.png",
-        "subTitle": "Onion tomato salsa, roasted masala papad",
-        "priceSubTitle": "Light bite"
+        "title": "Italian Affair",
+        "price": "Rs 195",
+        "image": "/assets/img/menu/next/items/generated/italian-affair.webp",
+        "subTitle": "Cold brew coffee, chocolate syrup, sweetened condensed milk, vanilla, milk, topped with whipped cream",
+        "priceSubTitle": ""
+      },
+      {
+        "title": "Secret Garden",
+        "price": "Rs 185",
+        "image": "/assets/img/menu/next/items/generated/secret-garden.webp",
+        "subTitle": "Elderflower syrup, cucumber juice, lime juice, tonic water",
+        "priceSubTitle": ""
+      },
+      {
+        "title": "Golden Hour",
+        "price": "Rs 185",
+        "image": "/assets/img/menu/next/items/generated/golden-hour.webp",
+        "subTitle": "Mango, lime, soaked chia seeds, soda",
+        "priceSubTitle": ""
+      },
+      {
+        "title": "Virgin Mojito",
+        "price": "Rs 185",
+        "image": "/assets/img/menu/next/items/generated/virgin-mojito.webp",
+        "subTitle": "Lime, mint, sugar, soda",
+        "priceSubTitle": ""
+      },
+      {
+        "title": "Green Apple Mojito",
+        "price": "Rs 185",
+        "image": "/assets/img/menu/next/items/generated/green-apple-mojito.webp",
+        "subTitle": "Green apple, mint, lime, soda",
+        "priceSubTitle": ""
+      },
+      {
+        "title": "Watermelon Mojito",
+        "price": "Rs 185",
+        "image": "/assets/img/menu/next/items/generated/watermelon-mojito.webp",
+        "subTitle": "Watermelon, mint, lime, soda",
+        "priceSubTitle": ""
+      },
+      {
+        "title": "Blue Caribbean",
+        "price": "Rs 185",
+        "image": "/assets/img/menu/next/items/generated/blue-caribbean.webp",
+        "subTitle": "Blue curacao syrup, lime juice, soda",
+        "priceSubTitle": ""
       }
     ]
   },
   {
     "headingtext": {
-      "title": "Soups",
-      "subTitle": "Warm Bowls",
+      "title": "Nibbles & Bar Bites",
+      "subTitle": "Crunchy Snacks",
       "tyle": "center"
     },
-    "bgImgShow": "/assets/img/menu-sections/soups-bg.png",
+    "bgImgShow": "/assets/img/menu/next/backgrounds/generated/nibbles-bar-bites-bg.webp",
     "foodMenu": [
       {
-        "title": "Creamy Spinach Soup",
-        "price": "Rs 239",
-        "image": "/assets/img/menuitems/creamy-spinach-soup.png",
-        "subTitle": "Mini paneer momo, Italian parmesan",
-        "priceSubTitle": "Chef special"
+        "title": "Truffle Corn & Cheese Bombs",
+        "price": "Rs 235",
+        "image": "/assets/img/menu/next/items/generated/truffle-corn-cheese-bombs.webp",
+        "subTitle": "Crispy fried corn and cheese bites finished with truffle seasoning",
+        "priceSubTitle": ""
       },
       {
-        "title": "Tomato Rasam With Mini Idli",
-        "price": "Rs 219",
-        "image": "/assets/img/menuitems/tomato-rasam-mini-idli.png",
-        "subTitle": "Curry leaves, South Indian aroma",
-        "priceSubTitle": "Comfort bowl"
+        "title": "House Made Butter Popcorn",
+        "price": "Rs 195",
+        "image": "/assets/img/menu/next/items/generated/house-made-butter-popcorn.webp",
+        "subTitle": "Freshly popped corn tossed with warm butter and light seasoning",
+        "priceSubTitle": ""
       },
       {
-        "title": "Moong Urad Bonda Soup",
-        "price": "Rs 229",
-        "image": "/assets/img/menuitems/bonda-soup.png",
-        "subTitle": "Mini bondas, lentil foam",
-        "priceSubTitle": "Warm"
+        "title": "Mexican Spiced Chickpeas & Paprika Hummus",
+        "price": "Rs 205",
+        "image": "/assets/img/menu/next/items/generated/mexican-spiced-chickpeas-paprika-hummus.webp",
+        "subTitle": "Roasted chickpeas tossed in Mexican spices served with smoky paprika hummus",
+        "priceSubTitle": ""
       },
       {
-        "title": "Manchow Soup",
-        "price": "Rs 229",
-        "image": "/assets/img/menuitems/spicy-manchow-soup.png",
-        "subTitle": "Chinese bhel noodles, bold flavours",
-        "priceSubTitle": "Spicy"
+        "title": "Assorted Papad Basket & Dry Chutneys",
+        "price": "Rs 185",
+        "image": "/assets/img/menu/next/items/generated/assorted-papad-basket-dry-chutneys.webp",
+        "subTitle": "Crispy roasted papads served with a trio of house dry chutneys",
+        "priceSubTitle": ""
+      },
+      {
+        "title": "Royal Masala Peanuts",
+        "price": "Rs 165",
+        "image": "/assets/img/menu/next/items/generated/royal-masala-peanuts.webp",
+        "subTitle": "Roasted peanuts tossed in a bold house masala",
+        "priceSubTitle": ""
+      },
+      {
+        "title": "Masala Papad Salsa",
+        "price": "Rs 195",
+        "image": "/assets/img/menu/next/items/generated/masala-papad-salsa.webp",
+        "subTitle": "Crispy papad topped with tangy onion tomato salsa and spices",
+        "priceSubTitle": ""
+      },
+      {
+        "title": "Peri Peri Or Salted French Fries",
+        "price": "Rs 165",
+        "image": "/assets/img/menu/next/items/generated/peri-peri-or-salted-french-fries.webp",
+        "subTitle": "Golden fries served salted or tossed with peri-peri seasoning",
+        "priceSubTitle": ""
+      },
+      {
+        "title": "Gunpowder Baby Potatoes",
+        "price": "Rs 205",
+        "image": "/assets/img/menu/next/items/generated/gunpowder-baby-potatoes.webp",
+        "subTitle": "Crispy baby potatoes tossed in South Indian gunpowder spice",
+        "priceSubTitle": ""
       }
     ]
   },
   {
     "headingtext": {
-      "title": "Garden Greens",
-      "subTitle": "Fresh Salads",
+      "title": "Small Plates",
+      "subTitle": "Signature Starters",
       "tyle": "center"
     },
-    "bgImgShow": "/assets/img/menu-sections/garden-greens-bg.png",
+    "bgImgShow": "/assets/img/menu/next/backgrounds/generated/small-plates-bg.webp",
     "foodMenu": [
       {
-        "title": "Mango Avocado Arugula Salad",
-        "price": "Rs 329",
-        "image": "/assets/img/menuitems/mango-avocado-arugula-salad.png",
-        "subTitle": "Mint vinaigrette, pine nuts",
-        "priceSubTitle": "Fresh"
+        "title": "Paneer Ghee Roast With Coin Parotta",
+        "price": "Rs 335",
+        "image": "/assets/img/menu/next/items/generated/paneer-ghee-roast-with-coin-parotta.webp",
+        "subTitle": "Crispy Malabar coin parottas served with spicy Mangalorean style paneer ghee roast",
+        "priceSubTitle": ""
       },
       {
-        "title": "Watermelon Feta Salad",
-        "price": "Rs 299",
-        "image": "/assets/img/menuitems/watermelon-feta-salad.png",
-        "subTitle": "Arugula, balsamic reduction",
-        "priceSubTitle": "Seasonal"
+        "title": "Honey Chilli Lotus Stem Crisp",
+        "price": "Rs 305",
+        "image": "/assets/img/menu/next/items/generated/honey-chilli-lotus-stem-crisp.webp",
+        "subTitle": "Thinly sliced lotus stem fried crisp and tossed in sweet chilli glaze with garlic and sesame",
+        "priceSubTitle": ""
       },
       {
-        "title": "Quinoa Apple Orange Salad",
-        "price": "Rs 319",
-        "image": "/assets/img/menuitems/quinoa-apple-orange-salad.png",
-        "subTitle": "Mint vinaigrette, citrus notes",
-        "priceSubTitle": "Nutritious"
-      },
-      {
-        "title": "Green Papaya Salad",
-        "price": "Rs 259",
-        "image": "/assets/img/menuitems/green-papaya-salad.png",
-        "subTitle": "Spicy peanut dressing, Thai chilli",
-        "priceSubTitle": "Vegan"
-      }
-    ]
-  },
-  {
-    "headingtext": {
-      "title": "Grills",
-      "subTitle": "Tandoor & Char",
-      "tyle": "center"
-    },
-    "bgImgShow": "/assets/img/menu-sections/grills-bg.png",
-    "foodMenu": [
-      {
-        "title": "Andhra Spicy Broccoli",
-        "price": "Rs 329",
-        "image": "/assets/img/menuitems/andhra-spicy-broccoli.png",
-        "subTitle": "Bell pepper hummus, bold Andhra spice",
-        "priceSubTitle": "Vegan"
+        "title": "Paneer Lababdar Tikka",
+        "price": "Rs 305",
+        "image": "/assets/img/menu/next/items/generated/paneer-lababdar-tikka.webp",
+        "subTitle": "Tandoor grilled paneer marinated in rich tomato cream spices with coconut and dried fruits",
+        "priceSubTitle": ""
       },
       {
         "title": "Classic Paneer Tikka",
-        "price": "Rs 349",
-        "image": "/assets/img/menuitems/classic-paneer-tikka.png",
-        "subTitle": "Grilled paneer, bell pepper papad",
-        "priceSubTitle": "House favourite"
+        "price": "Rs 305",
+        "image": "/assets/img/menu/next/items/generated/classic-paneer-tikka.webp",
+        "subTitle": "Chargrilled paneer cubes marinated with yogurt spices and mango chunda",
+        "priceSubTitle": ""
       },
       {
-        "title": "Stuffed Mushrooms",
-        "price": "Rs 349",
-        "image": "/assets/img/menuitems/stuffed-mushrooms.png",
-        "subTitle": "Herb stuffing, chimichurri drizzle",
-        "priceSubTitle": "Chef special"
+        "title": "Smoked Mushroom Galouti Kebab",
+        "price": "Rs 295",
+        "image": "/assets/img/menu/next/items/generated/smoked-mushroom-galouti-kebab.webp",
+        "subTitle": "Soft mushroom kebabs served with crisp papad sable",
+        "priceSubTitle": ""
       },
       {
-        "title": "Curry Leaf Paneer Tikka",
-        "price": "Rs 349",
-        "image": "/assets/img/menuitems/curry-leaf-paneer-tikka.png",
-        "subTitle": "Tomato chutney, South Indian twist",
-        "priceSubTitle": "Aromatic"
+        "title": "Vermicelli Crusted Dahi Kebab",
+        "price": "Rs 285",
+        "image": "/assets/img/menu/next/items/generated/vermicelli-crusted-dahi-kebab.webp",
+        "subTitle": "Creamy hung curd kebabs coated in roasted vermicelli and fried until golden",
+        "priceSubTitle": ""
+      },
+      {
+        "title": "Malai Mirch Broccoli",
+        "price": "Rs 235",
+        "image": "/assets/img/menu/next/items/generated/malai-mirch-broccoli.webp",
+        "subTitle": "Creamy spiced broccoli baked with cheese and served with lentil ragda",
+        "priceSubTitle": ""
+      },
+      {
+        "title": "Spiced Aubergine Steak",
+        "price": "Rs 255",
+        "image": "/assets/img/menu/next/items/generated/spiced-aubergine-steak.webp",
+        "subTitle": "Grilled eggplant served with pumpkin chutney, peanut masala and moutabal",
+        "priceSubTitle": ""
+      },
+      {
+        "title": "Akki Rotti Taco With Fried Jackfruit",
+        "price": "Rs 245",
+        "image": "/assets/img/menu/next/items/generated/akki-rotti-taco-with-fried-jackfruit.webp",
+        "subTitle": "Crispy rice flatbread folded taco style with spiced jackfruit filling",
+        "priceSubTitle": ""
+      },
+      {
+        "title": "Royal Beetroot Cutlet",
+        "price": "Rs 235",
+        "image": "/assets/img/menu/next/items/generated/royal-beetroot-cutlet.webp",
+        "subTitle": "Spiced vegetable cutlet layered with beetroot and raisins",
+        "priceSubTitle": ""
       }
     ]
   },
   {
     "headingtext": {
-      "title": "Nibbles",
-      "subTitle": "Fusion Starters",
+      "title": "Indian Street Chaats",
+      "subTitle": "Street Style Favourites",
       "tyle": "center"
     },
-    "bgImgShow": "/assets/img/menu-sections/nibbles-bg.png",
+    "bgImgShow": "/assets/img/menu/next/backgrounds/generated/indian-street-chaats-bg.webp",
     "foodMenu": [
       {
-        "title": "Tangra Chilli Paneer",
-        "price": "Rs 339",
-        "image": "/assets/img/menuitems/tangra-chilli-paneer.png",
-        "subTitle": "Fried paneer tossed in spicy tangy sauce",
-        "priceSubTitle": "Spicy"
+        "title": "Bombay Pao Bhaji With Spiced Burrata",
+        "price": "Rs 275",
+        "image": "/assets/img/menu/next/items/generated/bombay-pao-bhaji-with-spiced-burrata.webp",
+        "subTitle": "Mumbai's iconic mashed vegetable bhaji topped with creamy spiced burrata and served with toasted buttered pav",
+        "priceSubTitle": ""
       },
       {
-        "title": "Hara Bhara Kebab",
-        "price": "Rs 289",
-        "image": "/assets/img/menuitems/hara-bhara-kebab.png",
-        "subTitle": "Cilantro mint mayo",
-        "priceSubTitle": "Green bite"
+        "title": "Papdi Chaat & Crispy Spinach",
+        "price": "Rs 220",
+        "image": "/assets/img/menu/next/items/generated/papdi-chaat-crispy-spinach.webp",
+        "subTitle": "Classic papdi chaat topped with crunchy fried spinach, yogurt and chutneys",
+        "priceSubTitle": ""
       },
       {
-        "title": "Achari Chilli Cheese",
-        "price": "Rs 319",
-        "image": "/assets/img/menuitems/chilli-cheese-poppers.png",
-        "subTitle": "Goat cheese, curd, tamarind chutney",
-        "priceSubTitle": "Tangy"
+        "title": "Avocado Sev Puri",
+        "price": "Rs 200",
+        "image": "/assets/img/menu/next/items/generated/avocado-sev-puri.webp",
+        "subTitle": "Crisp puris topped with spiced potatoes, creamy avocado and chutneys",
+        "priceSubTitle": ""
       },
       {
-        "title": "Paneer Tikka Quesadilla",
-        "price": "Rs 369",
-        "image": "/assets/img/menuitems/paneer-tikka-quesadilla.png",
-        "subTitle": "Mint chutney, salsa, fusion filling",
-        "priceSubTitle": "Fusion"
+        "title": "Lotus Stem Chaat",
+        "price": "Rs 200",
+        "image": "/assets/img/menu/next/items/generated/lotus-stem-chaat.webp",
+        "subTitle": "Crispy lotus stem tossed with yogurt, tamarind chutney and pomegranate",
+        "priceSubTitle": ""
       },
       {
-        "title": "Crispy Paneer Rolls",
-        "price": "Rs 329",
-        "image": "/assets/img/vegkourtimages/crispy-paneer-rolls.webp",
-        "subTitle": "Golden rolls with dipping sauce",
-        "priceSubTitle": "Crunchy"
+        "title": "Smoked Pineapple Kasundi Chaat",
+        "price": "Rs 195",
+        "image": "/assets/img/menu/next/items/generated/smoked-pineapple-kasundi-chaat.webp",
+        "subTitle": "Charred pineapple tossed with mustard kasundi dressing and puffed rice",
+        "priceSubTitle": ""
+      },
+      {
+        "title": "Green Apple Mint Pani Puri",
+        "price": "Rs 195",
+        "image": "/assets/img/menu/next/items/generated/green-apple-mint-pani-puri.webp",
+        "subTitle": "Crispy puris filled with mint green apple water and tangy potato filling",
+        "priceSubTitle": ""
+      },
+      {
+        "title": "Watermelon & Boondi Chaat",
+        "price": "Rs 185",
+        "image": "/assets/img/menu/next/items/generated/watermelon-boondi-chaat.webp",
+        "subTitle": "Sweet watermelon cubes tossed with spiced boondi and chutneys",
+        "priceSubTitle": ""
+      },
+      {
+        "title": "Palak Patta Chaat",
+        "price": "Rs 200",
+        "image": "/assets/img/menu/next/items/generated/palak-patta-chaat.webp",
+        "subTitle": "Crispy spinach leaves topped with yogurt, chutneys and sev",
+        "priceSubTitle": ""
+      }
+    ]
+  },
+  {
+    "headingtext": {
+      "title": "Flatbread & Naanzas",
+      "subTitle": "Stuffed Naan & Naan Pizzas",
+      "tyle": "center"
+    },
+    "bgImgShow": "/assets/img/menu/next/backgrounds/generated/flatbread-naanzas-bg.webp",
+    "foodMenu": [
+      {
+        "title": "Chilli Cheese Naan",
+        "price": "Rs 175",
+        "image": "/assets/img/menu/next/items/generated/chilli-cheese-naan.webp",
+        "subTitle": "Soft naan stuffed with cheese and chilli flakes",
+        "priceSubTitle": ""
+      },
+      {
+        "title": "Mushroom & Cheese Naan",
+        "price": "Rs 175",
+        "image": "/assets/img/menu/next/items/generated/mushroom-cheese-naan.webp",
+        "subTitle": "Creamy mushroom filling baked in tandoor naan",
+        "priceSubTitle": ""
+      },
+      {
+        "title": "Caramelised Onion Naan",
+        "price": "Rs 170",
+        "image": "/assets/img/menu/next/items/generated/caramelised-onion-naan.webp",
+        "subTitle": "Sweet onion filling in soft tandoor bread",
+        "priceSubTitle": ""
+      },
+      {
+        "title": "Peshawari Naan",
+        "price": "Rs 195",
+        "image": "/assets/img/menu/next/items/generated/peshawari-naan.webp",
+        "subTitle": "Sweet naan stuffed with nuts and dry fruits",
+        "priceSubTitle": ""
+      },
+      {
+        "title": "Paneer Tikka Naanza",
+        "price": "Rs 255",
+        "image": "/assets/img/menu/next/items/generated/paneer-tikka-naanza.webp",
+        "subTitle": "Tandoor baked naan topped with paneer tikka, peppers and mozzarella",
+        "priceSubTitle": ""
+      },
+      {
+        "title": "Pesto Mushroom Naanza",
+        "price": "Rs 245",
+        "image": "/assets/img/menu/next/items/generated/pesto-mushroom-naanza.webp",
+        "subTitle": "Naan pizza topped with basil pesto, sauteed mushrooms and mozzarella",
+        "priceSubTitle": ""
+      },
+      {
+        "title": "Desi Chilli Cheese Naanza",
+        "price": "Rs 235",
+        "image": "/assets/img/menu/next/items/generated/desi-chilli-cheese-naanza.webp",
+        "subTitle": "Soft naan layered with melted cheese, green chillies and garlic butter",
+        "priceSubTitle": ""
+      },
+      {
+        "title": "Margherita Naanza",
+        "price": "Rs 230",
+        "image": "/assets/img/menu/next/items/generated/margherita-naanza.webp",
+        "subTitle": "Classic naan pizza with tomato basil sauce and mozzarella",
+        "priceSubTitle": ""
+      }
+    ]
+  },
+  {
+    "headingtext": {
+      "title": "Asian Plates",
+      "subTitle": "Dim Sum, Wok & Satay",
+      "tyle": "center"
+    },
+    "bgImgShow": "/assets/img/menu/next/backgrounds/generated/asian-plates-bg.webp",
+    "foodMenu": [
+      {
+        "title": "Spinach & Cottage Cheese Dim Sum",
+        "price": "Rs 245",
+        "image": "/assets/img/menu/next/items/generated/spinach-cottage-cheese-dim-sum.webp",
+        "subTitle": "Soft dumplings stuffed with spinach and paneer served with sesame soy dip",
+        "priceSubTitle": ""
+      },
+      {
+        "title": "New York Cream Cheese Dim Sum",
+        "price": "Rs 255",
+        "image": "/assets/img/menu/next/items/generated/new-york-cream-cheese-dim-sum.webp",
+        "subTitle": "Delicate steamed dumplings filled with smooth cream cheese, spring onions and mild herbs served with sweet chilli sauce and chilli oil",
+        "priceSubTitle": ""
+      },
+      {
+        "title": "Burnt Garlic Vegetable Dim Sum",
+        "price": "Rs 245",
+        "image": "/assets/img/menu/next/items/generated/burnt-garlic-vegetable-dim-sum.webp",
+        "subTitle": "Vegetable dumplings with crispy garlic served with spicy peanut satay sauce",
+        "priceSubTitle": ""
+      },
+      {
+        "title": "Truffle Mushroom Potstickers",
+        "price": "Rs 285",
+        "image": "/assets/img/menu/next/items/generated/truffle-mushroom-potstickers.webp",
+        "subTitle": "Pan seared dumplings filled with mushroom and finished with truffle oil and creamy garlic mayo",
+        "priceSubTitle": ""
+      },
+      {
+        "title": "Chilli Garlic Paneer Potstickers",
+        "price": "Rs 295",
+        "image": "/assets/img/menu/next/items/generated/chilli-garlic-paneer-potstickers.webp",
+        "subTitle": "Crispy bottom dumplings filled with spiced paneer and vegetables, served with chilli garlic soy sauce",
+        "priceSubTitle": ""
+      },
+      {
+        "title": "Veg Kourt Special Stir Fry",
+        "price": "Rs 245",
+        "image": "/assets/img/menu/next/items/generated/veg-kourt-special-stir-fry.webp",
+        "subTitle": "Chef's signature spicy vegetable stir fry in house chilli sauce",
+        "priceSubTitle": ""
+      },
+      {
+        "title": "Chilli Paneer",
+        "price": "Rs 205",
+        "image": "/assets/img/menu/next/items/generated/chilli-paneer.webp",
+        "subTitle": "Crispy paneer tossed in classic Indo Chinese chilli sauce",
+        "priceSubTitle": ""
+      },
+      {
+        "title": "Veg 97",
+        "price": "Rs 245",
+        "image": "/assets/img/menu/next/items/generated/veg-97.webp",
+        "subTitle": "Deep fried vegetables tossed in spicy pepper garlic masala",
+        "priceSubTitle": ""
       },
       {
         "title": "Honey Chilli Baby Corn",
-        "price": "Rs 319",
-        "image": "/assets/img/vegkourtimages/honey-chilli-baby-corn.webp",
-        "subTitle": "Sweet chilli basil glaze",
-        "priceSubTitle": "Chef special"
+        "price": "Rs 245",
+        "image": "/assets/img/menu/next/items/generated/honey-chilli-baby-corn.webp",
+        "subTitle": "Crispy baby corn tossed in sweet basil glaze",
+        "priceSubTitle": ""
+      },
+      {
+        "title": "Paneer Satay",
+        "price": "Rs 305",
+        "image": "/assets/img/menu/next/items/generated/paneer-satay.webp",
+        "subTitle": "Crispy paneer skewers with peanut satay sauce",
+        "priceSubTitle": ""
       }
     ]
   },
   {
     "headingtext": {
-      "title": "Mains",
+      "title": "Main Course",
+      "subTitle": "Rice, Noodles & Wok Classics",
+      "tyle": "center"
+    },
+    "bgImgShow": "/assets/img/menu/next/backgrounds/generated/main-course-bg.webp",
+    "foodMenu": [
+      {
+        "title": "Veg Fried Rice",
+        "price": "Rs 235",
+        "image": "/assets/img/menu/next/items/generated/veg-fried-rice.webp",
+        "subTitle": "Classic vegetable fried rice",
+        "priceSubTitle": ""
+      },
+      {
+        "title": "Burnt Garlic Fried Rice",
+        "price": "Rs 245",
+        "image": "/assets/img/menu/next/items/generated/burnt-garlic-fried-rice.webp",
+        "subTitle": "Fried rice with toasted burnt garlic",
+        "priceSubTitle": ""
+      },
+      {
+        "title": "Schezwan Fried Rice",
+        "price": "Rs 245",
+        "image": "/assets/img/menu/next/items/generated/schezwan-fried-rice.webp",
+        "subTitle": "Fried rice tossed with bold Schezwan sauce",
+        "priceSubTitle": ""
+      },
+      {
+        "title": "Mushroom Pepper Fried Rice",
+        "price": "Rs 255",
+        "image": "/assets/img/menu/next/items/generated/mushroom-pepper-fried-rice.webp",
+        "subTitle": "Fried rice with mushrooms and pepper spice",
+        "priceSubTitle": ""
+      },
+      {
+        "title": "Hakka Noodles",
+        "price": "Rs 245",
+        "image": "/assets/img/menu/next/items/generated/hakka-noodles.webp",
+        "subTitle": "Classic wok tossed Hakka noodles",
+        "priceSubTitle": ""
+      },
+      {
+        "title": "Schezwan Noodles",
+        "price": "Rs 245",
+        "image": "/assets/img/menu/next/items/generated/schezwan-noodles.webp",
+        "subTitle": "Noodles tossed with spicy Schezwan sauce",
+        "priceSubTitle": ""
+      }
+    ]
+  },
+  {
+    "headingtext": {
+      "title": "Pastas",
+      "subTitle": "Comfort Pastas",
+      "tyle": "center"
+    },
+    "bgImgShow": "/assets/img/menu/next/backgrounds/generated/pastas-bg.webp",
+    "foodMenu": [
+      {
+        "title": "Mac & Cheese Parmesan Crumb",
+        "price": "Rs 295",
+        "image": "/assets/img/menu/next/items/generated/mac-cheese-parmesan-crumb.webp",
+        "subTitle": "Creamy baked macaroni topped with parmesan crust",
+        "priceSubTitle": ""
+      },
+      {
+        "title": "Wild Arugula Pesto Pasta",
+        "price": "Rs 275",
+        "image": "/assets/img/menu/next/items/generated/wild-arugula-pesto-pasta.webp",
+        "subTitle": "Fresh arugula pesto with parmesan and herbs",
+        "priceSubTitle": ""
+      },
+      {
+        "title": "Arrabbiata Pasta",
+        "price": "Rs 265",
+        "image": "/assets/img/menu/next/items/generated/arrabbiata-pasta.webp",
+        "subTitle": "Penne pasta in spicy tomato basil sauce",
+        "priceSubTitle": ""
+      },
+      {
+        "title": "Aglio Olio Pasta",
+        "price": "Rs 255",
+        "image": "/assets/img/menu/next/items/generated/aglio-olio-pasta.webp",
+        "subTitle": "Garlic chilli olive oil pasta with vegetables",
+        "priceSubTitle": ""
+      }
+    ]
+  },
+  {
+    "headingtext": {
+      "title": "Soups & Salads",
+      "subTitle": "Warm Bowls & Fresh Greens",
+      "tyle": "center"
+    },
+    "bgImgShow": "/assets/img/menu/next/backgrounds/generated/soups-salads-bg.webp",
+    "foodMenu": [
+      {
+        "title": "Creamy Spinach Soup & Paneer Momos",
+        "price": "Rs 235",
+        "image": "/assets/img/menu/next/items/generated/creamy-spinach-soup-paneer-momos.webp",
+        "subTitle": "Creamy spinach soup served with paneer momos",
+        "priceSubTitle": ""
+      },
+      {
+        "title": "Spicy Manchow Soup With Noodle Bhel",
+        "price": "Rs 215",
+        "image": "/assets/img/menu/next/items/generated/spicy-manchow-soup-with-noodle-bhel.webp",
+        "subTitle": "Spicy Manchow soup finished with crisp noodle bhel",
+        "priceSubTitle": ""
+      },
+      {
+        "title": "Cream Of Mushroom Soup",
+        "price": "Rs 220",
+        "image": "/assets/img/menu/next/items/generated/cream-of-mushroom-soup.webp",
+        "subTitle": "Creamy mushroom soup",
+        "priceSubTitle": ""
+      },
+      {
+        "title": "Roasted Tomato & Basil Soup",
+        "price": "Rs 225",
+        "image": "/assets/img/menu/next/items/generated/roasted-tomato-basil-soup.webp",
+        "subTitle": "Roasted tomato soup with basil",
+        "priceSubTitle": ""
+      },
+      {
+        "title": "Add Ons Chilli Cheese Toast",
+        "price": "Rs 120",
+        "image": "/assets/img/menu/next/items/generated/add-ons-chilli-cheese-toast.webp",
+        "subTitle": "Chilli cheese toast add on",
+        "priceSubTitle": ""
+      },
+      {
+        "title": "Mango Avocado Arugula Salad",
+        "price": "Rs 275",
+        "image": "/assets/img/menu/next/items/generated/mango-avocado-arugula-salad.webp",
+        "subTitle": "Fresh mango, avocado and arugula salad",
+        "priceSubTitle": ""
+      },
+      {
+        "title": "Garden Green Salad",
+        "price": "Rs 165",
+        "image": "/assets/img/menu/next/items/generated/garden-green-salad.webp",
+        "subTitle": "Fresh garden greens",
+        "priceSubTitle": ""
+      }
+    ]
+  },
+  {
+    "headingtext": {
+      "title": "Indian Main Course",
       "subTitle": "Curries & Comfort",
       "tyle": "center"
     },
-    "bgImgShow": "/assets/img/menu-sections/mains-bg.png",
+    "bgImgShow": "/assets/img/menu/next/backgrounds/generated/indian-main-course-bg.webp",
     "foodMenu": [
       {
+        "title": "Spiced Creamy Burrata Saag",
+        "price": "Rs 355",
+        "image": "/assets/img/menu/next/items/generated/spiced-creamy-burrata-saag.webp",
+        "subTitle": "Spinach and mustard greens cooked with garlic and finished with creamy burrata",
+        "priceSubTitle": ""
+      },
+      {
+        "title": "Paneer Butter Masala",
+        "price": "Rs 305",
+        "image": "/assets/img/menu/next/items/generated/paneer-butter-masala.webp",
+        "subTitle": "Paneer cubes simmered in a rich tomato, butter and cashew gravy finished with cream",
+        "priceSubTitle": ""
+      },
+      {
+        "title": "Lasooni Paneer Masala",
+        "price": "Rs 305",
+        "image": "/assets/img/menu/next/items/generated/lasooni-paneer-masala.webp",
+        "subTitle": "Paneer cooked in a robust tomato gravy infused with roasted garlic and aromatic spices",
+        "priceSubTitle": ""
+      },
+      {
+        "title": "Royal Kadhai Paneer",
+        "price": "Rs 305",
+        "image": "/assets/img/menu/next/items/generated/royal-kadhai-paneer.webp",
+        "subTitle": "Paneer stir-fried with bell peppers and onions in a bold kadhai masala",
+        "priceSubTitle": ""
+      },
+      {
+        "title": "Vegetable Kofta Curry",
+        "price": "Rs 285",
+        "image": "/assets/img/menu/next/items/generated/vegetable-kofta-curry.webp",
+        "subTitle": "Soft vegetable dumplings simmered in a spiced onion tomato gravy finished with cream",
+        "priceSubTitle": ""
+      },
+      {
+        "title": "Awadhi Jackfruit Nihari",
+        "price": "Rs 285",
+        "image": "/assets/img/menu/next/items/generated/awadhi-jackfruit-nihari.webp",
+        "subTitle": "Tender jackfruit slow-cooked in aromatic Awadhi spices and rich gravy",
+        "priceSubTitle": ""
+      },
+      {
+        "title": "Methi Malai Mutter",
+        "price": "Rs 265",
+        "image": "/assets/img/menu/next/items/generated/methi-malai-mutter.webp",
+        "subTitle": "Green peas cooked in a creamy fenugreek scented gravy",
+        "priceSubTitle": ""
+      },
+      {
+        "title": "Dal Makhani (24 Hour Black Lentils)",
+        "price": "Rs 265",
+        "image": "/assets/img/menu/next/items/generated/dal-makhani-24-hour-black-lentils.webp",
+        "subTitle": "Black lentils and kidney beans slow-cooked overnight with butter and cream",
+        "priceSubTitle": ""
+      },
+      {
+        "title": "Dhaba Dal Fry",
+        "price": "Rs 235",
+        "image": "/assets/img/menu/next/items/generated/dhaba-dal-fry.webp",
+        "subTitle": "Yellow lentils tempered with ghee, garlic, cumin and dried red chillies",
+        "priceSubTitle": ""
+      },
+      {
+        "title": "Chana Masala",
+        "price": "Rs 275",
+        "image": "/assets/img/menu/next/items/generated/chana-masala.webp",
+        "subTitle": "Chickpeas cooked in a tangy onion tomato gravy with Punjabi spices",
+        "priceSubTitle": ""
+      },
+      {
+        "title": "Badami Baingan",
+        "price": "Rs 285",
+        "image": "/assets/img/menu/next/items/generated/badami-baingan.webp",
+        "subTitle": "Eggplant cooked in a nutty almond based gravy with mild spices",
+        "priceSubTitle": ""
+      },
+      {
         "title": "Sev Tamatar",
-        "price": "Rs 329",
-        "image": "/assets/img/vegkourtimages/sev-tamatar.webp",
-        "subTitle": "Tomato curry, crisp sev, warm spices",
-        "priceSubTitle": "Homestyle"
+        "price": "Rs 285",
+        "image": "/assets/img/menu/next/items/generated/sev-tamatar.webp",
+        "subTitle": "Tangy tomato curry topped with crispy gram flour sev",
+        "priceSubTitle": ""
       },
       {
-        "title": "Paneer Lababdar",
-        "price": "Rs 399",
-        "image": "/assets/img/vegkourtimages/paneer-lababdar.webp",
-        "subTitle": "Rich tomato gravy, cheese cloud",
-        "priceSubTitle": "Signature"
-      },
-      {
-        "title": "Paneer Tikka Masala",
-        "price": "Rs 389",
-        "image": "/assets/img/vegkourtimages/paneer-tikka-masala.webp",
-        "subTitle": "Creamy garlic yogurt finish",
-        "priceSubTitle": "Classic"
-      },
-      {
-        "title": "Palak Paneer Curry",
-        "price": "Rs 379",
-        "image": "/assets/img/vegkourtimages/palak-paneer-curry.webp",
-        "subTitle": "Creamy spinach gravy, cottage cheese, mild spices",
-        "priceSubTitle": "Fresh greens"
-      },
-      {
-        "title": "Mushroom Chettinad",
-        "price": "Rs 369",
-        "image": "/assets/img/menuitems/generated/mushroom-chettinad-veg-jalfrezi.png",
-        "subTitle": "Curry leaves, mustard, Chettinad spice",
-        "priceSubTitle": "Spicy"
-      },
-      {
-        "title": "Dal Makhani",
-        "price": "Rs 329",
-        "image": "/assets/img/vegkourtimages/dal-makhani.webp",
-        "subTitle": "Fresh cream, garam masala",
-        "priceSubTitle": "Comfort"
-      },
-      {
-        "title": "Veg Jalfrezi",
-        "price": "Rs 349",
-        "image": "/assets/img/menuitems/generated/mushroom-chettinad-veg-jalfrezi.png",
-        "subTitle": "Julienned bell peppers, vibrant masala",
-        "priceSubTitle": "Vegan option"
+        "title": "Saag Aloo",
+        "price": "Rs 285",
+        "image": "/assets/img/menu/next/items/generated/saag-aloo.webp",
+        "subTitle": "Spinach and greens cooked with baby potatoes and tempered spices",
+        "priceSubTitle": ""
       }
     ]
   },
@@ -268,156 +693,129 @@
       "subTitle": "Tandoor Breads",
       "tyle": "center"
     },
-    "bgImgShow": "/assets/img/menu-sections/indian-breads-bg.png",
+    "bgImgShow": "/assets/img/menu/next/backgrounds/generated/indian-breads-bg.webp",
     "foodMenu": [
       {
-        "title": "Roti / Butter Roti",
-        "price": "Rs 59",
-        "image": "/assets/img/menuitems/generated/indian-breads-assortment.png",
-        "subTitle": "Fresh Indian bread",
-        "priceSubTitle": "Vegan option"
+        "title": "Garlic Naan",
+        "price": "Rs 95",
+        "image": "/assets/img/menu/next/items/generated/garlic-naan.webp",
+        "subTitle": "Fresh tandoor naan with garlic",
+        "priceSubTitle": ""
       },
       {
-        "title": "Kulcha",
-        "price": "Rs 89",
-        "image": "/assets/img/menuitems/generated/indian-breads-assortment.png",
-        "subTitle": "Soft tandoor bread",
-        "priceSubTitle": "Classic"
+        "title": "Plain / Butter Naan",
+        "price": "Rs 80",
+        "image": "/assets/img/menu/next/items/generated/plain-butter-naan.webp",
+        "subTitle": "Plain or butter naan",
+        "priceSubTitle": ""
       },
       {
-        "title": "Missi Roti",
-        "price": "Rs 89",
-        "image": "/assets/img/menuitems/generated/indian-breads-assortment.png",
-        "subTitle": "Punjabi-style gram flour bread",
-        "priceSubTitle": "For saag"
+        "title": "Butter Kulcha",
+        "price": "Rs 80",
+        "image": "/assets/img/menu/next/items/generated/butter-kulcha.webp",
+        "subTitle": "Soft butter kulcha",
+        "priceSubTitle": ""
+      },
+      {
+        "title": "Methi Kulcha",
+        "price": "Rs 79",
+        "image": "/assets/img/menu/next/items/generated/methi-kulcha.webp",
+        "subTitle": "Methi flavoured kulcha",
+        "priceSubTitle": ""
+      },
+      {
+        "title": "Tandoori Roti / Butter Roti",
+        "price": "Rs 65",
+        "image": "/assets/img/menu/next/items/generated/tandoori-roti-butter-roti.webp",
+        "subTitle": "Tandoori roti or butter roti",
+        "priceSubTitle": ""
+      },
+      {
+        "title": "Chur Chur Ajwain Paratha",
+        "price": "Rs 120",
+        "image": "/assets/img/menu/next/items/generated/chur-chur-ajwain-paratha.webp",
+        "subTitle": "Flaky ajwain paratha",
+        "priceSubTitle": ""
+      },
+      {
+        "title": "Laccha Paratha",
+        "price": "Rs 105",
+        "image": "/assets/img/menu/next/items/generated/laccha-paratha.webp",
+        "subTitle": "Layered laccha paratha",
+        "priceSubTitle": ""
+      },
+      {
+        "title": "Malabar Parotta",
+        "price": "Rs 105",
+        "image": "/assets/img/menu/next/items/generated/malabar-parotta.webp",
+        "subTitle": "Flaky Malabar parotta",
+        "priceSubTitle": ""
+      },
+      {
+        "title": "Poori (2 Pcs)",
+        "price": "Rs 120",
+        "image": "/assets/img/menu/next/items/generated/poori-2-pcs.webp",
+        "subTitle": "Two pieces of poori",
+        "priceSubTitle": ""
+      },
+      {
+        "title": "Tandoori Bread Basket",
+        "price": "Rs 155",
+        "image": "/assets/img/menu/next/items/generated/tandoori-bread-basket.webp",
+        "subTitle": "Assorted tandoori bread basket",
+        "priceSubTitle": ""
       }
     ]
   },
   {
     "headingtext": {
-      "title": "Pastas",
-      "subTitle": "Italian-Inspired",
+      "title": "Rice And Biryani",
+      "subTitle": "Fragrant Rice Specials",
       "tyle": "center"
     },
-    "bgImgShow": "/assets/img/menu-sections/pastas-bg.png",
+    "bgImgShow": "/assets/img/menu/next/backgrounds/generated/rice-biryani-bg.webp",
     "foodMenu": [
       {
-        "title": "Pesto Wild Arugula Pasta",
-        "price": "Rs 399",
-        "image": "/assets/img/menuitems/generated/vegetarian-pasta-trio.png",
-        "subTitle": "Haricot beans, sundried tomato",
-        "priceSubTitle": "Fresh"
+        "title": "Dum Paneer Biryani",
+        "price": "Rs 305",
+        "image": "/assets/img/menu/next/items/generated/dum-paneer-biryani.webp",
+        "subTitle": "Fragrant basmati rice layered with spiced paneer, caramelised onions and aromatic biryani masala, slow cooked on dum",
+        "priceSubTitle": ""
       },
       {
-        "title": "Aglio Olio Pasta",
-        "price": "Rs 369",
-        "image": "/assets/img/menuitems/generated/vegetarian-pasta-trio.png",
-        "subTitle": "Olive oil, garlic, chilli, cherry tomato",
-        "priceSubTitle": "Vegan option"
+        "title": "Kolkata Aloo Biryani",
+        "price": "Rs 305",
+        "image": "/assets/img/menu/next/items/generated/kolkata-aloo-biryani.webp",
+        "subTitle": "Lightly spiced Kolkata-style biryani with basmati rice, potatoes and whole spices finished with saffron aroma",
+        "priceSubTitle": ""
       },
       {
-        "title": "San Marzano Tomato Pasta",
-        "price": "Rs 379",
-        "image": "/assets/img/menuitems/generated/vegetarian-pasta-trio.png",
-        "subTitle": "Basil, cherry tomato, spicy tomato sauce",
-        "priceSubTitle": "Classic"
+        "title": "Mushroom Yakhni Pulao",
+        "price": "Rs 285",
+        "image": "/assets/img/menu/next/items/generated/mushroom-yakhni-pulao.webp",
+        "subTitle": "Basmati rice cooked with mushrooms in a delicate yogurt-based yakhni broth and mild spices",
+        "priceSubTitle": ""
       },
       {
-        "title": "Creamy Cheese Pasta",
-        "price": "Rs 399",
-        "image": "/assets/img/menuitems/generated/vegetarian-pasta-trio.png",
-        "subTitle": "Cheese sauce, parmesan crumb",
-        "priceSubTitle": "Indulgent"
-      }
-    ]
-  },
-  {
-    "headingtext": {
-      "title": "Biryani & Rice",
-      "subTitle": "Rice Bowls",
-      "tyle": "center"
-    },
-    "bgImgShow": "/assets/img/menu-sections/biryani-rice-bg.png",
-    "foodMenu": [
-      {
-        "title": "Veg Biryani",
-        "price": "Rs 359",
-        "image": "/assets/img/menuitems/generated/biryani-and-rice-selection.png",
-        "subTitle": "Fragrant rice, vegetables, raita",
-        "priceSubTitle": "House rice"
+        "title": "Kaju Jeera Ghee Rice",
+        "price": "Rs 305",
+        "image": "/assets/img/menu/next/items/generated/kaju-jeera-ghee-rice.webp",
+        "subTitle": "Aromatic basmati rice tempered with cumin, roasted cashews and finished with ghee",
+        "priceSubTitle": ""
       },
       {
-        "title": "Jeera Rice",
-        "price": "Rs 199",
-        "image": "/assets/img/menuitems/generated/biryani-and-rice-selection.png",
-        "subTitle": "Cumin tempered basmati rice",
-        "priceSubTitle": "Classic"
+        "title": "Veg Kourt Daily Pulav",
+        "price": "Rs 275",
+        "image": "/assets/img/menu/next/items/generated/veg-kourt-daily-pulav.webp",
+        "subTitle": "Chef's daily vegetable pulao cooked with seasonal vegetables and fragrant spices",
+        "priceSubTitle": ""
       },
       {
-        "title": "Palak Rice",
-        "price": "Rs 229",
-        "image": "/assets/img/menuitems/generated/biryani-and-rice-selection.png",
-        "subTitle": "Spinach rice, light spices",
-        "priceSubTitle": "Green"
-      },
-      {
-        "title": "Curd Rice",
-        "price": "Rs 199",
-        "image": "/assets/img/menuitems/generated/biryani-and-rice-selection.png",
-        "subTitle": "Cooling yogurt rice",
-        "priceSubTitle": "Comfort"
-      },
-      {
-        "title": "Plain Rice",
-        "price": "Rs 169",
-        "image": "/assets/img/menuitems/generated/biryani-and-rice-selection.png",
-        "subTitle": "Steamed rice",
-        "priceSubTitle": "Simple"
-      }
-    ]
-  },
-  {
-    "headingtext": {
-      "title": "Oriental",
-      "subTitle": "Indo-Chinese",
-      "tyle": "center"
-    },
-    "bgImgShow": "/assets/img/menu-sections/oriental-bg.png",
-    "foodMenu": [
-      {
-        "title": "Veg Manchurian Gravy",
-        "price": "Rs 329",
-        "image": "/assets/img/vegkourtimages/veg-manchurian-gravy.webp",
-        "subTitle": "Chinese-style vegetable dumplings",
-        "priceSubTitle": "Spicy"
-      },
-      {
-        "title": "Paneer Manchurian Gravy",
-        "price": "Rs 349",
-        "image": "/assets/img/menuitems/generated/oriental-rice-paneer-manchurian.png",
-        "subTitle": "Paneer in Indo-Chinese gravy",
-        "priceSubTitle": "Rich"
-      },
-      {
-        "title": "Veg Fried Rice",
-        "price": "Rs 289",
-        "image": "/assets/img/menuitems/generated/oriental-rice-paneer-manchurian.png",
-        "subTitle": "Ginger, Schezwan or garlic",
-        "priceSubTitle": "Oriental"
-      },
-      {
-        "title": "Veg Hakka Noodles",
-        "price": "Rs 289",
-        "image": "/assets/img/vegkourtimages/veg-hakka-noodles.webp",
-        "subTitle": "Ginger, Schezwan or garlic",
-        "priceSubTitle": "Noodles"
-      },
-      {
-        "title": "Triple Schezwan Fried Rice",
-        "price": "Rs 349",
-        "image": "/assets/img/menuitems/generated/oriental-rice-paneer-manchurian.png",
-        "subTitle": "Bold Schezwan rice",
-        "priceSubTitle": "Spicy"
+        "title": "Steamed Rice",
+        "price": "Rs 205",
+        "image": "/assets/img/menu/next/items/generated/steamed-rice.webp",
+        "subTitle": "Simple steamed basmati rice, perfect to pair with curries and dals",
+        "priceSubTitle": ""
       }
     ]
   },
@@ -427,42 +825,63 @@
       "subTitle": "Sweet Finish",
       "tyle": "center"
     },
-    "bgImgShow": "/assets/img/menu-sections/desserts-bg.png",
+    "bgImgShow": "/assets/img/menu/next/backgrounds/generated/desserts-bg.webp",
     "foodMenu": [
       {
-        "title": "Shahi Tukda With Lachha Rabri",
-        "price": "Rs 249",
-        "image": "/assets/img/vegkourtimages/shahi-tukda-rabri.webp",
-        "subTitle": "Roasted nuts, rich rabri",
-        "priceSubTitle": "Chef special"
+        "title": "Rasmalai Tres Leches Cake",
+        "price": "Rs 295",
+        "image": "/assets/img/menu/next/items/generated/rasmalai-tres-leches-cake.webp",
+        "subTitle": "Soft sponge soaked in three milks inspired by the flavours of rasmalai",
+        "priceSubTitle": ""
       },
       {
-        "title": "Lucknow Malaiyo",
-        "price": "Rs 229",
-        "image": "/assets/img/menuitems/generated/dessert-assortment.png",
-        "subTitle": "Airy malai, koya crumb",
-        "priceSubTitle": "Traditional"
+        "title": "Dark Chocolate & Peshawari Nuts Tart",
+        "price": "Rs 295",
+        "image": "/assets/img/menu/next/items/generated/dark-chocolate-peshawari-nuts-tart.webp",
+        "subTitle": "Rich dark chocolate tart filled with caramelised Peshawari nuts",
+        "priceSubTitle": ""
       },
       {
-        "title": "Chocolate Sponge Sundae",
-        "price": "Rs 269",
-        "image": "/assets/img/menuitems/generated/dessert-assortment.png",
-        "subTitle": "Hot chocolate sauce, vanilla ice cream",
-        "priceSubTitle": "Indulgent"
+        "title": "Black Cardamom Creme Brulee",
+        "price": "Rs 285",
+        "image": "/assets/img/menu/next/items/generated/black-cardamom-creme-brulee.webp",
+        "subTitle": "Silky baked custard infused with black cardamom and finished with caramelised sugar",
+        "priceSubTitle": ""
       },
       {
-        "title": "Mysore Pak Crumble",
-        "price": "Rs 229",
-        "image": "/assets/img/menuitems/generated/dessert-assortment.png",
-        "subTitle": "Mini boondi, fruit compote",
-        "priceSubTitle": "Local twist"
+        "title": "Carrot Halwa & Ginger Toffee Pudding",
+        "price": "Rs 285",
+        "image": "/assets/img/menu/next/items/generated/carrot-halwa-ginger-toffee-pudding.webp",
+        "subTitle": "Warm carrot halwa paired with spiced ginger toffee pudding",
+        "priceSubTitle": ""
       },
       {
-        "title": "Gulab Jamoon",
-        "price": "Rs 169",
-        "image": "/assets/img/menuitems/generated/dessert-assortment.png",
-        "subTitle": "Warm syrup-soaked classic",
-        "priceSubTitle": "Classic"
+        "title": "Pineapple Jalebi & Rabri Cream",
+        "price": "Rs 280",
+        "image": "/assets/img/menu/next/items/generated/pineapple-jalebi-rabri-cream.webp",
+        "subTitle": "Crisp jalebi finished with pineapple glaze served with creamy rabri",
+        "priceSubTitle": ""
+      },
+      {
+        "title": "Shahi Tukda & Custard Apple Cream",
+        "price": "Rs 280",
+        "image": "/assets/img/menu/next/items/generated/shahi-tukda-custard-apple-cream.webp",
+        "subTitle": "Classic fried bread dessert soaked in saffron syrup served with custard apple cream",
+        "priceSubTitle": ""
+      },
+      {
+        "title": "Classic Mysore Pak (House Made)",
+        "price": "Rs 265",
+        "image": "/assets/img/menu/next/items/generated/classic-mysore-pak-house-made.webp",
+        "subTitle": "Traditional sweet made with gram flour, ghee and sugar",
+        "priceSubTitle": ""
+      },
+      {
+        "title": "Dessert Tasting Plate (For Two)",
+        "price": "Rs 550",
+        "image": "/assets/img/menu/next/items/generated/dessert-tasting-plate-for-two.webp",
+        "subTitle": "A curated platter of our signature desserts, perfect for sharing",
+        "priceSubTitle": ""
       }
     ]
   }

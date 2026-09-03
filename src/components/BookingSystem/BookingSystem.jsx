@@ -230,7 +230,7 @@ export default function BookingSystem(props) {
       <form className={bookingStyle} onSubmit={handleSubmit}>
         <div className="reservation-form-heading">
           <p>Reserve Your Table</p>
-          <span>Bites, grills, curries, rice, breads, and desserts</span>
+          <span>Mocktails, chaats, Asian plates, curries, breads, rice, and desserts</span>
         </div>
 
         <div className="reservation-grid">

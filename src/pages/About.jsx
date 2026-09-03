@@ -11,7 +11,7 @@ const aboutIntro = {
   details:
     "Veg Kourt welcomes guests into a warm pure vegetarian restaurant space in Mysuru, shaped around bold spices, crisp textures, and slow table conversations.",
   subtext:
-    "The menu runs from Bites, Soups, Garden Greens, Grills, and Nibbles to Mains, Indian Breads, Pastas, Biryani & Rice, Oriental, and Desserts.",
+    "The menu runs from Mocktails, Nibbles & Bar Bites, Small Plates, Indian Street Chaats, Flatbread & Naanzas, Asian Plates, Main Course, Pastas, Soups & Salads, Indian Main Course, Indian Breads, Rice And Biryani, and Desserts.",
   buttonText: "Explore Veg Kourt",
 };
 

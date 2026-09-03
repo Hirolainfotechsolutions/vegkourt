@@ -1,300 +1,403 @@
 [
   {
     "id": 1,
-    "img": "/assets/img/vegkourtimages/vegkourtimg2.webp",
-    "title": "Crispy Nachos Chaat",
-    "subtitle": "Bites",
+    "img": "/assets/img/menu/next/items/generated/smoke-and-mirrors.webp",
+    "title": "Smoke & Mirrors",
+    "subtitle": "Mocktails",
     "portfoliodetails": {
-      "category": "Bites",
+      "category": "Mocktails",
       "date": "2026",
-      "desp": "A crisp starter moment inspired by Veg Kourt's Bites section with chutneys, sev, and chaat-style texture.",
-      "shortdesp": "From the Bites menu: crisp textures and bright chutneys.",
+      "desp": "Lime juice, orange syrup, honey syrup, soda, rosemary",
+      "shortdesp": "Price: Rs 185",
       "tags": [
         "Veg Kourt",
-        "Vegetarian"
+        "Vegetarian",
+        "Mocktails"
       ],
       "portfolioSlider": [
         {
-          "img": "/assets/img/vegkourtimages/vegkourtimg2.webp"
+          "img": "/assets/img/menu/next/items/generated/smoke-and-mirrors.webp"
         },
         {
-          "img": "/assets/img/vegkourtimages/vegkourtimg3.webp"
+          "img": "/assets/img/menu/next/items/generated/bubble-burst.webp"
         },
         {
-          "img": "/assets/img/vegkourtimages/vegkourtimg4.webp"
+          "img": "/assets/img/menu/next/items/generated/midnight-velvet.webp"
         },
         {
-          "img": "/assets/img/vegkourtimages/vegkourtimg5.webp"
+          "img": "/assets/img/menu/next/items/generated/italian-affair.webp"
         }
       ]
     }
   },
   {
     "id": 2,
-    "img": "/assets/img/vegkourtimages/vegkourtimg3.webp",
-    "title": "Creamy Spinach Soup",
-    "subtitle": "Soups",
+    "img": "/assets/img/menu/next/items/generated/truffle-corn-cheese-bombs.webp",
+    "title": "Truffle Corn & Cheese Bombs",
+    "subtitle": "Nibbles & Bar Bites",
     "portfoliodetails": {
-      "category": "Soups",
+      "category": "Nibbles & Bar Bites",
       "date": "2026",
-      "desp": "A warm menu note from the Soups section, paired in spirit with mini paneer momo and parmesan.",
-      "shortdesp": "Warm bowls from the Veg Kourt menu.",
+      "desp": "Crispy fried corn and cheese bites finished with truffle seasoning",
+      "shortdesp": "Price: Rs 235",
       "tags": [
         "Veg Kourt",
-        "Vegetarian"
+        "Vegetarian",
+        "Nibbles & Bar Bites"
       ],
       "portfolioSlider": [
         {
-          "img": "/assets/img/vegkourtimages/vegkourtimg3.webp"
+          "img": "/assets/img/menu/next/items/generated/truffle-corn-cheese-bombs.webp"
         },
         {
-          "img": "/assets/img/vegkourtimages/vegkourtimg6.webp"
+          "img": "/assets/img/menu/next/items/generated/house-made-butter-popcorn.webp"
         },
         {
-          "img": "/assets/img/vegkourtimages/vegkourtimg7.webp"
+          "img": "/assets/img/menu/next/items/generated/mexican-spiced-chickpeas-paprika-hummus.webp"
         },
         {
-          "img": "/assets/img/vegkourtimages/vegkourtimg8.webp"
+          "img": "/assets/img/menu/next/items/generated/assorted-papad-basket-dry-chutneys.webp"
         }
       ]
     }
   },
   {
     "id": 3,
-    "img": "/assets/img/vegkourtimages/vegkourtimg4.webp",
-    "title": "Mango Avocado Salad",
-    "subtitle": "Garden Greens",
+    "img": "/assets/img/menu/next/items/generated/paneer-ghee-roast-with-coin-parotta.webp",
+    "title": "Paneer Ghee Roast With Coin Parotta",
+    "subtitle": "Small Plates",
     "portfoliodetails": {
-      "category": "Garden Greens",
+      "category": "Small Plates",
       "date": "2026",
-      "desp": "Fresh salad inspiration from mango, avocado, arugula, mint vinaigrette, and pine nuts.",
-      "shortdesp": "Garden Greens with fruit, herbs, and crunch.",
+      "desp": "Crispy Malabar coin parottas served with spicy Mangalorean style paneer ghee roast",
+      "shortdesp": "Price: Rs 335",
       "tags": [
         "Veg Kourt",
-        "Vegetarian"
+        "Vegetarian",
+        "Small Plates"
       ],
       "portfolioSlider": [
         {
-          "img": "/assets/img/vegkourtimages/vegkourtimg4.webp"
+          "img": "/assets/img/menu/next/items/generated/paneer-ghee-roast-with-coin-parotta.webp"
         },
         {
-          "img": "/assets/img/vegkourtimages/vegkourtimg9.webp"
+          "img": "/assets/img/menu/next/items/generated/honey-chilli-lotus-stem-crisp.webp"
         },
         {
-          "img": "/assets/img/vegkourtimages/vegkourtimg10.webp"
+          "img": "/assets/img/menu/next/items/generated/paneer-lababdar-tikka.webp"
         },
         {
-          "img": "/assets/img/vegkourtimages/vegkourtimg11.webp"
+          "img": "/assets/img/menu/next/items/generated/classic-paneer-tikka.webp"
         }
       ]
     }
   },
   {
     "id": 4,
-    "img": "/assets/img/vegkourtimages/vegkourtimg5.webp",
-    "title": "Classic Paneer Tikka",
-    "subtitle": "Grills",
+    "img": "/assets/img/menu/next/items/generated/avocado-sev-puri.webp",
+    "title": "Avocado Sev Puri",
+    "subtitle": "Indian Street Chaats",
     "portfoliodetails": {
-      "category": "Grills",
+      "category": "Indian Street Chaats",
       "date": "2026",
-      "desp": "Tandoor-style vegetarian grilling inspired by classic paneer tikka, broccoli, and stuffed mushrooms.",
-      "shortdesp": "Smoky grill favourites from the menu.",
+      "desp": "Crisp puris topped with spiced potatoes, creamy avocado and chutneys",
+      "shortdesp": "Price: Rs 200",
       "tags": [
         "Veg Kourt",
-        "Vegetarian"
+        "Vegetarian",
+        "Indian Street Chaats"
       ],
       "portfolioSlider": [
         {
-          "img": "/assets/img/vegkourtimages/vegkourtimg5.webp"
+          "img": "/assets/img/menu/next/items/generated/avocado-sev-puri.webp"
         },
         {
-          "img": "/assets/img/vegkourtimages/vegkourtimg2.webp"
+          "img": "/assets/img/menu/next/items/generated/bombay-pao-bhaji-with-spiced-burrata.webp"
         },
         {
-          "img": "/assets/img/vegkourtimages/vegkourtimg7.webp"
+          "img": "/assets/img/menu/next/items/generated/papdi-chaat-crispy-spinach.webp"
         },
         {
-          "img": "/assets/img/vegkourtimages/vegkourtimg9.webp"
+          "img": "/assets/img/menu/next/items/generated/lotus-stem-chaat.webp"
         }
       ]
     }
   },
   {
     "id": 5,
-    "img": "/assets/img/vegkourtimages/vegkourtimg6.webp",
-    "title": "Paneer Lababdar",
-    "subtitle": "Mains",
+    "img": "/assets/img/menu/next/items/generated/paneer-tikka-naanza.webp",
+    "title": "Paneer Tikka Naanza",
+    "subtitle": "Flatbread & Naanzas",
     "portfoliodetails": {
-      "category": "Mains",
+      "category": "Flatbread & Naanzas",
       "date": "2026",
-      "desp": "Rich main-course comfort inspired by Paneer Lababdar, Palak Paneer, Dal Makhani, and Mushroom Chettinad.",
-      "shortdesp": "Curries and comfort from the Mains section.",
+      "desp": "Tandoor baked naan topped with paneer tikka, peppers and mozzarella",
+      "shortdesp": "Price: Rs 255",
       "tags": [
         "Veg Kourt",
-        "Vegetarian"
+        "Vegetarian",
+        "Flatbread & Naanzas"
       ],
       "portfolioSlider": [
         {
-          "img": "/assets/img/vegkourtimages/vegkourtimg6.webp"
+          "img": "/assets/img/menu/next/items/generated/paneer-tikka-naanza.webp"
         },
         {
-          "img": "/assets/img/vegkourtimages/vegkourtimg8.webp"
+          "img": "/assets/img/menu/next/items/generated/chilli-cheese-naan.webp"
         },
         {
-          "img": "/assets/img/vegkourtimages/vegkourtimg10.webp"
+          "img": "/assets/img/menu/next/items/generated/mushroom-cheese-naan.webp"
         },
         {
-          "img": "/assets/img/vegkourtimages/vegkourtimg3.webp"
+          "img": "/assets/img/menu/next/items/generated/caramelised-onion-naan.webp"
         }
       ]
     }
   },
   {
     "id": 6,
-    "img": "/assets/img/vegkourtimages/vegkourtimg7.webp",
-    "title": "Indian Breads",
-    "subtitle": "Roti And Kulcha",
+    "img": "/assets/img/menu/next/items/generated/spinach-cottage-cheese-dim-sum.webp",
+    "title": "Spinach & Cottage Cheese Dim Sum",
+    "subtitle": "Asian Plates",
     "portfoliodetails": {
-      "category": "Dining",
+      "category": "Asian Plates",
       "date": "2026",
-      "desp": "Fresh roti, butter roti, kulcha, and Missi Roti made to sit beside curries and saag.",
-      "shortdesp": "Breads for sharing with the main course.",
+      "desp": "Soft dumplings stuffed with spinach and paneer served with sesame soy dip",
+      "shortdesp": "Price: Rs 245",
       "tags": [
         "Veg Kourt",
-        "Vegetarian"
+        "Vegetarian",
+        "Asian Plates"
       ],
       "portfolioSlider": [
         {
-          "img": "/assets/img/vegkourtimages/vegkourtimg7.webp"
+          "img": "/assets/img/menu/next/items/generated/spinach-cottage-cheese-dim-sum.webp"
         },
         {
-          "img": "/assets/img/vegkourtimages/vegkourtimg4.webp"
+          "img": "/assets/img/menu/next/items/generated/new-york-cream-cheese-dim-sum.webp"
         },
         {
-          "img": "/assets/img/vegkourtimages/vegkourtimg11.webp"
+          "img": "/assets/img/menu/next/items/generated/burnt-garlic-vegetable-dim-sum.webp"
         },
         {
-          "img": "/assets/img/vegkourtimages/vegkourtimg5.webp"
+          "img": "/assets/img/menu/next/items/generated/truffle-mushroom-potstickers.webp"
         }
       ]
     }
   },
   {
     "id": 7,
-    "img": "/assets/img/vegkourtimages/vegkourtimg8.webp",
-    "title": "Veg Biryani",
-    "subtitle": "Biryani & Rice",
+    "img": "/assets/img/menu/next/items/generated/veg-fried-rice.webp",
+    "title": "Veg Fried Rice",
+    "subtitle": "Main Course",
     "portfoliodetails": {
-      "category": "Biryani & Rice",
+      "category": "Main Course",
       "date": "2026",
-      "desp": "Rice bowl comfort inspired by Veg Biryani, Jeera Rice, Palak Rice, Curd Rice, and Plain Rice.",
-      "shortdesp": "Fragrant rice plates from the menu.",
+      "desp": "Classic vegetable fried rice",
+      "shortdesp": "Price: Rs 235",
       "tags": [
         "Veg Kourt",
-        "Vegetarian"
+        "Vegetarian",
+        "Main Course"
       ],
       "portfolioSlider": [
         {
-          "img": "/assets/img/vegkourtimages/vegkourtimg8.webp"
+          "img": "/assets/img/menu/next/items/generated/veg-fried-rice.webp"
         },
         {
-          "img": "/assets/img/vegkourtimages/vegkourtimg2.webp"
+          "img": "/assets/img/menu/next/items/generated/burnt-garlic-fried-rice.webp"
         },
         {
-          "img": "/assets/img/vegkourtimages/vegkourtimg6.webp"
+          "img": "/assets/img/menu/next/items/generated/schezwan-fried-rice.webp"
         },
         {
-          "img": "/assets/img/vegkourtimages/vegkourtimg10.webp"
+          "img": "/assets/img/menu/next/items/generated/mushroom-pepper-fried-rice.webp"
         }
       ]
     }
   },
   {
     "id": 8,
-    "img": "/assets/img/vegkourtimages/vegkourtimg9.webp",
-    "title": "Veg Manchurian",
-    "subtitle": "Oriental",
+    "img": "/assets/img/menu/next/items/generated/wild-arugula-pesto-pasta.webp",
+    "title": "Wild Arugula Pesto Pasta",
+    "subtitle": "Pastas",
     "portfoliodetails": {
-      "category": "Oriental",
+      "category": "Pastas",
       "date": "2026",
-      "desp": "Indo-Chinese comfort inspired by Veg Manchurian gravy, Hakka noodles, fried rice, and Schezwan flavours.",
-      "shortdesp": "Oriental plates with spice and sauce.",
+      "desp": "Fresh arugula pesto with parmesan and herbs",
+      "shortdesp": "Price: Rs 275",
       "tags": [
         "Veg Kourt",
-        "Vegetarian"
+        "Vegetarian",
+        "Pastas"
       ],
       "portfolioSlider": [
         {
-          "img": "/assets/img/vegkourtimages/vegkourtimg9.webp"
+          "img": "/assets/img/menu/next/items/generated/wild-arugula-pesto-pasta.webp"
         },
         {
-          "img": "/assets/img/vegkourtimages/vegkourtimg3.webp"
+          "img": "/assets/img/menu/next/items/generated/mac-cheese-parmesan-crumb.webp"
         },
         {
-          "img": "/assets/img/vegkourtimages/vegkourtimg5.webp"
+          "img": "/assets/img/menu/next/items/generated/arrabbiata-pasta.webp"
         },
         {
-          "img": "/assets/img/vegkourtimages/vegkourtimg11.webp"
+          "img": "/assets/img/menu/next/items/generated/aglio-olio-pasta.webp"
         }
       ]
     }
   },
   {
     "id": 9,
-    "img": "/assets/img/vegkourtimages/vegkourtimg10.webp",
-    "title": "Pesto Wild Arugula Pasta",
-    "subtitle": "Pastas",
+    "img": "/assets/img/menu/next/items/generated/cream-of-mushroom-soup.webp",
+    "title": "Cream Of Mushroom Soup",
+    "subtitle": "Soups & Salads",
     "portfoliodetails": {
-      "category": "Pastas",
+      "category": "Soups & Salads",
       "date": "2026",
-      "desp": "Italian-inspired vegetarian pasta choices including pesto, aglio olio, tomato, and creamy cheese sauces.",
-      "shortdesp": "Pasta plates from the vegetarian menu.",
+      "desp": "Creamy mushroom soup",
+      "shortdesp": "Price: Rs 220",
       "tags": [
         "Veg Kourt",
-        "Vegetarian"
+        "Vegetarian",
+        "Soups & Salads"
       ],
       "portfolioSlider": [
         {
-          "img": "/assets/img/vegkourtimages/vegkourtimg10.webp"
+          "img": "/assets/img/menu/next/items/generated/cream-of-mushroom-soup.webp"
         },
         {
-          "img": "/assets/img/vegkourtimages/vegkourtimg7.webp"
+          "img": "/assets/img/menu/next/items/generated/creamy-spinach-soup-paneer-momos.webp"
         },
         {
-          "img": "/assets/img/vegkourtimages/vegkourtimg4.webp"
+          "img": "/assets/img/menu/next/items/generated/spicy-manchow-soup-with-noodle-bhel.webp"
         },
         {
-          "img": "/assets/img/vegkourtimages/vegkourtimg2.webp"
+          "img": "/assets/img/menu/next/items/generated/roasted-tomato-basil-soup.webp"
         }
       ]
     }
   },
   {
     "id": 10,
-    "img": "/assets/img/vegkourtimages/vegkourtimg11.webp",
-    "title": "Shahi Tukda Rabri",
-    "subtitle": "Desserts",
+    "img": "/assets/img/menu/next/items/generated/paneer-butter-masala.webp",
+    "title": "Paneer Butter Masala",
+    "subtitle": "Indian Main Course",
     "portfoliodetails": {
-      "category": "Mains",
+      "category": "Indian Main Course",
       "date": "2026",
-      "desp": "A sweet finish inspired by Shahi Tukda with Lachha Rabri, Lucknow Malaiyo, Chocolate Sponge Sundae, and Mysore Pak Crumble.",
-      "shortdesp": "Dessert favourites to close the meal.",
+      "desp": "Paneer cubes simmered in a rich tomato, butter and cashew gravy finished with cream",
+      "shortdesp": "Price: Rs 305",
       "tags": [
         "Veg Kourt",
-        "Vegetarian"
+        "Vegetarian",
+        "Indian Main Course"
       ],
       "portfolioSlider": [
         {
-          "img": "/assets/img/vegkourtimages/vegkourtimg11.webp"
+          "img": "/assets/img/menu/next/items/generated/paneer-butter-masala.webp"
         },
         {
-          "img": "/assets/img/vegkourtimages/vegkourtimg8.webp"
+          "img": "/assets/img/menu/next/items/generated/spiced-creamy-burrata-saag.webp"
         },
         {
-          "img": "/assets/img/vegkourtimages/vegkourtimg6.webp"
+          "img": "/assets/img/menu/next/items/generated/lasooni-paneer-masala.webp"
         },
         {
-          "img": "/assets/img/vegkourtimages/vegkourtimg9.webp"
+          "img": "/assets/img/menu/next/items/generated/royal-kadhai-paneer.webp"
+        }
+      ]
+    }
+  },
+  {
+    "id": 11,
+    "img": "/assets/img/menu/next/items/generated/garlic-naan.webp",
+    "title": "Garlic Naan",
+    "subtitle": "Indian Breads",
+    "portfoliodetails": {
+      "category": "Indian Breads",
+      "date": "2026",
+      "desp": "Fresh tandoor naan with garlic",
+      "shortdesp": "Price: Rs 95",
+      "tags": [
+        "Veg Kourt",
+        "Vegetarian",
+        "Indian Breads"
+      ],
+      "portfolioSlider": [
+        {
+          "img": "/assets/img/menu/next/items/generated/garlic-naan.webp"
+        },
+        {
+          "img": "/assets/img/menu/next/items/generated/plain-butter-naan.webp"
+        },
+        {
+          "img": "/assets/img/menu/next/items/generated/butter-kulcha.webp"
+        },
+        {
+          "img": "/assets/img/menu/next/items/generated/methi-kulcha.webp"
+        }
+      ]
+    }
+  },
+  {
+    "id": 12,
+    "img": "/assets/img/menu/next/items/generated/dum-paneer-biryani.webp",
+    "title": "Dum Paneer Biryani",
+    "subtitle": "Rice And Biryani",
+    "portfoliodetails": {
+      "category": "Rice And Biryani",
+      "date": "2026",
+      "desp": "Fragrant basmati rice layered with spiced paneer, caramelised onions and aromatic biryani masala, slow cooked on dum",
+      "shortdesp": "Price: Rs 305",
+      "tags": [
+        "Veg Kourt",
+        "Vegetarian",
+        "Rice And Biryani"
+      ],
+      "portfolioSlider": [
+        {
+          "img": "/assets/img/menu/next/items/generated/dum-paneer-biryani.webp"
+        },
+        {
+          "img": "/assets/img/menu/next/items/generated/kolkata-aloo-biryani.webp"
+        },
+        {
+          "img": "/assets/img/menu/next/items/generated/mushroom-yakhni-pulao.webp"
+        },
+        {
+          "img": "/assets/img/menu/next/items/generated/kaju-jeera-ghee-rice.webp"
+        }
+      ]
+    }
+  },
+  {
+    "id": 13,
+    "img": "/assets/img/menu/next/items/generated/rasmalai-tres-leches-cake.webp",
+    "title": "Rasmalai Tres Leches Cake",
+    "subtitle": "Desserts",
+    "portfoliodetails": {
+      "category": "Desserts",
+      "date": "2026",
+      "desp": "Soft sponge soaked in three milks inspired by the flavours of rasmalai",
+      "shortdesp": "Price: Rs 295",
+      "tags": [
+        "Veg Kourt",
+        "Vegetarian",
+        "Desserts"
+      ],
+      "portfolioSlider": [
+        {
+          "img": "/assets/img/menu/next/items/generated/rasmalai-tres-leches-cake.webp"
+        },
+        {
+          "img": "/assets/img/menu/next/items/generated/dark-chocolate-peshawari-nuts-tart.webp"
+        },
+        {
+          "img": "/assets/img/menu/next/items/generated/black-cardamom-creme-brulee.webp"
+        },
+        {
+          "img": "/assets/img/menu/next/items/generated/carrot-halwa-ginger-toffee-pudding.webp"
         }
       ]
     }

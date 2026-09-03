@@ -12,9 +12,9 @@ const sliderData = [
     mobileImage: "/assets/img/vegkourtimages/mobile-banner1.png",
   },
   {
-    title: "Bites",
-    maintitle: "Papad Chaat Crunch",
-    desp: "Assorted papad baskets, crispy nachos chaat, roasted chickpeas, and masala papad start the meal with bright chutneys.",
+    title: "Mocktails",
+    maintitle: "Fresh House Mixes",
+    desp: "Smoke & Mirrors, Bubble Burst, Golden Hour, mojitos, and chilled signatures bring a bright start to the table.",
     buttonUrl: "/reservations",
     image: "/assets/img/vegkourtimages/banner2.webp",
     mobileImage: "/assets/img/vegkourtimages/mobile-banner2.png",

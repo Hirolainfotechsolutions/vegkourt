@@ -1,10 +1,10 @@
-import React from "react";
 import { Routes, Route } from "react-router-dom";
 import Main from "./layout/Main";
 import Home from "./pages/Home";
 // import HomeTwo from "./pages/HomeTwo";
 import About from "./pages/About";
 import Menu from "./pages/Menu";
+import Catering from "./pages/Catering";
 // import Chef from "./pages/Chef";
 import Portfolio from "./pages/Portfolio";
 import Contact from "./pages/Contact";
@@ -28,6 +28,7 @@ export default function App() {
         {/* <Route path="/home2" element={<HomeTwo />}></Route> */}
         <Route path="/about" element={<About />}></Route>
         <Route path="/menu" element={<Menu />}></Route>
+        <Route path="/catering" element={<Catering />}></Route>
         {/* <Route path="/chef" element={<Chef />}></Route> */}
         {/* <Route path="/meet-the-chef/:id" element={<Chefdetails />}></Route> */}
         <Route path="/portfolio" element={<Portfolio />}></Route>

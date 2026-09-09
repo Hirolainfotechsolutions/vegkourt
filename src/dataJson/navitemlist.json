@@ -15,6 +15,11 @@
     "key": "menu"
   },
   {
+    "title": "Catering",
+    "link": "/catering",
+    "key": "catering"
+  },
+  {
     "title": "Blogs",
     "link": "/blog",
     "key": "blog"

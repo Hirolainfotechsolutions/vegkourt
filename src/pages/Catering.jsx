@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import useSeoData from "../hooks/useSeoData";
 import {
   ArrowLeft,
   ArrowRight,
@@ -14,18 +15,18 @@ import {
 const heroServices = [
   {
     icon: Truck,
-    title: "Live Delivery",
-    text: "Freshly packed dishes brought to your venue on time.",
+    title: "Fresh Arrival",
+    text: "Prepared fresh and timed for your event.",
   },
   {
     icon: Leaf,
-    title: "Pure Veg",
-    text: "Thoughtful vegetarian menus made for every gathering.",
+    title: "Pure Veg Menu",
+    text: "Vegetarian dishes planned for every guest.",
   },
   {
     icon: ShieldCheck,
-    title: "Clean Setup",
-    text: "Hygienic service, neat counters, and careful packaging.",
+    title: "Clean Service",
+    text: "Neat packing, hygienic handling, polished serving.",
   },
 ];
 
@@ -33,113 +34,114 @@ const menuItems = [
   {
     image: "/assets/img/menu/next/items/generated/classic-paneer-tikka.webp",
     title: "Paneer Tikka",
-    text: "Smoky cottage cheese with classic tandoori spice.",
-    tag: "Starter",
+    text: "Charred paneer cubes tossed in a bright tandoori marinade.",
+    tag: "Welcome Bite",
   },
   {
     image: "/assets/img/menu/next/items/generated/dum-paneer-biryani.webp",
     title: "Dum Paneer Biryani",
-    text: "Aromatic rice layered with paneer and fragrant masala.",
-    tag: "Rice",
+    text: "Layered rice, paneer, herbs, and mellow spices served with comfort.",
+    tag: "Rice Special",
   },
   {
     image:
       "/assets/img/menu/next/items/generated/dal-makhani-24-hour-black-lentils.webp",
     title: "Dal Makhani",
-    text: "Slow cooked lentils finished with rich, comforting flavors.",
-    tag: "Main",
+    text: "Velvety black lentils with a slow, homely depth of flavor.",
+    tag: "Main Course",
   },
   {
     image: "/assets/img/menu/next/items/generated/tandoori-bread-basket.webp",
     title: "Bread Basket",
-    text: "Assorted tandoori breads served warm for the table.",
-    tag: "Sides",
+    text: "Soft tandoori breads made to pair with gravies and shared plates.",
+    tag: "Table Side",
   },
   {
     image: "/assets/img/menuitems/generated/vegetarian-pasta-trio.png",
     title: "Pasta Selection",
-    text: "Creamy and saucy vegetarian pasta for mixed-age crowds.",
-    tag: "Continental",
+    text: "Creamy and saucy vegetarian pasta for guests who enjoy global flavors.",
+    tag: "Fusion Choice",
   },
   {
     image:
       "/assets/img/menu/next/items/generated/dessert-tasting-plate-for-two.webp",
     title: "Dessert Platter",
-    text: "A graceful finish with house-style sweets and desserts.",
-    tag: "Dessert",
+    text: "A sweet finish with familiar favorites and elegant plated treats.",
+    tag: "Sweet Finish",
   },
 ];
 
 const scrollImages = [
   {
     src: "/assets/img/vegkourtimages/vegkourtimg5.webp",
-    alt: "Veg Kourt catering preparation",
+    alt: "Veg Kourt fresh catering dishes",
   },
   {
     src: "/assets/img/vegkourtimages/bdparty.webp",
-    alt: "Veg Kourt private celebration",
+    alt: "Veg Kourt family celebration catering",
   },
   {
     src: "/assets/img/vegkourtimages/item7.webp",
-    alt: "Veg Kourt plated starter",
+    alt: "Veg Kourt vegetarian starter",
   },
   {
     src: "/assets/img/vegkourtimages/item5.webp",
-    alt: "Veg Kourt chef-style platter",
+    alt: "Veg Kourt vegetarian platter",
   },
   {
     src: "/assets/img/vegkourtimages/item8.webp",
-    alt: "Veg Kourt fresh vegetarian dish",
+    alt: "Veg Kourt event food dish",
   },
   {
     src: "/assets/img/vegkourtimages/outsideimage.webp",
-    alt: "Veg Kourt entrance",
+    alt: "Veg Kourt Mysuru restaurant",
   },
 ];
 
 const cateringSteps = [
   {
     image: "/assets/img/vegkourtimages/bdparty.webp",
-    text: "Share your event details, guest count, and preferences. Our team will understand what you are planning and get back to you quickly.",
+    text: "Share the occasion, guest count, venue, and food preferences. We understand the mood of your event before suggesting the menu.",
   },
   {
     image: "/assets/img/vegkourtimages/reservation-split-bg.png",
-    text: "We help you select a balanced pure vegetarian menu with starters, mains, breads, rice, desserts, and beverages.",
+    text: "Pick from pure vegetarian starters, gravies, rice, breads, desserts, beverages, and comfort dishes that suit your guests.",
   },
   {
     image: "/assets/img/vegkourtimages/vegkourtimg11.webp",
-    text: "For hosted events, we align the setup, serving flow, timing, and presentation so everything feels seamless.",
+    text: "We plan preparation, dispatch, packing, and serving flow so the food reaches fresh and the event stays relaxed.",
   },
   {
     image: "/assets/img/vegkourtimages/outsideimage.webp",
-    text: "On the event day, our team arrives prepared, serves with care, and lets you focus fully on your guests.",
+    text: "Your guests enjoy warm vegetarian food while our team keeps the service simple, clean, and attentive.",
   },
 ];
 
 const testimonials = [
   {
     quote:
-      "So happy with the catering for our family celebration. The food was fresh, the service was humble, and everyone loved the dry jamoon, veg noodles, and paneer tikka.",
-    name: "Nirmal Kumar",
+      "The food felt restaurant-fresh even at our venue. Every dish was served neatly, and our guests enjoyed the variety from starters to dessert.",
+    name: "Family Gathering",
   },
   {
     quote:
-      "Veg Kourt handled our office lunch beautifully. The menu was pure vegetarian, neatly packed, and every dish reached on time with excellent taste.",
-    name: "Ananya Hegde",
+      "Our team lunch was smooth from start to finish. The menu was pure vegetarian, easy for everyone, and packed with the Veg Kourt taste we expected.",
+    name: "Corporate Lunch",
   },
   {
     quote:
-      "We planned a birthday gathering and the team made it very easy. Starters, mains, breads, and desserts were balanced perfectly for our guests.",
-    name: "Raghavendra Urs",
+      "For the birthday event, the starters, mains, breads, and sweets were balanced beautifully. The service team handled everything calmly.",
+    name: "Birthday Celebration",
   },
   {
     quote:
-      "The catering setup was clean, warm, and well coordinated. Our family enjoyed the food, and the service team took care of every small detail.",
-    name: "Sahana Murthy",
+      "The setup was clean, the food arrived fresh, and the serving was handled with care. It made hosting much easier for us.",
+    name: "Private Event",
   },
 ];
 
 export default function Catering() {
+  useSeoData("catering");
   const [testimonialIndex, setTestimonialIndex] = useState(0);
   const activeTestimonial = testimonials[testimonialIndex];
 
@@ -163,23 +165,23 @@ export default function Catering() {
             <div className="catering-hero-copy">
               <p className="catering-eyebrow">Veg Kourt Catering</p>
               <h1>
-                Pure Veg Food
-                <span>For Memorable</span>
-                <span>Events</span>
+                <span className="catering-hero-title-main">Pure Veg Catering</span>
+                <span>For Every Occasion</span>
               </h1>
               <p className="catering-lead">
-                Celebrate with vegetarian menus crafted for birthdays, family
-                gatherings, office lunches, and special occasions across Mysuru.
+                Make your gathering easier to host with fresh vegetarian food,
+                clean service, and menus planned for birthdays, office meals,
+                family functions, and festive celebrations across Mysuru.
               </p>
               <div className="catering-actions">
                 <Link
                   className="catering-btn catering-btn-primary"
                   to="/contact"
                 >
-                  Book Catering
+                  Start An Enquiry
                 </Link>
                 <Link className="catering-btn catering-btn-outline" to="/menu">
-                  See Menu
+                  View Dishes
                 </Link>
               </div>
               <div className="catering-service-cards">
@@ -192,11 +194,11 @@ export default function Catering() {
                 ))}
               </div>
             </div>
-            <div className="catering-hero-visual" aria-label="Catering dishes">
+            <div className="catering-hero-visual" aria-label="Veg Kourt catering dishes">
               <div className="catering-hero-plate">
                 <img
                   src="/assets/img/vegkourtimages/cateringi-banner.png"
-                  alt="Veg Kourt vegetarian dishes"
+                  alt="Veg Kourt vegetarian catering platter"
                 />
               </div>
             </div>
@@ -209,7 +211,7 @@ export default function Catering() {
           <div className="catering-about-grid">
             <div
               className="catering-collage"
-              aria-label="Veg Kourt events and dishes"
+              aria-label="Veg Kourt vegetarian event food"
             >
               <span
                 className="catering-collage-leaf catering-collage-leaf-top"
@@ -277,23 +279,24 @@ export default function Catering() {
               </span>
             </div>
             <div className="catering-about-copy">
-              <p className="catering-script">About us</p>
-              <h2>We Cater The Veg Kourt Way</h2>
-              <h3>Restaurant taste, event-ready service</h3>
+              <p className="catering-script">Our approach</p>
+              <h2>Fresh Food, Calm Hosting</h2>
+              <h3>Pure vegetarian menus made for sharing</h3>
               <p>
-                From intimate family functions to larger hosted meals, our team
-                helps you build a pure vegetarian spread with the right balance
-                of starters, mains, breads, rice, desserts, and beverages.
+                We bring together Indian favorites, festive starters, comforting
+                mains, breads, rice, beverages, and desserts in a spread that
+                suits your occasion. The focus is simple: fresh food, neat
+                presentation, and guests who feel well cared for.
               </p>
               <div className="catering-actions">
                 <Link
                   className="catering-btn catering-btn-primary"
                   to="/contact"
                 >
-                  Enquire Now
+                  Discuss Your Event
                 </Link>
                 <Link className="catering-btn catering-btn-outline" to="/about">
-                  Our Story
+                  Know Our Story
                 </Link>
               </div>
             </div>
@@ -313,7 +316,7 @@ export default function Catering() {
         </div>
         <div className="catering-scroll-action">
           <Link className="catering-btn catering-btn-primary" to="/menu">
-            View Menu
+            See More Choices
           </Link>
         </div>
       </section>
@@ -321,15 +324,15 @@ export default function Catering() {
       <section className="catering-event-process">
         <div className="container">
           <div className="catering-event-heading">
-            <h2>A Simple, Clear Process.</h2>
-            <p>When it comes to the food, leave it to us.</p>
+            <h2>How We Make Your Event Easier</h2>
+            <p>From the first conversation to the final serving, the flow stays clear.</p>
           </div>
 
           <div className="catering-event-grid">
             {cateringSteps.map((item, index) => (
               <article className="catering-event-step" key={item.image}>
                 <div className="catering-event-image">
-                  <img src={item.image} alt={`Catering process step ${index + 1}`} />
+                  <img src={item.image} alt={`Veg Kourt catering step ${index + 1}`} />
                 </div>
                 <p>{item.text}</p>
               </article>
@@ -338,7 +341,7 @@ export default function Catering() {
 
           <div className="catering-event-action">
             <Link className="catering-btn catering-btn-primary" to="/contact">
-              Plan Your Event
+              Share Event Details
             </Link>
           </div>
         </div>
@@ -348,8 +351,8 @@ export default function Catering() {
         <div className="container">
           <div className="catering-testimonial-grid">
             <div className="catering-testimonial-copy">
-              <p className="catering-testimonial-kicker">Testimonial</p>
-              <h2>What People&apos;s Say About Us?</h2>
+              <p className="catering-testimonial-kicker">Guest moments</p>
+              <h2>Made For Celebrations People Talk About</h2>
               <p className="catering-testimonial-text">
                 {activeTestimonial.quote}
               </p>
@@ -403,7 +406,7 @@ export default function Catering() {
             <div className="catering-testimonial-visual">
               <img
                 src="/assets/img/catering/testimonial-child-chef.png"
-                alt="Smiling child chef holding a vegetarian plate"
+                alt="Happy guest enjoying Veg Kourt catering"
               />
             </div>
           </div>
@@ -413,8 +416,8 @@ export default function Catering() {
       <section className="catering-menu-preview">
         <div className="container">
           <div className="catering-section-heading">
-            <p className="catering-script">Fresh &amp; festive</p>
-            <h2>Our Catering Favorites</h2>
+            <p className="catering-script">Menu inspiration</p>
+            <h2>Dishes Guests Love At Events</h2>
           </div>
           <div className="catering-menu-grid">
             {menuItems.map((item) => (
@@ -425,7 +428,7 @@ export default function Catering() {
                   <h3>{item.title}</h3>
                   <p>{item.text}</p>
                   <Link to="/contact">
-                    Order Now
+                    Ask For This Dish
                     <ArrowRight
                       aria-hidden="true"
                       size={14}
@@ -438,7 +441,7 @@ export default function Catering() {
           </div>
           <div className="catering-menu-more">
             <Link to="/menu">
-              View Full Menu
+              Browse The Menu
               <ArrowRight aria-hidden="true" size={18} strokeWidth={1.8} />
             </Link>
           </div>
@@ -450,11 +453,11 @@ export default function Catering() {
           <div className="catering-cta-inner">
             <Users aria-hidden="true" size={38} strokeWidth={1.5} />
             <div>
-              <p className="catering-eyebrow">Planning a gathering?</p>
-              <h2>Tell us your guest count and we will help with the menu.</h2>
+              <p className="catering-eyebrow">Hosting soon?</p>
+              <h2>Tell us your event story, and we will help plan the food.</h2>
             </div>
             <Link className="catering-btn catering-btn-primary" to="/contact">
-              Get Quote
+              Contact Catering
             </Link>
           </div>
         </div>

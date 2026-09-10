@@ -1,4 +1,5 @@
 import React from "react";
+import useSeoData from "../hooks/useSeoData";
 import AboutContent from "../components/AboutContent/AboutContent";
 import CommonHero from "../components/CommonHero/CommonHero";
 import OpeningHoursInfo from "../components/OpenIngHour/OpeningHoursInfo";
@@ -24,6 +25,7 @@ const celebrationInfo = {
 };
 
 export default function About() {
+  useSeoData('about');
   return (
     <div>
       <CommonHero

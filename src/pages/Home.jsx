@@ -1,4 +1,5 @@
 import React from "react";
+import useSeoData from "../hooks/useSeoData";
 import AboutContent from "../components/AboutContent/AboutContent";
 import FoodMenuHome from "../components/FoodMenu/FoodMenu";
 import BestItem from "../components/BestItem/BestItem";
@@ -10,6 +11,7 @@ import PortfolioSlider from "../components/PortfolioSlider/PortfolioSlider";
 import OpeningHoursInfo from "../components/OpenIngHour/OpeningHoursInfo";
 
 export default function Home() {
+  useSeoData('home');
   return (
     <>
       <HeroSiderTwo />

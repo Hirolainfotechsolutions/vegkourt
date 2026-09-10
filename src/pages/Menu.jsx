@@ -1,10 +1,12 @@
 import React from "react";
+import useSeoData from "../hooks/useSeoData";
 import CommonHero from "../components/CommonHero/CommonHero";
 import FoodMenuItem from "../components/FoodMenu/FoodMenuItem";
 import SectionTitle from "../components/SectionTitle/SectionTitle";
 import foodmenulist from "../dataJson/foodmenulist.json";
 
 export default function Menu() {
+  useSeoData('menu');
   return (
     <div>
       <CommonHero

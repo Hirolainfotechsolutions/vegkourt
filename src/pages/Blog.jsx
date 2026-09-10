@@ -1,8 +1,10 @@
 import React from "react";
+import useSeoData from "../hooks/useSeoData";
 import CommonHero from "../components/CommonHero/CommonHero";
 import BlogConatiner from "../components/BlogCard/BlogConatiner";
 
 export default function Blog() {
+  useSeoData('blog');
   return (
     <>
       <CommonHero

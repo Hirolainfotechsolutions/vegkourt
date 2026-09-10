@@ -1,0 +1,46 @@
+{
+  "pages": [
+    {
+      "id": "home",
+      "page": "Home Page",
+      "metaTitle": "Best Pure Veg Restaurant in Mysore | Veg Kourt",
+      "metaDescription": "Discover Veg Kourt, the best pure veg restaurant in Mysore, serving delicious vegetarian food, Indian favourites and more in a premium dining setting."
+    },
+    {
+      "id": "about",
+      "page": "About Page",
+      "metaTitle": "About Veg Kourt | Pure Vegetarian Restaurant in Mysore",
+      "metaDescription": "Learn about Veg Kourt, a pure vegetarian restaurant in Mysore offering flavorful Indian and Asian dishes, warm hospitality and a premium dining experience."
+    },
+    {
+      "id": "menu",
+      "page": "Menu Page",
+      "metaTitle": "Pure Veg Restaurant Menu in Mysore | Veg Kourt",
+      "metaDescription": "Explore the Veg Kourt menu in Mysore featuring delicious pure vegetarian dishes, Indian favourites, Asian plates, breads, desserts and refreshing mocktails."
+    },
+    {
+      "id": "blog",
+      "page": "Blogs",
+      "metaTitle": "Vegetarian Food & Dining in Mysore | Veg Kourt Blog",
+      "metaDescription": "Explore vegetarian food and dining in Mysore with Veg Kourt. Discover pure veg dishes, Indian and Asian favourites, dining ideas and food experiences in Mysore."
+    },
+    {
+      "id": "gallery",
+      "page": "Gallery",
+      "metaTitle": "Veg Kourt Food Gallery in Mysore | Veg Kourt",
+      "metaDescription": "Explore Veg Kourt food gallery in Mysore featuring delicious pure vegetarian dishes, Indian favourites, Asian plates and beautifully presented dining experiences."
+    },
+    {
+      "id": "reservations",
+      "page": "Reservations",
+      "metaTitle": "Book a Table in Mysore | Veg Kourt Reservations",
+      "metaDescription": "Book a table at Veg Kourt, a pure veg restaurant in Mysore, and enjoy delicious vegetarian food, warm hospitality and a premium dining experience."
+    },
+    {
+      "id": "contact",
+      "page": "Contact Page",
+      "metaTitle": "Contact Veg Kourt | Vegetarian Restaurant in Mysore",
+      "metaDescription": "Contact Veg Kourt, a pure vegetarian restaurant in Mysore, for table reservations, directions and enquiries. Visit us on Sri Harsha Road for a memorable dining experience."
+    }
+  ]
+}

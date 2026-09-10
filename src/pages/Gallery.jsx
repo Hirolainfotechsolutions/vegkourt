@@ -1,4 +1,5 @@
 import React from "react";
+import useSeoData from "../hooks/useSeoData";
 import classNames from "classnames";
 import LightGallery from "lightgallery/react";
 import lgThumbnail from "lightgallery/plugins/thumbnail";
@@ -17,6 +18,7 @@ const menuGalleryItems = foodmenulist.flatMap((section) =>
 );
 
 export default function GalleryShow() {
+  useSeoData('gallery');
   const ClassOption = classNames(
     "row row-cols-1 row-cols-md-2  row-cols-xl-3 g-5"
   );

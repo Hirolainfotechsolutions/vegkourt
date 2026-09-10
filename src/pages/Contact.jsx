@@ -1,4 +1,5 @@
 import React from "react";
+import useSeoData from "../hooks/useSeoData";
 import LocationConatiner from "../components/LocationCardItem/LocationConatiner";
 import SectionTitle from "../components/SectionTitle/SectionTitle";
 import CommonHero from "../components/CommonHero/CommonHero";
@@ -6,6 +7,7 @@ import GoogleMap from "../components/GoogleMap/GoogleMap";
 import CommentConatctFrom from "../components/Comment/CommentConatctFrom";
 
 export default function Contact() {
+  useSeoData('contact');
   return (
     <>
       <CommonHero

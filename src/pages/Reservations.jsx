@@ -1,4 +1,5 @@
 import React from "react";
+import useSeoData from "../hooks/useSeoData";
 import LocationConatiner from "../components/LocationCardItem/LocationConatiner";
 import CommonHero from "../components/CommonHero/CommonHero";
 import SectionTitle from "../components/SectionTitle/SectionTitle";
@@ -6,6 +7,7 @@ import BookingSystem from "../components/BookingSystem/BookingSystem";
 import GoogleMap from "../components/GoogleMap/GoogleMap";
 
 export default function Reservations() {
+  useSeoData('reservations');
   return (
     <>
       <CommonHero

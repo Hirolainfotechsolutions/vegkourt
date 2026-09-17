@@ -1,57 +1,89 @@
 [
   {
-    "id": 1,
-    "img": "/assets/img/blogimages/How to Choose the Right Vegetarian Restaurant in Mysore for Your Next Meal.webp",
-    "title": "How to Choose the Right Vegetarian Restaurant in Mysore for Your Next Meal",
-    "slug": "/blog/how-to-choose-the-right-vegetarian-restaurant-in-mysore-for-your-next-",
+    "id": 20,
+    "img": "/assets/img/blogimages/pure-vegetarian-dining-in-mysore-why-it-remains-a-popular-choice.webp",
+    "title": "Pure Vegetarian Dining in Mysore: Why It Remains a Popular Choice",
+    "slug": "/blog/pure-vegetarian-dining-in-mysore-why-it-remains-a-popular-choice",
     "btntext": "Read More",
-    "time": "18 Aug 2026"
+    "time": "17 Sep 2026"
   },
   {
-    "id": 2,
-    "img": "/assets/img/blogimages/Vegetarian Dining in Mysore_ What Every Food Lover Should Know.webp",
-    "title": "Vegetarian Dining in Mysore: What Every Food Lover Should Know",
-    "slug": "/blog/vegetarian-dining-in-mysore-what-every-food-lover-should-know",
+    "id": 19,
+    "img": "/assets/img/blogimages/finding-a-vegetarian-restaurant-near-mysore-palace-what-visitors-should-know.webp",
+    "title": "Finding a Vegetarian Restaurant Near Mysore Palace: What Visitors Should Know",
+    "slug": "/blog/finding-a-vegetarian-restaurant-near-mysore-palace-what-visitors-should-know",
     "btntext": "Read More",
-    "time": "19 Aug 2026"
+    "time": "15 Sep 2026"
   },
   {
-    "id": 3,
-    "img": "/assets/img/blogimages/Pure Veg Food in Mysore_ Popular Dishes and Dining Options to Explore.webp",
-    "title": "Pure Veg Food in Mysore: Popular Dishes and Dining Options to Explore",
-    "slug": "/blog/pure-veg-food-in-mysore-popular-dishes-and-dining-options-to-explore",
+    "id": 18,
+    "img": "/assets/img/blogimages/choosing-a-veg-restaurant-near-mysore-palace-key-things-to-consider.webp",
+    "title": "Choosing a Veg Restaurant Near Mysore Palace: Key Things to Consider",
+    "slug": "/blog/choosing-a-veg-restaurant-near-mysore-palace-key-things-to-consider",
     "btntext": "Read More",
-    "time": "20 Aug 2026"
+    "time": "11 Sep 2026"
   },
   {
-    "id": 4,
-    "img": "/assets/img/blogimages/Why Choose a Pure Veg Restaurant in Mysore for Your Next Meal.webp",
-    "title": "Why Choose a Pure Veg Restaurant in Mysore for Your Next Meal?",
-    "slug": "/blog/why-choose-a-pure-veg-restaurant-in-mysore-for-your-next-meal",
+    "id": 17,
+    "img": "/assets/img/blogimages/popular-veg-foods-to-try-a-guide-to-the-best-veg-food-in-mysore.webp",
+    "title": "Popular Veg Foods to Try: A Guide to the Best Veg Food in Mysore",
+    "slug": "/blog/popular-veg-foods-to-try-a-guide-to-the-best-veg-food-in-mysore",
     "btntext": "Read More",
-    "time": "21 Aug 2026"
+    "time": "7 Sep 2026"
   },
   {
-    "id": 5,
-    "img": "/assets/img/blogimages/Finding the Best Vegetarian Restaurant in Mysore for Different Dining Needs.webp",
-    "title": "Finding the Best Vegetarian Restaurant in Mysore for Different Dining Needs",
-    "slug": "/blog/finding-the-best-vegetarian-restaurant-in-mysore-for-different-dining-",
+    "id": 16,
+    "img": "/assets/img/blogimages/exploring-a-vegetarian-food-restaurant-in-mysore-what-can-you-try.webp",
+    "title": "Exploring a Vegetarian Food Restaurant in Mysore: What Can You Try?",
+    "slug": "/blog/exploring-a-vegetarian-food-restaurant-in-mysore-what-can-you-try",
     "btntext": "Read More",
-    "time": "22 Aug 2026"
+    "time": "5 Sep 2026"
   },
   {
-    "id": 6,
-    "img": "/assets/img/blogimages/Choosing the Best Veg Restaurant in Mysore for Family Dining_ What to Look For.webp",
-    "title": "Choosing the Best Veg Restaurant in Mysore for Family Dining: What to Look For",
-    "slug": "/blog/choosing-the-best-veg-restaurant-in-mysore-for-family-dining-what-to-l",
+    "id": 15,
+    "img": "/assets/img/blogimages/vegetarian-food-near-mysore-palace-where-and-what-to-eat.webp",
+    "title": "Vegetarian Food Near Mysore Palace: Where and What to Eat",
+    "slug": "/blog/vegetarian-food-near-mysore-palace-where-and-what-to-eat",
     "btntext": "Read More",
-    "time": "23 Aug 2026"
+    "time": "2 Sep 2026"
   },
   {
-    "id": 7,
-    "img": "/assets/img/blogimages/Vegetarian Dining in Mysuru_ Food, Cuisines and Choosing a Vegetarian Restaurant in Mysuru.webp",
-    "title": "Vegetarian Dining in Mysuru: Food, Cuisines and Choosing a Vegetarian Restaurant in Mysuru",
-    "slug": "/blog/vegetarian-dining-in-mysuru-food-cuisines-and-choosing-a-vegetarian-re",
+    "id": 14,
+    "img": "/assets/img/blogimages/choosing-a-vegetarian-restaurant-near-mysore-palace-what-should-visitors-consider.webp",
+    "title": "Choosing a Vegetarian Restaurant Near Mysore Palace: What Should Visitors Consider?",
+    "slug": "/blog/choosing-a-vegetarian-restaurant-near-mysore-palace-what-should-visitors-consider",
+    "btntext": "Read More",
+    "time": "31 Aug 2026"
+  },
+  {
+    "id": 13,
+    "img": "/assets/img/blogimages/how-to-choose-a-veg-restaurant-near-mysore-palace-for-different-dining-needs.webp",
+    "title": "How to Choose a Veg Restaurant Near Mysore Palace for Different Dining Needs",
+    "slug": "/blog/how-to-choose-a-veg-restaurant-near-mysore-palace-for-different-dining-needs",
+    "btntext": "Read More",
+    "time": "27 Aug 2026"
+  },
+  {
+    "id": 10,
+    "img": "/assets/img/blogimages/How to Choose a Vegetarian Restaurant in Mysuru Based on Your Preferences.webp",
+    "title": "How to Choose a Vegetarian Restaurant in Mysuru Based on Your Preferences",
+    "slug": "/blog/how-to-choose-a-vegetarian-restaurant-in-mysuru-based-on-your-preferen",
+    "btntext": "Read More",
+    "time": "25 Aug 2026"
+  },
+  {
+    "id": 9,
+    "img": "/assets/img/blogimages/Why a Pure Veg Restaurant in Mysuru Is Popular Among Vegetarian Diners.webp",
+    "title": "Why a Pure Veg Restaurant in Mysuru Is Popular Among Vegetarian Diners",
+    "slug": "/blog/why-a-pure-veg-restaurant-in-mysuru-is-popular-among-vegetarian-diners",
+    "btntext": "Read More",
+    "time": "25 Aug 2026"
+  },
+  {
+    "id": 12,
+    "img": "/assets/img/blogimages/pure-vegetarian-restaurant-near-mysore-palace-options-for-vegetarian-visitors.webp",
+    "title": "Pure Vegetarian Restaurant Near Mysore Palace: Options for Vegetarian Visitors",
+    "slug": "/blog/pure-vegetarian-restaurant-near-mysore-palace-options-for-vegetarian-visitors",
     "btntext": "Read More",
     "time": "24 Aug 2026"
   },
@@ -64,19 +96,67 @@
     "time": "24 Aug 2026"
   },
   {
-    "id": 9,
-    "img": "/assets/img/blogimages/Why a Pure Veg Restaurant in Mysuru Is Popular Among Vegetarian Diners.webp",
-    "title": "Why a Pure Veg Restaurant in Mysuru Is Popular Among Vegetarian Diners",
-    "slug": "/blog/why-a-pure-veg-restaurant-in-mysuru-is-popular-among-vegetarian-diners",
+    "id": 7,
+    "img": "/assets/img/blogimages/Vegetarian Dining in Mysuru_ Food, Cuisines and Choosing a Vegetarian Restaurant in Mysuru.webp",
+    "title": "Vegetarian Dining in Mysuru: Food, Cuisines and Choosing a Vegetarian Restaurant in Mysuru",
+    "slug": "/blog/vegetarian-dining-in-mysuru-food-cuisines-and-choosing-a-vegetarian-re",
     "btntext": "Read More",
-    "time": "25 Aug 2026"
+    "time": "24 Aug 2026"
   },
   {
-    "id": 10,
-    "img": "/assets/img/blogimages/How to Choose a Vegetarian Restaurant in Mysuru Based on Your Preferences.webp",
-    "title": "How to Choose a Vegetarian Restaurant in Mysuru Based on Your Preferences",
-    "slug": "/blog/how-to-choose-a-vegetarian-restaurant-in-mysuru-based-on-your-preferen",
+    "id": 6,
+    "img": "/assets/img/blogimages/Choosing the Best Veg Restaurant in Mysore for Family Dining_ What to Look For.webp",
+    "title": "Choosing the Best Veg Restaurant in Mysore for Family Dining: What to Look For",
+    "slug": "/blog/choosing-the-best-veg-restaurant-in-mysore-for-family-dining-what-to-l",
     "btntext": "Read More",
-    "time": "25 Aug 2026"
+    "time": "23 Aug 2026"
+  },
+  {
+    "id": 5,
+    "img": "/assets/img/blogimages/Finding the Best Vegetarian Restaurant in Mysore for Different Dining Needs.webp",
+    "title": "Finding the Best Vegetarian Restaurant in Mysore for Different Dining Needs",
+    "slug": "/blog/finding-the-best-vegetarian-restaurant-in-mysore-for-different-dining-",
+    "btntext": "Read More",
+    "time": "22 Aug 2026"
+  },
+  {
+    "id": 4,
+    "img": "/assets/img/blogimages/Why Choose a Pure Veg Restaurant in Mysore for Your Next Meal.webp",
+    "title": "Why Choose a Pure Veg Restaurant in Mysore for Your Next Meal?",
+    "slug": "/blog/why-choose-a-pure-veg-restaurant-in-mysore-for-your-next-meal",
+    "btntext": "Read More",
+    "time": "21 Aug 2026"
+  },
+  {
+    "id": 11,
+    "img": "/assets/img/blogimages/pure-veg-restaurant-near-mysore-palace-why-it-is-convenient-for-visitors.webp",
+    "title": "Pure Veg Restaurant Near Mysore Palace: Why It Is Convenient for Visitors",
+    "slug": "/blog/pure-veg-restaurant-near-mysore-palace-why-it-is-convenient-for-visitors",
+    "btntext": "Read More",
+    "time": "20 Aug 2026"
+  },
+  {
+    "id": 3,
+    "img": "/assets/img/blogimages/Pure Veg Food in Mysore_ Popular Dishes and Dining Options to Explore.webp",
+    "title": "Pure Veg Food in Mysore: Popular Dishes and Dining Options to Explore",
+    "slug": "/blog/pure-veg-food-in-mysore-popular-dishes-and-dining-options-to-explore",
+    "btntext": "Read More",
+    "time": "20 Aug 2026"
+  },
+  {
+    "id": 2,
+    "img": "/assets/img/blogimages/Vegetarian Dining in Mysore_ What Every Food Lover Should Know.webp",
+    "title": "Vegetarian Dining in Mysore: What Every Food Lover Should Know",
+    "slug": "/blog/vegetarian-dining-in-mysore-what-every-food-lover-should-know",
+    "btntext": "Read More",
+    "time": "19 Aug 2026"
+  },
+  {
+    "id": 1,
+    "img": "/assets/img/blogimages/How to Choose the Right Vegetarian Restaurant in Mysore for Your Next Meal.webp",
+    "title": "How to Choose the Right Vegetarian Restaurant in Mysore for Your Next Meal",
+    "slug": "/blog/how-to-choose-the-right-vegetarian-restaurant-in-mysore-for-your-next-",
+    "btntext": "Read More",
+    "time": "18 Aug 2026"
   }
 ]
